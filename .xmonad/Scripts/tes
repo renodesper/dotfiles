@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Get monitor width and height for proper Layout
+SCREEN_WIDTH=$(xrandr | grep -Po --color=never "(?<=\ connected )[\d]+(?=x[\d]+)")
+SCREEN_HEIGHT=$(xrandr | grep -Po --color=never "(?<=\ connected )[\d]+x[\d]+" | sed -r "s/[0-9]+x//")
+
+# Layout
+WIDTH=180
+X_POS=$(echo "$SCREEN_WIDTH - $WIDTH" | bc)
+Y_POS=18
+LEFTSPACE=14
+LINEPADDING=10
+LINESIZE="160x1"
+
+COLOR="#e60926"
+
+TODAY=`date +'%d'`
+MONTH=`date +'%m'`
+YEAR=`date +'%Y'`
+
+(echo; echo `date +"^p($LEFTSPACE) ^fg($COLOR)%A^fg(#ffffff) %d %b %Y %n"`; echo; echo `date +"^p($LEFTSPACE) ^fg($COLOR)%B %Y"`; cal | sed "2,8!d" | sed "/./!d" | sed "s/^/^p($LEFTSPACE) /" | sed "s/$/ /" | sed "s/Su Mo Tu We Th Fr Sa/^fg(#ffffff)Su Mo Tu We Th Fr Sa/" | sed -e "s/ $TODAY /^fg(#e60926) $TODAY ^fg()/"; echo
+
+for i in {1..5}; do
+    NEXTMONTH=`expr $MONTH + $i`
+    [ $NEXTMONTH -eq 13 ] && YEAR=`expr $YEAR + 1`
+    M=`expr $NEXTMONTH % 12`
+    if [ $M -eq 0 ]; then
+        M=12
+    fi
+
+    echo `date -d "$YEAR-$M-1" +"^p($LEFTSPACE) ^fg($COLOR)%B %Y"`;cal $M $YEAR | sed "2,8!d" | sed "/./!d" | sed "s/^/^p($LEFTSPACE) /" | sed "s/$/ /" | sed "s/Su Mo Tu We Th Fr Sa/^fg(#ffffff)Su Mo Tu We Th Fr Sa/"; echo
+done) \
+| dzen2 -l 50 -p -fn 'DejaVu Sans Mono:size=8' -e 'onstart=uncollapse,scrollhome;button1=exit;button4=scrollup;button5=scrolldown' -w $WIDTH -x $X_POS -y $Y_POS

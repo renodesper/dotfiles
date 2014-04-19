@@ -1,0 +1,4 @@
+#define bstack3_width 8
+#define bstack3_height 8
+static unsigned char bstack3_bits[] = {
+   0xaf, 0xaf, 0xaf, 0xaf, 0xaf, 0xaf, 0xaf, 0xaf };
