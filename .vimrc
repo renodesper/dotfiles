@@ -1,31 +1,44 @@
-set nocompatible               " be iMproved
+set nocompatible
 set t_Co=256
-filetype off                   " required!
+filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 let g:vundle_default_git_proto='git'
 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tomasr/molokai'
-Bundle 'tpope/vim-repeat'
-Bundle 'kien/ctrlp.vim'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'sjl/gundo.vim'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
-Bundle 'Raimondi/delimitMate'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-surround'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'junegunn/goyo.vim'
+Plugin 'sjl/gundo.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'tomasr/molokai'
+Plugin 'scrooloose/nerdtree'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'scrooloose/syntastic'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-fugitive'
+Plugin 'groenewege/vim-less'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'gmarik/vundle'
+Plugin 'Valloric/YouCompleteMe'
 
 " ==========================================================
 " Shortcuts
 " ==========================================================
+
 " change the leader to be a comma vs slash
 let mapleader=","
+
+" Edit my vimrc file
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
+" Reload Vimrc
+noremap <silent> <leader>sv :source $MYVIMRC<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
 
 " sudo write this
 cmap W! w !sudo tee % >/dev/null
@@ -34,52 +47,80 @@ cmap W! w !sudo tee % >/dev/null
 cmap w!! w !sudo tee % >/dev/null
 
 " and lets make these all work in insert mode too ( <C-O> makes next cmd
-"  happen as if in command mode )
-imap <C-W> <C-O><C-W>
+" happen as if in command mode )
+inoremap <C-W> <C-O><C-W>
 
 " Easy escaping to normal model
-imap jj <esc>
+inoremap jj <esc>
+
+" Fast save
+inoremap <leader>w <esc>:w!<cr>a
+
+" Quit window on <leader>q
+inoremap <leader>q <esc>:q<CR>
 
 " Select the item in the list with enter
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-" Reload Vimrc
-map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+" Long lines as break lines
+map j gj
+map k gk
+map <Up> k
+map <Down> j
 
 " ctrl-hjkl changes to that split
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
-map <c-h> <c-w>h
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 
-" Paste from clipboard
-map <leader>p "+p
+" Easy window resize
+nnoremap <silent> <A-h> <C-w><
+nnoremap <silent> <A-j> <C-W>-
+nnoremap <silent> <A-k> <C-W>+
+nnoremap <silent> <A-l> <C-w>>
+
+" Resize horizontal split window
+nnoremap <C-Up> <C-w>-<C-w>5-
+nnoremap <C-Down> <C-w>+<C-w>5+
+
+" Resize vertical split window
+nnoremap <C-Left> <C-w>><C-w>5>
+nnoremap <C-Right> <C-w><<C-w>5<
+
+" Moving per page
+nnoremap <S-j> <PageDown>
+nnoremap <S-k> <PageUp>
+
+" Moving to first or last word in line
+nnoremap <S-h> ^
+nnoremap <S-l> $
 
 " open/close the quickfix window
-nmap <leader>c :copen<CR>
-nmap <leader>cc :cclose<CR>
+nnoremap <leader>c :copen<CR>
+nnoremap <leader>cc :cclose<CR>
 
-" NERDTree trigger
-nmap <c-b> :NERDTreeToggle<cr>
+" Paste from clipboard
+noremap <leader>p "+p
 
-" Quickly go forward or backward to buffer
-nmap :bp :BufSurfBack<cr>
-nmap :bn :BufSurfForward<cr>
+" Clear highlight after searching
+nnoremap <silent> <leader>/ :silent :nohlsearch<CR>
 
-" Laravel framework commons
-nmap <leader>lr :e app/routes.php<cr>
-nmap <leader>lca :e app/config/app.php<cr>81Gf(%O
-nmap <leader>lcd :e app/config/database.php<cr>
-nmap <leader>lc :e composer.json<cr>
+" Moving between buffer
+noremap <C-PageDown> :bnext<CR>
+noremap <C-PageUp>   :bprevious<CR>
 
-" Gundo trigger
-nnoremap <F5> :GundoToggle<CR>
+" Select all
+nnoremap <C-a> ggVG$
+
+" Changing : into ;
+nnoremap ; :
 
 " Auto change directory to match current file ,cd
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 " Fast saves
-nnoremap <leader>w :w!<cr>
+nnoremap <leader>w :w!<CR>
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
@@ -93,16 +134,33 @@ nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 " Automatically add breakpoint for PDB
 nnoremap <leader>P Oimport pdb; pdb.set_trace()
 
+" Laravel framework commons
+nmap <leader>lr :e app/routes.php<cr>
+nmap <leader>lca :e app/config/app.php<cr>81Gf(%O
+nmap <leader>lcd :e app/config/database.php<cr>
+nmap <leader>lc :e composer.json<cr>
+
 " ==========================================================
 " Abbreviations
 " ==========================================================
-abbrev gc !php artisan generate:controller
-abbrev gm !php artisan generate:model
-abbrev gmig !php artisan generate:migration
+
+" Laravel abbreviation
+abbrev genc !php artisan generate:controller
+abbrev genm !php artisan generate:model
+abbrev genv !php artisan generate:view
+abbrev gens !php artisan generate:seed
+abbrev genmig !php artisan generate:migration
+abbrev genr !php artisan generate:resource
+abbrev mig !php artisan migrate
+abbrev migm !php artisan migrate:make
+
+" Other abbreviation
+iabbrev @@ reno.esper@gmail.com
 
 " ==========================================================
 " Basic Settings
 " ==========================================================
+
 syntax on                     " syntax highlighing
 filetype on                   " try to detect filetypes
 filetype plugin indent on     " enable loading indent file for filetype
@@ -124,27 +182,39 @@ set vb t_vb=
 set wildignore+=*.o,*.obj,.git,*.pyc
 set wildignore+=eggs/**
 set wildignore+=*.egg-info/**
+set wildignore+=*/vendor/**
+
+" Set paste mode toggle
+set pastetoggle=<F10>
+
+" Disable paste mode when leaving insert mode
+au InsertLeave * set nopaste
 
 " Disable the colorcolumn when switching modes.  Make sure this is the
 " first autocmd for the filetype here
-"autocmd FileType * setlocal colorcolumn=0
+" autocmd FileType * setlocal colorcolumn=0
 
+" ==========================================================
 " Moving Around/Editing
+" ==========================================================
+
 set cursorline              " have a line indicate the cursor location
 set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
-set scrolloff=3             " Keep 3 context lines above and below the cursor
+set scrolloff=5             " Keep 5 context lines above and below the cursor
+set sidescroll=1            " Enable sidescrolling
+set sidescrolloff=15
 set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
-set showmatch               " Briefly jump to a paren once it's balanced
+set showmatch               " Briefly jump to a parent once it's balanced
 set wrap                    " Wrap text
-set linebreak               " don't wrap textin the middle of a word
+set linebreak               " don't wrap text in the middle of a word
 set autoindent              " always set autoindenting on
 set copyindent              " copy indent from previous line
 set smartindent             " use smart indent if there is no indent file
-set tabstop=4               " <tab> inserts 4 spaces
-set shiftwidth=4            " And an indent level is 4 spaces wide.
-set softtabstop=4           " <BS> over an autoindent deletes all spaces.
+set tabstop=2               " <tab> inserts 2 spaces
+set shiftwidth=2            " And an indent level is 4 spaces wide.
+set softtabstop=2           " <BS> over an autoindent deletes all spaces.
 set expandtab               " Use spaces, not tabs, for autoindent/tab key.
 set shiftround              " rounds indent to a multiple of shiftwidth
 set formatoptions=tcroql    " Setting text and comment formatting to auto
@@ -158,14 +228,20 @@ if &ft == "scala"
     set softtabstop=2
 endif
 
+if &ft == "python"
+    set tabstop=4
+    set shiftwidth=4
+    set softtabstop=4
+endif
+
 " Reading/Writing
 set autowriteall            " Don't bother me about changed buffers
 set noautoread              " Don't automatically re-read changed files.
 set modeline                " Allow vim options to be embedded in files;
 set modelines=5             " they must be within the first or last 5 lines.
+set clipboard=unnamed       " yank and paste in visual mode without *:
 
 " Messages, Info, Status
-set ls=2                    " allways show status line
 set vb t_vb=                " Disable all bells.  I hate ringing/flashing.
 set showcmd                 " Show incomplete normal mode commands as I type.
 set noshowmode              " Hide the default mode text
@@ -195,16 +271,52 @@ endif
 
 hi DiffText gui=underline guibg=red guifg=black
 
+" ==========================================================
+" Plugin Setting
+" ==========================================================
+
+" Sparkup Setting
+if !exists('g:sparkupExecuteMapping')
+  let g:sparkupExecuteMapping = '<leader>e'
+endif
+
+
+" Ultisnips trigger
+let g:UltiSnipsExpandTrigger="<leader>c"
+
+
+" Goyo trigger (distraction free)
+nnoremap <leader>df :Goyo<cr>
+
+
+" NERDTree trigger
+nmap <C-b> :NERDTreeToggle<cr>
+
+
+" Vim Less compile .less to .css
+nnoremap <leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+
+
+" Vim CSS3 Syntax setting
+augroup VimCSS3Syntax
+    autocmd!
+    autocmd FileType css setlocal iskeyword+=-
+augroup END
+
+
 " Gundo Setting
 let g:gundo_width = 40
 let g:gundo_preview_height = 15
 let g:gundo_right = 1
 let g:gundo_preview_bottom = 1
 let g:gundo_help = 0
+nnoremap <F5> :GundoToggle<CR>
+
 
 " CtrlP Setting
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-let g:ctrlp_map = '<c-p>'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_map = '<C-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_custom_ignore = {
     \ 'dir':  '\v[\/]\.(git|hg|svn)$',
@@ -212,52 +324,65 @@ let g:ctrlp_custom_ignore = {
     \ 'link': 'some_bad_symbolic_links',
     \ }
 
-" Ultisnips trigger configuration
-let g:UltiSnipsExpandTrigger="<c-j>"
 
-" Lightline
+" Syntastic setting
+let g:syntastic_python_checkers = ['pyflakes']
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+let g:syntastic_quiet_messages = { "type": "style" }
+
+
+" Lightline Setting
 let g:lightline = {
-    \ 'colorscheme': 'wombat',
-    \ 'mode_map': { 'c': 'NORMAL' },
-    \ 'active': {
-    \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ] ]
-    \ },
-    \ 'component_function': {
-    \   'modified': 'MyModified',
-    \   'readonly': 'MyReadonly',
-    \   'fugitive': 'MyFugitive',
-    \   'filename': 'MyFilename',
-    \   'fileformat': 'MyFileformat',
-    \   'filetype': 'MyFiletype',
-    \   'fileencoding': 'MyFileencoding',
-    \   'mode': 'MyMode',
-    \ },
-    \ 'separator': { 'left': '', 'right': '' },
-    \ 'subseparator': { 'left': '', 'right': '' }
-    \ }
+      \ 'colorscheme': 'landscape',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ], ['ctrlpmark'] ],
+      \   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'], [ 'fileformat', 'fileencoding', 'filetype' ] ]
+      \ },
+      \ 'component_function': {
+      \   'fugitive': 'MyFugitive',
+      \   'filename': 'MyFilename',
+      \   'fileformat': 'MyFileformat',
+      \   'filetype': 'MyFiletype',
+      \   'fileencoding': 'MyFileencoding',
+      \   'mode': 'MyMode',
+      \   'ctrlpmark': 'CtrlPMark',
+      \ },
+      \ 'component_expand': {
+      \   'syntastic': 'SyntasticStatuslineFlag',
+      \ },
+      \ 'component_type': {
+      \   'syntastic': 'error',
+      \ },
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '', 'right': '' }
+      \ }
 
 function! MyModified()
-  return &ft =~ 'help\|vimfiler\|gundo' ? '' : &modified ? '+' : &modifiable ? '' : '-'
+  return &ft =~ 'help' ? '' : &modified ? '+' : &modifiable ? '' : '-'
 endfunction
 
 function! MyReadonly()
-  return &ft !~? 'help\|vimfiler\|gundo' && &readonly ? '⭤' : ''
+  return &ft !~? 'help' && &readonly ? 'RO' : ''
 endfunction
 
 function! MyFilename()
-  return ('' != MyReadonly() ? MyReadonly() . ' ' : '') .
-        \ (&ft == 'vimfiler' ? vimfiler#get_status_string() :
-        \  &ft == 'unite' ? unite#get_status_string() :
-        \  &ft == 'vimshell' ? vimshell#get_status_string() :
-        \ '' != expand('%:t') ? expand('%:t') : '[No Name]') .
+  let fname = expand('%:t')
+  return fname == 'ControlP' ? g:lightline.ctrlp_item :
+        \ fname =~ '__Gundo\|NERD_tree' ? '' :
+        \ ('' != MyReadonly() ? MyReadonly() . ' ' : '') .
+        \ ('' != fname ? fname : '[No Name]') .
         \ ('' != MyModified() ? ' ' . MyModified() : '')
 endfunction
 
 function! MyFugitive()
-  if &ft !~? 'vimfiler\|gundo' && exists("*fugitive#head")
-    let _ = fugitive#head()
-    return strlen(_) ? '⭠ '._ : ''
-  endif
+  try
+    if expand('%:t') !~? 'Gundo\|NERD' && exists('*fugitive#head')
+      let mark = ''  " edit here for cool mark
+      let _ = fugitive#head()
+      return strlen(_) ? mark._ : ''
+    endif
+  catch
+  endtry
   return ''
 endfunction
 
@@ -274,6 +399,47 @@ function! MyFileencoding()
 endfunction
 
 function! MyMode()
-  return winwidth(0) > 60 ? lightline#mode() : ''
+  let fname = expand('%:t')
+  return fname ==  'ControlP' ? 'CtrlP' :
+        \ fname == '__Gundo__' ? 'Gundo' :
+        \ fname == '__Gundo_Preview__' ? 'Gundo Preview' :
+        \ fname =~ 'NERD_tree' ? 'NERDTree' :
+        \ winwidth(0) > 60 ? lightline#mode() : ''
+endfunction
+
+function! CtrlPMark()
+  if expand('%:t') =~ 'ControlP'
+    call lightline#link('iR'[g:lightline.ctrlp_regex])
+    return lightline#concatenate([g:lightline.ctrlp_prev, g:lightline.ctrlp_item
+          \ , g:lightline.ctrlp_next], 0)
+  else
+    return ''
+  endif
+endfunction
+
+let g:ctrlp_status_func = {
+  \ 'main': 'CtrlPStatusFunc_1',
+  \ 'prog': 'CtrlPStatusFunc_2',
+  \ }
+
+function! CtrlPStatusFunc_1(focus, byfname, regex, prev, item, next, marked)
+  let g:lightline.ctrlp_regex = a:regex
+  let g:lightline.ctrlp_prev = a:prev
+  let g:lightline.ctrlp_item = a:item
+  let g:lightline.ctrlp_next = a:next
+  return lightline#statusline(0)
+endfunction
+
+function! CtrlPStatusFunc_2(str)
+  return lightline#statusline(0)
+endfunction
+
+augroup AutoSyntastic
+  autocmd!
+  autocmd BufWritePost *.c,*.cpp call s:syntastic()
+augroup END
+function! s:syntastic()
+  SyntasticCheck
+  call lightline#update()
 endfunction
 
