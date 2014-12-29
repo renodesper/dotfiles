@@ -30,7 +30,7 @@ mpd_host = "localhost"
 #
 mpd_port = "6600"
 #
-mpd_music_dir = "/run/media/renodesper/SharedData/Musics"
+mpd_music_dir = "/run/media/username/SharedData/Musics"
 #
 #mpd_connection_timeout = "5"
 #

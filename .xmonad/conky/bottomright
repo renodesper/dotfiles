@@ -1,0 +1,20 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+mpd_host localhost
+
+TEXT
+^bg(\#F97D81)^fg(\#ffffff)  ^i(/home/$USER/.xmonad/icons/vol1.xbm)  \
+^ca(1, amixer -q set Master toggle)\
+^ca(4, amixer -q set Master 2%+ unmute)\
+^ca(5, amixer -q set Master 2%- unmute)\
+^fg(\#ffffff)${exec  ~/.xmonad/Scripts/volume}  \
+^ca()^ca()^ca()\
+^bg(\#82AFF9)  ^i(/home/$USER/.xmonad/icons/batt1full.xbm)  \
+${execi 120 ~/.xmonad/Scripts/batperc}  \
+^ca(1, /home/$USER/.xmonad/Scripts/calendar)\
+^bg(\#F97D81)  ^i(/home/$USER/.xmonad/icons/clock1.xbm)  \
+^fg(\#ffffff)${time %a, %d %b '%y}  ^bg(\#82AFF9)  ${time %H:%M}  \
+^ca()\

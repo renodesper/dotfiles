@@ -1,0 +1,9 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+mpd_host localhost
+
+TEXT
+^bg(\#F97D81)^fg(\#ffffff)

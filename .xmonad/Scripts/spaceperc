@@ -1,9 +1,0 @@
-#!/bin/bash
-
-FREE=`df / -h | awk 'END{gsub(/%/,""); print $5}'`
-
-if [[ $FREE -gt 90 ]]; then
-    echo "^fg(#e60926)$FREE%"
-else
-    echo "^fg(#ffffff)$FREE%"
-fi
