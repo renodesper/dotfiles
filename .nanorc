@@ -1,6 +1,5 @@
-set undo         # Enable undo/redo features -- Alt+U
+#set undo         # Enable undo/redo features -- Alt+U
 set nowrap
-set fill 72
 
 syntax "pkgbuild" "PKGBUILD$" "\.install$"
 color brightblue "^[A-Za-z0-9_+-]+[[:space:]]*\(\)"

@@ -14,44 +14,39 @@ alias redwm='cd ~/dwm; updpkgsums; makepkg -efi --noconfirm; killall dwm'
 alias amc="go-mtpfs ~/Android"
 alias amd="fusermount -u ~/Android"
 alias balsamiq="adobe-air ~/Binary/balsamiq.air"
-
+alias fuck='$(thefuck $(fc -ln -1))'
 alias grep="/usr/bin/grep $GREP_OPTIONS"
 unset GREP_OPTIONS
 
+alias artisan='php artisan'
 alias gundo='git reset HEAD~ && git clean -df'
 alias mm="cd ~/Project/MM/"
 alias resizer='java -jar ~/Binary/Resizer_1.3.3.jar'
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
 alias sqlplus='rlwrap sqlplus'
 alias tmux='tmux -2'
-alias ttytter='ttytter -ssl -dostream -readline -ansi -newline -exts=/home/username/.ttytter/oxhak_ttytter_output.pl'
+alias ttytter='ttytter -ssl -dostream -readline -ansi -newline -exts=/home/renodesper/.ttytter/oxhak_ttytter_output.pl'
 alias vi='vim'
 alias webget='wget -m -p -E -k -K -np'
-alias webserver="sudo systemctl start httpd && sudo systemctl start mysqld"
-alias wireshare="sudo create_ap wlp3s0 ppp0 'boodoe.net' VimToRuleThemAll"
+alias webserver-start="sudo systemctl start httpd && sudo systemctl start mysqld"
+alias webserver-stop="sudo systemctl stop httpd && sudo systemctl stop mysqld"
+alias wireshare="sudo create_ap wlp4s0 enp3s0 'boodoelabs' dvorakToRuleThemAll"
 alias xev2="xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'"
-alias xp='xprop | grep "WM_WINDOW_ROLE\|WM_CLASS" && echo "WM_CLASS(STRING) = \"NAME\", \"CLASS\""'
+alias xp='xprop | grep WM_CLASS'
 
 # Tor Alias
 alias tchrome='torsocks google-chrome-stable'
 alias tluakit='torsocks luakit'
 
 # Laravel Generator Stuff
-alias artisan="php artisan"
-alias g:m="php artisan generate:model"
-alias g:c="php artisan generate:controller"
-alias g:v="php artisan generate:view"
-alias g:s="php artisan generate:seed"
-alias g:mig="php artisan generate:migration"
-alias g:r="php artisan generate:resource"
+# alias artisan="php artisan"
+# alias g:m="php artisan generate:model"
+# alias g:c="php artisan generate:controller"
+# alias g:v="php artisan generate:view"
+# alias g:s="php artisan generate:seed"
+# alias g:mig="php artisan generate:migration"
+# alias g:r="php artisan generate:resource"
 
-# Virtual Environment for Python and Python2
-p2() {
-  source ~/.venv2/bin/activate && alias livereload="cd ~/public_html && livereload"
-}
-p3() {
-  source ~/.venv/bin/activate && alias livereload="cd ~/public_html && livereload"
-}
 
 # RVM PATH and completion
 [[ -r "$HOME/.rvm/scripts/completion" ]] && source "$HOME/.rvm/scripts/completion"
@@ -61,7 +56,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Keybinding
 unsetopt MULTIBYTE
 autoload zkbd
-source /home/username/.zkbd/terminator-:0
+source /home/renodesper/.zkbd/terminator-:0
 
 [[ -n ${key[Backspace]} ]] && bindkey "${key[Backspace]}" backward-delete-char
 [[ -n ${key[Insert]} ]] && bindkey "${key[Insert]}" overwrite-mode
@@ -74,3 +69,20 @@ source /home/username/.zkbd/terminator-:0
 [[ -n ${key[Left]} ]] && bindkey "${key[Left]}" backward-char
 [[ -n ${key[Down]} ]] && bindkey "${key[Down]}" down-line-or-search
 [[ -n ${key[Right]} ]] && bindkey "${key[Right]}" forward-char
+
+# Virtual Environment for Python and Python2
+p2() {
+  source ~/.venv2/bin/activate && alias livereload="cd ~/public_html && livereload"
+}
+p2e() {
+  source ~/.venv2-ebdesk/bin/activate
+}
+p2p() {
+  source ~/Project/Python2/PSB/psb_env/bin/activate
+}
+
+# Virtual Environment for Ruby
+r2() { rvm use 2.0.0 }
+rs() { rvm system }
+
+# Function

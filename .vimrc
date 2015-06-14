@@ -5,70 +5,57 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 
-" Solarized
-" NeoBundle 'altercation/vim-colors-solarized'
-" Network oriented reading, writing, and browsing
-NeoBundle 'eiginn/netrw'
-" Elegant buffer explorer
-NeoBundle 'fholgado/minibufexpl.vim'
-" Text filtering and alignment (Leader a = / Leader a :)
-NeoBundle 'godlygeek/tabular'
-" Statusline/tabline for Vim
-NeoBundle 'itchyny/lightline.vim'
-" Distraction free
-NeoBundle 'junegunn/goyo.vim'
-" Vim motion on speed (Leader Leader w/f/s)
-NeoBundle 'Lokaltog/vim-easymotion'
-" Python tag list
-NeoBundle 'majutsushi/tagbar'
-" Auto close scope (brackets, quotes, etc)
-NeoBundle 'Raimondi/delimitMate'
-" Awesome HAML to HTML by CTRL-E on HTML files
-NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Awesome syntax checking plugin
-NeoBundle 'scrooloose/syntastic'
+" NeoBundle 'altercation/vim-colors-solarized'  " Solarized
+" NeoBundle 'wakatime/vim-wakatime'  " Wakatime time tracker
+NeoBundle 'ConradIrwin/vim-bracketed-paste'  " No need for :set paste!
+NeoBundle 'eiginn/netrw'  " Network oriented reading, writing, and browsing
+NeoBundle 'fatih/vim-go'  " Golang stuff
+NeoBundle 'fholgado/minibufexpl.vim'  " Elegant buffer explorer
+NeoBundle 'godlygeek/tabular'  " Text filtering and alignment (Leader a = / Leader a :)
+NeoBundle 'hail2u/vim-css3-syntax'  " Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
+NeoBundle 'itchyny/lightline.vim'  " Statusline/tabline for Vim
+NeoBundle 'jmcomets/vim-pony'  " Django Snippet
+NeoBundle 'junegunn/goyo.vim'  " Distraction free
+NeoBundle 'Lokaltog/vim-easymotion'  " Vim motion on speed (Leader Leader w/f/s)
+NeoBundle 'majutsushi/tagbar'  " Python tag list
+NeoBundle 'mhinz/vim-startify'  " Start screen
+NeoBundle 'mickaobrien/vim-stackoverflow'  " Stackoverflow from Vim
+NeoBundle 'nacitar/terminalkeys.vim'  " rxvt Terminal Keys support on tmux
+NeoBundle 'ntpeters/vim-better-whitespace'  " Trim whitespace
+NeoBundle 'plasticboy/vim-markdown'  " Syntax highlighting, matching rules and mappings for the original Markdown and extensions.
+NeoBundle 'Raimondi/delimitMate'  " Auto close scope (brackets, quotes, etc)
+NeoBundle 'rking/ag.vim'  " The Silver Searcher
+NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
+NeoBundle 'scrooloose/syntastic'  " Awesome syntax checking plugin
+NeoBundle 'sjl/gundo.vim'  " Visualize your undo tree
+NeoBundle 'StanAngeloff/php.vim'  " PHP stuff
+NeoBundle 'terryma/vim-expand-region'  " Expand visual selection by multiple '+' and shrink by multiple '_'
+NeoBundle 'terryma/vim-multiple-cursors'  " Multiple cursor
+NeoBundle 'tpope/vim-abolish'  " String substitute for singular / plural (context, sensitive)
+NeoBundle 'tpope/vim-commentary'  " Language-agnostic commenting plugin (gcc gcap gcgc)
+NeoBundle 'tpope/vim-fugitive'  " Git integration
+NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
+NeoBundle 'tpope/vim-repeat'  " Enable repeating supported plugin
+NeoBundle 'tpope/vim-surround'  " Quoting/parenthesizing made simple (cs'` ds' ysiw] yssb ds{ds))
+NeoBundle 'Valloric/YouCompleteMe'  " Awesome completion
+
 " Snippet engine and snipet lists
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'SirVer/ultisnips'
-" Golang stuff
-NeoBundle 'fatih/vim-go'
-" PHP stuff
-NeoBundle 'StanAngeloff/php.vim'
+
 " Javascript stuff
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'marijnh/tern_for_vim'
 NeoBundle 'othree/javascript-libraries-syntax.vim'
-" Visualize your undo tree
-NeoBundle 'sjl/gundo.vim'
+
 " Unite, async and tags support
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc.vim', { 'build' : { 'unix' : 'make -f make_unix.mak', }, }
+NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'tsukkee/unite-tag'
-" Expand visual selection by multiple '+' and shrink by multiple '_'
-NeoBundle 'terryma/vim-expand-region'
-" String substitute for singular / plural (context, sensitive)
-NeoBundle 'tpope/vim-abolish'
-" Language-agnostic commenting plugin (gcc gcap gcgc)
-NeoBundle 'tpope/vim-commentary'
-" Git integration
-NeoBundle 'tpope/vim-fugitive'
-" Enable repeating supported plugin
-NeoBundle 'tpope/vim-repeat'
-" Quoting/parenthesizing made simple (cs'" ds' ysiw] yssb ds{ds))
-NeoBundle 'tpope/vim-surround'
-" Awesome completion
-NeoBundle 'Valloric/YouCompleteMe'
-" Multiple cursor
-NeoBundle 'terryma/vim-multiple-cursors'
-" Stackoverflow from Vim
-NeoBundle 'mickaobrien/vim-stackoverflow'
-" rxvt Terminal Keys support on tmux
-NeoBundle 'nacitar/terminalkeys.vim'
-" Wakatime time tracker
-NeoBundle 'wakatime/vim-wakatime'
 
 call neobundle#end()
 syntax on                     " syntax highlighing
@@ -80,19 +67,17 @@ NeoBundleCheck
 " ==========================================================
 
 " Laravel abbreviation
-abbrev genc   ! php artisan generate:controller
-abbrev genm   ! php artisan generate:model
-abbrev genv   ! php artisan generate:view
-abbrev gens   ! php artisan generate:seed
-abbrev genmig ! php artisan generate:migration
-abbrev genr   ! php artisan generate:resource
-abbrev mig    ! php artisan migrate
-abbrev migm   ! php artisan migrate:make
-abbrev stov StackOverflow
+" abbrev genc   ! php artisan generate:controller
+" abbrev genm   ! php artisan generate:model
+" abbrev genv   ! php artisan generate:view
+" abbrev gens   ! php artisan generate:seed
+" abbrev genmig ! php artisan generate:migration
+" abbrev genr   ! php artisan generate:resource
+" abbrev mig    ! php artisan migrate
+" abbrev migm   ! php artisan migrate:make
 
 " Other abbreviation
-iabbrev @@ email
-iabbrev env #!/usr/bin/env python2
+abbrev stov StackOverflow
 
 " ==========================================================
 " Remapping
@@ -129,14 +114,18 @@ inoremap <leader>q <esc>:q<cr>
 " Long lines as break lines
 map j gj
 map k gk
-map <Up> gk
 map <Down> gj
+map <Up> gk
 
 " disable arrow keys
-"map <up> <nop>
-"map <down> <nop>
-"map <left> <nop>
-"map <right> <nop>
+" map <up> <nop>
+" map <down> <nop>
+" map <left> <nop>
+" map <right> <nop>
+
+" Common shortcut
+nmap <C-d> yyp
+nmap <C-x> dd
 
 " ctrl-hjkl changes to that split
 noremap <C-h> <C-w>h
@@ -166,14 +155,14 @@ nnoremap <leader>cc :cclose<cr>
 nnoremap <silent> <leader>/ :silent :nohlsearch<cr>
 
 " New buffer, moving between buffer, close buffer, and list buffer
-nmap <leader>T :enew<cr>
-nmap <leader>l :bnext<cr>
-nmap <leader>h :bprevious<cr>
+nmap <leader>bt :enew<cr>
+nmap <leader>bn :bnext<cr>
+nmap <leader>bp :bprevious<cr>
 nmap <leader>bq :bp <bar> bd #<cr>
 nmap <leader>bl :ls<cr>
 
 " Select all
-nnoremap <C-a> ggVG$
+" nnoremap <C-a> ggVG$
 
 " Copy to copy-and-paste clipboard
 vnoremap <C-c> "+y
@@ -200,18 +189,18 @@ nnoremap <leader>w :w!<cr>
 " Quit window on <leader>q
 nnoremap <leader>q :q<cr>
 
-" Remove trailing whitespace on <leader>W
-" nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
-
 " Execute itself with python2
-nnoremap <leader>p :w !python2<cr>
+" nnoremap <leader>p :w !python2<cr>
 
 " ==========================================================
 " Basic Settings
 " ==========================================================
+" set encoding=utf-8
+" set fileencoding=utf-8
+" set fileencodings=utf-8
 
 if has("gui_running")
-  set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10
+  set guifont=Fira\ Mono\ 10
   set guioptions-=m
   set guioptions-=T
 endif
@@ -264,13 +253,13 @@ set cursorline              " have a line indicate the cursor location
 set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
-set scrolloff=5             " Keep 5 context lines above and below the cursor
+set scrolloff=3             " Keep 5 context lines above and below the cursor
 set sidescroll=1            " Enable sidescrolling
 set sidescrolloff=15
 set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
 set showmatch               " Briefly jump to a parent once it's balanced
 set wrap                    " Wrap text
-set linebreak               " don't wrap text in the middle of a word
+" set linebreak               " don't wrap text in the middle of a word
 set autoindent              " always set autoindenting on
 set copyindent              " copy indent from previous line
 set smartindent             " use smart indent if there is no indent file
@@ -281,24 +270,27 @@ set expandtab               " Use spaces, not tabs, for autoindent/tab key.
 set shiftround              " rounds indent to a multiple of shiftwidth
 set formatoptions=tcroql    " Setting text and comment formatting to auto
 set textwidth=79            " lines are automatically wrapped after 79 columns
-set nofoldenable            " turn off folding
 set colorcolumn=79          " highlight column 79 (where words will wrap)
+set nofoldenable            " turn off folding
 
-if &ft == 'python'
-  set tabstop=4
-  set shiftwidth=4
-  set softtabstop=4
+if &ft == 'css' || &ft == 'sass' || &ft == 'scss'
+  set tabstop=2
+  set shiftwidth=2
+  set softtabstop=2
+endif
+
+if &ft =='md'
+    autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 endif
 
 " Reading/Writing
 set autowriteall            " Don't bother me about changed buffers
-"set noautoread              " Don't automatically re-read changed files.
+set autoread                " Automatically re-read changed files.
 set modeline                " Allow vim options to be embedded in files;
 set modelines=5             " they must be within the first or last 5 lines.
 set clipboard=unnamed       " yank and paste in visual mode without *:
 
 " Messages, Info, Status
-set vb t_vb=                " Disable all bells.  I hate ringing/flashing.
 set showcmd                 " Show incomplete normal mode commands as I type.
 set noshowmode              " Hide the default mode text
 set report=0                " : commands always print changed line count.
@@ -320,14 +312,19 @@ if exists("+undofile")
   if isdirectory($HOME . '/.vim/undo') == 0
     :silent !mkdir -p ~/.vim/undo > /dev/null 2>&1
   endif
-  set undodir=./.vim-undo//
-  set undodir+=~/.vim/undo//
+  set undodir=~/.vim/undo//
   set undofile
 endif
+
+autocmd VimEnter * ToggleStripWhitespaceOnSave
 
 " ==========================================================
 " Plugin Setting
 " ==========================================================
+" Easymotion mapping
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+nmap f <Plug>(easymotion-s2)
 
 " Tagbar mapping
 nnoremap <F3> :TagbarToggle<cr>
@@ -351,16 +348,33 @@ function! GoOptions()
   let g:go_fmt_fail_silently = 1
   let g:go_play_open_browser = 0
 endfunction
-au FileType go nmap <Leader>gs <Plug>(go-implements)
-au FileType go nmap <Leader>gi <Plug>(go-info)
-au FileType go nmap <Leader>gd <Plug>(go-doc)
-au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
-au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
-au FileType go nmap <leader>gr :!go run %<CR>
-au FileType go nmap <leader>gb <Plug>(go-build)
-au FileType go nmap <leader>gt <Plug>(go-test)
-au FileType go nmap <leader>gc <Plug>(go-coverage)
-au FileType go nmap <Leader>ge <Plug>(go-rename)
+
+au FileType go call GoMap()
+function! GoMap()
+  au FileType go nmap <Leader>gs <Plug>(go-implements)
+  au FileType go nmap <Leader>gi <Plug>(go-info)
+  au FileType go nmap <Leader>gd <Plug>(go-doc)
+  au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+  au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
+  au FileType go nmap <leader>gr :!go run %<CR>
+  au FileType go nmap <leader>gb <Plug>(go-build)
+  au FileType go nmap <leader>gt <Plug>(go-test)
+  au FileType go nmap <leader>gc <Plug>(go-coverage)
+  au FileType go nmap <Leader>ge <Plug>(go-rename)
+endfunction
+
+" Gundo Setting
+let g:gundo_width = 40
+let g:gundo_preview_height = 15
+let g:gundo_right = 1
+let g:gundo_preview_bottom = 1
+let g:gundo_help = 0
+
+" Pony
+let g:pony_prefix = "D"
+let g:pony_display_colors = 1
+let g:pony_manage_filename = "manage.py"
+let g:pony_python_cmd = "python"
 
 " Tabular Mapping
 if exists(":Tabularize")
@@ -403,15 +417,8 @@ augroup END
 map + <Plug>(expand_region_expand)
 map _ <Plug>(expand_region_shrink)
 
-" Gundo Setting
-let g:gundo_width = 40
-let g:gundo_preview_height = 15
-let g:gundo_right = 1
-let g:gundo_preview_bottom = 1
-let g:gundo_help = 0
-
-" HTML, PHP Setting
-autocmd FileType html,php call WebSetting()
+" Web Setting
+autocmd FileType html,php,css,sass,scss call WebSetting()
 function! WebSetting()
   "g:php_syntax_extensions_enabled
   set nowrap
@@ -443,7 +450,15 @@ call unite#filters#matcher_default#use(['matcher_fuzzy', 'matcher_hide_hidden_fi
 " YCM Setting
 let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
+let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
+let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
+let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
+let g:ycm_complete_in_comments = 1 " Completion in comments
+let g:ycm_complete_in_strings = 1 " Completion in string
 set completeopt-=preview
+
+" Eclim and YCM
+let g:EclimCompletionMethod = 'omnifunc'
 
 " Lightline Setting
 let g:lightline = {

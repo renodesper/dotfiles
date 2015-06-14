@@ -6,7 +6,7 @@ SCREEN_HEIGHT=$(xrandr | grep -Po --color=never "(?<=\ connected )[\d]+x[\d]+" |
 
 # Layout
 HEIGHT=18
-WIDTH=$(echo "$SCREEN_WIDTH" | bc)
+WIDTH=$(echo "$SCREEN_WIDTH / 2" | bc)
 X_POS=0
 Y_POS=0  #1348
 

@@ -39,12 +39,12 @@ import qualified XMonad.StackSet          as W
 myKeys ::  XConfig l -> M.Map (KeyMask, KeySym) (X ())
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [
-    -- Prompt
-          ((modm,xK_p)                                , spawn "dmenu_run -h 18 -fn 'Play-9' -nb '#000000' -sb '#000000' -sf '#e60926' -x 0 -y 0 -dim 0.8")
     -- Tutup fokus window dan Keluar dari Xmonad
-        , ((modm .|. shiftMask,xK_q)                  , spawn "killall conky dzen2 compton mpd mpd-notification thunar synapse; io (exit With Exit Success)")
-        , ((mod1Mask,xK_F4)                           , kill)
-    -- Ganti Layout dan kembali ke default
+          ((modm,xK_q)                                , spawn "xmonad --recompile; killall conky dzen2 compton mpd mpd-notification thunar synapse hhp; xmonad --restart")
+        -- , ((modm .|. shiftMask,xK_q)                  , spawn "killall conky dzen2 compton mpd mpd-notification thunar synapse; io (exit With Exit Success)")
+        , ((modm .|. shiftMask,xK_q)                  , spawn "poweroff")
+        , ((modm,xK_x)                                , kill)
+    -- Ganti ke layout selanjutnya
         , ((modm,xK_space)                            , sendMessage NextLayout)
     -- Pindah Wokspaces
         , ((modm,xK_Right)                            , nextWS)
@@ -68,62 +68,68 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- Susutkan ukuran window
         , ((modm,xK_h)                                , sendMessage Shrink)
         , ((modm,xK_l)                                , sendMessage Expand)
-    -- Mengatur window biar ke tilling mode
+    -- Mengatur window ke tilling mode
         , ((modm,xK_t)                                , withFocused $ windows . W.sink)
     -- Mengatur jumlah window di master
         , ((modm .|. shiftMask,xK_m)                  , sendMessage(IncMasterN(1)))
         , ((modm .|. shiftMask,xK_n)                  , sendMessage(IncMasterN(-1)))
-    -- Increment and decrement the size of windows
-    --    , ((modm .|. controlMask              , xK_s    ), sendMessage Arrange         )
-    --    , ((modm .|. controlMask .|. shiftMask, xK_s    ), sendMessage DeArrange       )
-    --    , ((modm .|. controlMask              , xK_Left ), sendMessage (MoveLeft      1))
-    --    , ((modm .|. controlMask              , xK_Right), sendMessage (MoveRight     1))
-    --    , ((modm .|. controlMask              , xK_Down ), sendMessage (MoveDown      1))
-    --    , ((modm .|. controlMask              , xK_Up   ), sendMessage (MoveUp        1))
-    --    , ((modm                 .|. shiftMask, xK_Left ), sendMessage (IncreaseLeft  1))
-    --    , ((modm                 .|. shiftMask, xK_Right), sendMessage (IncreaseRight 1))
-    --    , ((modm                 .|. shiftMask, xK_Down ), sendMessage (IncreaseDown  1))
-    --    , ((modm                 .|. shiftMask, xK_Up   ), sendMessage (IncreaseUp    1))
-    --    , ((modm .|. controlMask .|. shiftMask, xK_Left ), sendMessage (DecreaseLeft  1))
-    --    , ((modm .|. controlMask .|. shiftMask, xK_Right), sendMessage (DecreaseRight 1))
-    --    , ((modm .|. controlMask .|. shiftMask, xK_Down ), sendMessage (DecreaseDown  1))
-    --    , ((modm .|. controlMask .|. shiftMask, xK_Up   ), sendMessage (DecreaseUp    1))
     -- Fullscreen window
         , ((modm,xK_f)                                , sendMessage $ Toggle FULL)
-    -- GridSelect
-        , ((modm .|. shiftMask, xK_g)                 , goToSelected defaultGSConfig)
     -- Minimize Window
         , ((modm,xK_i)                                , withFocused minimizeWindow)
         , ((modm .|. shiftMask,xK_i)                  , sendMessage RestoreNextMinimizedWin)
     -- Aplikasi
         , ((modm,xK_Return)                           , spawn "terminator")
         , ((modm .|. shiftMask,xK_Return)             , spawn $ XMonad.terminal conf)
-        , ((modm,xK_bracketleft)                      , spawn "thunar")
+        , ((modm .|. shiftMask,xK_s)                  , spawn "physlock")
+        , ((modm,xK_c)                                , spawn "sh /home/$USER/.xmonad/Scripts/calendar")
+        , ((modm .|. shiftMask,xK_c)                  , spawn "sh /home/$USER/.xmonad/Scripts/clock")
+        , ((modm,xK_bracketleft)                      , spawn "synclient TouchpadOff=1")
+        , ((modm .|. shiftMask,xK_bracketleft)        , spawn "synclient TouchpadOff=0")
+        , ((modm,xK_bracketright)                     , spawn "setxkbmap dvorak;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
+        , ((modm .|. shiftMask,xK_bracketright)       , spawn "setxkbmap us;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
         , ((modm,xK_semicolon)                        , spawn "subl3")
-        , ((modm,xK_bracketright)                     , safeSpawn "luakit" [])
-        , ((modm .|. shiftMask,xK_s)                  , spawn "slimlock")
-        , ((modm,xK_c)                                , spawn "zsh /home/$USER/.xmonad/Scripts/calendar")
-        , ((modm .|. shiftMask,xK_c)                  , spawn "zsh /home/$USER/.xmonad/Scripts/clock")
-        , ((modm,xK_F9)                               , spawn "synclient TouchpadOff=1")
-        , ((modm .|. shiftMask,xK_F9)                 , spawn "synclient TouchpadOff=0")
-        , ((modm,xK_q)                                , spawn "xmonad --recompile; killall conky dzen2 compton mpd mpd-notification thunar synapse hhp; xmonad --restart")
+        , ((modm,xK_apostrophe)                       , safeSpawn "luakit" [])
     -- Pengaturan mpc dan volume
-        , ((modm .|. shiftMask,xK_comma)              , spawn "mpc toggle")
-        , ((modm,xK_comma)                            , spawn "mpc prev")
-        , ((modm,xK_period)                           , spawn "mpc next")
-        , ((modm .|. shiftMask,xK_period)             , spawn "mpc stop")
-        , ((modm .|. shiftMask,xK_v)                  , spawn "pulseaudio-ctl down 2")
-        , ((modm,xK_v)                                , spawn "pulseaudio-ctl up 2")
+        , ((modm,xK_comma)                            , spawn "mpc toggle")
+        , ((modm,xK_period)                           , spawn "mpc stop")
+        , ((modm .|. shiftMask,xK_comma)              , spawn "mpc prev")
+        , ((modm .|. shiftMask,xK_period)             , spawn "mpc next")
+    -- Function Key
+        , ((0, 0x1008FF12), spawn "amixer -q set Master toggle")  -- XF86XK_AudioMute
+        , ((0, 0x1008FF11), spawn "pulseaudio-ctl down 2")  -- XF86XK_AudioLowerVolume
+        , ((0, 0x1008FF13), spawn "pulseaudio-ctl up 2")  -- XF86XK_AudioRaiseVolume
+        , ((0, 0x1008FFB2), spawn "amixer set Capture toggle")  -- XF86XK_AudioMicMute
+        , ((0, 0x1008FF03), spawn "light -U 2; light -O")  -- XF86XK_MonBrightnessDown
+        , ((0, 0x1008FF02), spawn "light -A 2; light -O")  -- XF86XK_MonBrightnessUp
+        , ((0, 0x1008FF59), spawn "light -S 0")  -- XF86XK_Display
+        , ((0, 0x1008FF95), spawn "urxvt -e sudo wifi-menu")  -- XF86XK_WLAN
+        , ((0, 0x1008FF81), spawn "gvim ~/.xmonad/xmonad.hs")  -- XF86XK_Tools
+        , ((0, 0x1008FF1B), spawn "dmenu_run -h 18 -fn 'Play-9' -nb '#000000' -sb '#000000' -sf '#e60926' -x 0 -y 0 -dim 0.8")  -- XF86XK_Search
+        , ((0, 0x1008FF4A), goToSelected defaultGSConfig)  -- XF86XK_LaunchA
+        , ((0, 0x1008FF5D), spawn "thunar")  -- XF86XK_Explorer
+    -- Increment and decrement the size of windows
+        -- , ((modm .|. controlMask              , xK_s    ), sendMessage Arrange         )
+        -- , ((modm .|. controlMask .|. shiftMask, xK_s    ), sendMessage DeArrange       )
+        -- , ((modm .|. controlMask              , xK_Left ), sendMessage (MoveLeft      1))
+        -- , ((modm .|. controlMask              , xK_Right), sendMessage (MoveRight     1))
+        -- , ((modm .|. controlMask              , xK_Down ), sendMessage (MoveDown      1))
+        -- , ((modm .|. controlMask              , xK_Up   ), sendMessage (MoveUp        1))
+        -- , ((modm                 .|. shiftMask, xK_Left ), sendMessage (IncreaseLeft  1))
+        -- , ((modm                 .|. shiftMask, xK_Right), sendMessage (IncreaseRight 1))
+        -- , ((modm                 .|. shiftMask, xK_Down ), sendMessage (IncreaseDown  1))
+        -- , ((modm                 .|. shiftMask, xK_Up   ), sendMessage (IncreaseUp    1))
+        -- , ((modm .|. controlMask .|. shiftMask, xK_Left ), sendMessage (DecreaseLeft  1))
+        -- , ((modm .|. controlMask .|. shiftMask, xK_Right), sendMessage (DecreaseRight 1))
+        -- , ((modm .|. controlMask .|. shiftMask, xK_Down ), sendMessage (DecreaseDown  1))
+        -- , ((modm .|. controlMask .|. shiftMask, xK_Up   ), sendMessage (DecreaseUp    1))
     ]
 
     ++
     -- mod-[1..9], Pindah ke workspace N
     -- mod-shift-[1..9], Memindahkan client ke workspace N
     [((m .|. modm, k), windows $ f i)
-        | (i, k) <- zip (XMonad.workspaces conf) [ xK_1, xK_2, xK_3
-                                                 , xK_4, xK_5
-                                                 , xK_6, xK_7
-                                                 ]
+        | (i, k) <- zip (XMonad.workspaces conf) [ xK_1..xK_7 ]
         , (f, m) <- [(W.greedyView, 0)
         , (W.shift, shiftMask)]]
 
@@ -138,17 +144,10 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 -- Nama layout dan key untuk mempercepat akses
 ------------------------------------------------------------------------
 myWorkspaces :: [String]
-myWorkspaces = clickable . (map dzenEscape) $ [ " Web "
-                                              , " Code "
-                                              , " Office "
-                                              , " Gfx "
-                                              , " Chat "
-                                              , " Game "
-                                              , " Other "
-                                              ]
+myWorkspaces = clickable . (map dzenEscape) $ [ " Web ", " Code ", " Chat ", " Office ", " Graphic ", " Game ", " Other "]
     where clickable l = [ "^ca(1,xdotool key super+"
                         ++ show (n) ++ ")" ++ ws ++ "^ca()" |
-                        (i,ws) <- zip [1..] l,
+                        (i,ws) <- zip [ 1.. ] l,
                         let n = i ]
 
 ------------------------------------------------------------------------
@@ -168,18 +167,18 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList
 ------------------------------------------------------------------------
 myManageHook ::  ManageHook
 myManageHook = composeAll . concat $
-    [ [resource  =? r --> doIgnore                         | r <- myIgnores]    --ignore desktop
-    , [className =? c --> doShift (myWorkspaces !! 0)      | c <- myWebs   ]    --move myWebs windows to workspace 0 by classname
-    , [className =? c --> doShift (myWorkspaces !! 1)      | c <- myCodes  ]    --move myCodes windows to workspace 3 by classname
-    , [className =? c --> doShift (myWorkspaces !! 2)      | c <- myOffices]    --move myOffices windows to workspace 1 by classname
-    , [className =? c --> doShift (myWorkspaces !! 3)      | c <- myGfxs   ]    --move myGfxs windows to workspace 2 by classname
-    , [className =? c --> doShift (myWorkspaces !! 4)      | c <- myChats  ]    --move myChats windows to workspace 4 by classname
-    , [className =? c --> doShiftAndGo (myWorkspaces !! 5) | c <- myGames  ]    --move myGames windows to workspace 5 by classname
-    , [className =? c --> doShift (myWorkspaces !! 6)      | c <- myOthers ]    --move myOthers windows to workspace 6 by classname
-    , [className =? c --> doCenterFloat                    | c <- myFloatCC]    --float center geometry by classname
-    , [name      =? n --> doCenterFloat                    | n <- myFloatCN]    --float center geometry by name
-    , [name      =? n --> doSideFloat NW                   | n <- myFloatSN]    --float side NW geometry by name
-    , [className =? c --> doF W.focusDown                  | c <- myFocusDC]    --dont focus on launching by classname
+    [ [resource  =? r --> doIgnore                         | r <- myIgnores]    -- ignore desktop
+    , [className =? c --> doShift (myWorkspaces !! 0)      | c <- myWebs   ]    -- move myWebs windows to workspace web by classname
+    , [className =? c --> doShift (myWorkspaces !! 1)      | c <- myCodes  ]    -- move myCodes windows to workspace code by classname
+    , [className =? c --> doShift (myWorkspaces !! 2)      | c <- myChats  ]    -- move myChats windows to workspace chat by classname
+    , [className =? c --> doShift (myWorkspaces !! 3)      | c <- myOffices]    -- move myOffices windows to workspace office by classname
+    , [className =? c --> doShift (myWorkspaces !! 4)      | c <- myGfxs   ]    -- move myGfxs windows to workspace gfx by classname
+    , [className =? c --> doShiftAndGo (myWorkspaces !! 5) | c <- myGames  ]    -- move myGames windows to workspace game by classname
+    , [className =? c --> doShift (myWorkspaces !! 6)      | c <- myOthers ]    -- move myOthers windows to workspace other by classname
+    , [className =? c --> doCenterFloat                    | c <- myFloatCC]    -- float center geometry by classname
+    , [name      =? n --> doCenterFloat                    | n <- myFloatCN]    -- float center geometry by name
+    , [name      =? n --> doSideFloat NW                   | n <- myFloatSN]    -- float side NW geometry by name
+    , [className =? c --> doF W.focusDown                  | c <- myFocusDC]    -- dont focus on launching by classname
     , [isFullscreen   --> doFullFloat]
     ]
     where
@@ -187,14 +186,14 @@ myManageHook = composeAll . concat $
         role            = stringProperty "WM_WINDOW_ROLE"
         name            = stringProperty "WM_NAME"
         myIgnores       = [ "desktop", "desktop_window" ]
-        myWebs          = [ "Chromium", "Google-chrome", "Firefox", "Opera"
-                          , "Midori", "Claws Mail", "luakit"]
+        myWebs          = [ ]
         myOffices       = [ "libreoffice", "libreoffice-startcenter"
                           , "libreoffice-writer", "libreoffice-calc"
                           , "libreoffice-impress", "libreoffice-draw"
                           , "libreoffice-base", "libreoffice-math"
                           , "Evince", "Texmaker", "Wps", "Wpp", "Et"]
-        myCodes         = [ "NetBeans IDE 7.2", "Adl" ]
+        myCodes         = [ "NetBeans IDE 7.2", "Adl", "jetbrains-android-studio"
+                          , "jetbrains-idea", "jetbrains-pycharm-ce" ]
         myGfxs          = [ "Gimp-2.8", "Inkscape" ]
         myChats         = [ "Pidgin", "Xchat" ]
         myGames         = [ "zsnes" ]
@@ -205,7 +204,7 @@ myManageHook = composeAll . concat $
                           , "XCalc", "XClock", "Desmume", "Ossxmix", "Xvidcap"
                           , "Main", "Wicd-client.py"
                           , "com-mathworks-util-PostVMInit", "MATLAB"
-                          , "Smplayer" ]
+                          , "Smplayer", "URxvt" ]
         myFloatCN       = [ "ePSXe - Enhanced PSX emulator"
                           , "Seleccione Archivo", "Config Video"
                           , "Testing plugin", "Config Sound", "Config Cdrom"
@@ -227,14 +226,23 @@ myManageHook = composeAll . concat $
 ------------------------------------------------------------------------
 -- Definisi Warna --
 ------------------------------------------------------------------------
-black = "#333333"
 grey = "#EEEEEE"
+black = "#333333"
 white = "#FFFFFF"
 
-color1 = "#82AFF9"
-color2 = "#9881F5"
-color3 = "#F97D81"
-color4 = "#F9D08B"
+-- color1 & color3 for myLogHook
+-- color2 & color4 for toprightbar
+
+-- Red Blue om Eko
+-- color1 = "#82AFF9"
+-- color2 = "#9881F5"
+-- color3 = "#F97D81"
+-- color4 = "#F9D08B"
+
+color1 = "#00B454"
+color2 = "#78E700"
+color3 = "#086CA2"
+color4 = "#FF3900"
 
 ------------------------------------------------------------------------
 -- Status bars and logging --
@@ -264,15 +272,15 @@ myLogHook h = dynamicLogWithPP $ dzenPP
     , ppTitle             = (" " ++) . dzenColor (black) (white) . dzenEscape
     , ppOutput            = hPutStrLn h
     }
-    where icon1 = "^i(/home/username/.xmonad/icons/tile.xbm)^ca()"
-          icon2 = "^i(/home/username/.xmonad/icons/monocle.xbm)^ca()"
-          icon3 = "^i(/home/username/.xmonad/icons/bstack.xbm)^ca()"
-          icon4 = "^i(/home/username/.xmonad/icons/monocle2.xbm)^ca()"
-          icon5 = "^i(/home/username/.xmonad/icons/bstack2.xbm)^ca()"
-          icon6 = "^i(/home/username/.xmonad/icons/float.xbm)^ca()"
-          icon7 = "^i(/home/username/.xmonad/icons/grid.xbm)^ca()"
-          icon8 = "^i(/home/username/.xmonad/icons/bstack3.xbm)^ca()"
-          icon9 = "^i(/home/username/.xmonad/icons/monocle2.xbm)^ca()"
+    where icon1 = "^i(/home/renodesper/.xmonad/icons/tile.xbm)^ca()"
+          icon2 = "^i(/home/renodesper/.xmonad/icons/monocle.xbm)^ca()"
+          icon3 = "^i(/home/renodesper/.xmonad/icons/bstack.xbm)^ca()"
+          icon4 = "^i(/home/renodesper/.xmonad/icons/monocle2.xbm)^ca()"
+          icon5 = "^i(/home/renodesper/.xmonad/icons/bstack2.xbm)^ca()"
+          icon6 = "^i(/home/renodesper/.xmonad/icons/float.xbm)^ca()"
+          icon7 = "^i(/home/renodesper/.xmonad/icons/grid.xbm)^ca()"
+          icon8 = "^i(/home/renodesper/.xmonad/icons/bstack3.xbm)^ca()"
+          icon9 = "^i(/home/renodesper/.xmonad/icons/monocle2.xbm)^ca()"
 
 clickInLayout :: String
 clickInLayout = "^ca(1, xdotool key super+space)"
@@ -324,31 +332,32 @@ myLayout = mkToggle (NOBORDERS ?? FULL ?? EOT) $
 ------------------------------------------------------------------------
 main :: IO ()
 main = do
-    panel  <- spawnPipe "DISPLAY=:0 zsh /home/$USER/.xmonad/Scripts/loghook"
-    -- panel2 <- spawnPipe "DISPLAY=:0 zsh /home/$USER/.xmonad/Scripts/toprightbar"
-    panel3 <- spawnPipe "DISPLAY=:0 zsh /home/$USER/.xmonad/Scripts/bottomrightbar"
-    spawn "DISPLAY=:0 zsh /home/$USER/.autostart.sh"
-    xmonad  $ withUrgencyHook dzenUrgencyHook
-                { args = [ "-x", "0", "-y", "335", "-h", "98"
-                         , "-w", "1366", "-fn", "Poiret One-32"
-                         , "-fg", white, "-bg", color3, "-xs", "1", "-e"
-                         , "onstart=uncollapse;button1=exit;key_Escape=exit"
-                         ]
-                }
+    logHookPanel  <- spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/loghook"
+    spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/toprightbar"
+    -- spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/bottomrightbar"
+    spawn "DISPLAY=:0 sh /home/$USER/.autostart.sh"
+    xmonad  $ withUrgencyHook NoUrgencyHook
+    -- xmonad  $ withUrgencyHook dzenUrgencyHook
+    --         { args = [ "-x", "0", "-y", "335", "-h", "98"
+    --                     , "-w", "1366", "-fn", "Poiret One-32"
+    --                     , "-fg", white, "-bg", color3, "-xs", "1", "-e"
+    --                     , "onstart=uncollapse;button1=exit;key_Escape=exit"
+    --                     ]
+    --         }
             $ defaultConfig
-                { terminal              = "urxvt"
-                , focusFollowsMouse     = False
-                , clickJustFocuses      = False
-                , borderWidth           = 4
-                , modMask               = mod4Mask
-                , normalBorderColor     = color1
-                , focusedBorderColor    = color3
-                , workspaces            = myWorkspaces
-                , keys                  = myKeys
-                , mouseBindings         = myMouseBindings
-                , logHook               = myLogHook panel
-                , layoutHook            = windowArrange myLayout
-                , manageHook            = myManageHook <+> manageDocks
-                , handleEventHook       = FS.fullscreenEventHook
-                , startupHook           = setWMName "LG3D"
-                }
+            { terminal              = "urxvt"
+            , focusFollowsMouse     = False
+            , clickJustFocuses      = False
+            , borderWidth           = 4
+            , modMask               = mod4Mask
+            , normalBorderColor     = color1
+            , focusedBorderColor    = color3
+            , workspaces            = myWorkspaces
+            , keys                  = myKeys
+            , mouseBindings         = myMouseBindings
+            , logHook               = myLogHook logHookPanel
+            , layoutHook            = windowArrange myLayout
+            , manageHook            = myManageHook <+> manageDocks
+            , handleEventHook       = FS.fullscreenEventHook
+            -- , startupHook           = setWMName "LG3D"
+            }
