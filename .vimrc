@@ -1,5 +1,5 @@
 set nocompatible
-set runtimepath+=.
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 
