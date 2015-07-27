@@ -3,6 +3,7 @@
 
 # NeoBundle installation directory
 VIM_CONFIG=~/.vimrc
+VIM_DIR=~/.vim
 BUNDLE_DIR=~/.vim/bundle
 INSTALL_DIR=$BUNDLE_DIR/neobundle.vim
 
@@ -28,6 +29,7 @@ echo "Complete setup NeoBundle!"
 # copy .vimrc into ~/.vimrc
 echo "Begin copying vimrc..."
 cp -f .vimrc $VIM_CONFIG
+cp -R -f .vim/colors/ $VIM_DIR
 echo "Done!"
 
 echo "Please open vim to install other plugins."
