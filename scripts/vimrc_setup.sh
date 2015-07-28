@@ -28,9 +28,9 @@ echo "Complete setup NeoBundle!"
 
 # copy .vimrc into ~/.vimrc
 echo "Begin copying vimrc..."
-cp -f .vimrc $VIM_CONFIG
+cp -f ../.vimrc $VIM_CONFIG
 echo "Begin copying vim colors..."
-cp -R -f .vim/colors/ $VIM_DIR
+cp -R -f ../.vim/colors/ $VIM_DIR
 echo "Done!"
 
 echo "Please open vim to install other plugins."
