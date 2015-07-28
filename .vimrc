@@ -4,7 +4,7 @@ set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 """ General {
-  NeoBundle 'ConradIrwin/vim-bracketed-paste'  " No need for :set paste!
+  NeoBundle 'wincent/terminus'  " Enhanced terminal integration for Vim
   NeoBundle 'eiginn/netrw'  " Network oriented reading, writing, and browsing
   NeoBundle 'fholgado/minibufexpl.vim'  " Elegant buffer explorer
   NeoBundle 'itchyny/lightline.vim'  " Statusline/tabline for Vim
@@ -42,7 +42,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 """ }
 
 """ Go {
-  NeoBundle 'fatih/vim-go'
+  " NeoBundle 'fatih/vim-go'
 """ }
 
 """ Haskell {
@@ -58,24 +58,24 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 """ }
 
 """ HTML {
-  NeoBundle 'gorodinskiy/vim-coloresque'
-  NeoBundle 'hail2u/vim-css3-syntax'
-  NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
-  NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
+  " NeoBundle 'gorodinskiy/vim-coloresque'
+  " NeoBundle 'hail2u/vim-css3-syntax'
+  " NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
+  " NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
 """ }
 
 """ Javascript {
-  NeoBundle 'briancollins/vim-jst'
-  NeoBundle 'elzr/vim-json'
-  NeoBundle 'groenewege/vim-less'
-  NeoBundle 'kchmck/vim-coffee-script'
-  NeoBundle 'pangloss/vim-javascript'
+  " NeoBundle 'briancollins/vim-jst'
+  " NeoBundle 'elzr/vim-json'
+  " NeoBundle 'groenewege/vim-less'
+  " NeoBundle 'kchmck/vim-coffee-script'
+  " NeoBundle 'pangloss/vim-javascript'
 """ }
 
 """ PHP {
-  NeoBundle 'arnaud-lb/vim-php-namespace'
-  NeoBundle 'beyondwords/vim-twig'
-  NeoBundle 'spf13/PIV'
+  " NeoBundle 'arnaud-lb/vim-php-namespace'
+  " NeoBundle 'beyondwords/vim-twig'
+  " NeoBundle 'spf13/PIV'
 """ }
 
 """ Python {
@@ -87,15 +87,15 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 """ }
 
 """ Ruby {
-  NeoBundle 'tpope/vim-rails'
-  let g:rubycomplete_buffer_loading = 1
+  " NeoBundle 'tpope/vim-rails'
+  " let g:rubycomplete_buffer_loading = 1
   " let g:rubycomplete_classes_in_global = 1
   " let g:rubycomplete_rails = 1
 """ }
 
 """ Misc {
   NeoBundle 'plasticboy/vim-markdown'
-  NeoBundle 'cespare/vim-toml'
+  " NeoBundle 'cespare/vim-toml'
 """ }
 
 """ Unite, async, and unite tags support {
@@ -109,6 +109,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 """ Deps {
   if executable('ag')
       NeoBundle 'rking/ag.vim'  " The Silver Searcher
+      let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
   endif
 """ }
 
@@ -217,7 +218,8 @@ NeoBundleCheck
   vnoremap <C-c> "+y
 
   """ Paste from clipboard
-  noremap <C-v> "+p
+  inoremap <C-v> <Esc>"+pi
+  nnoremap <C-v> "+p
 
   """ Changing : into ;
   nnoremap ; :
