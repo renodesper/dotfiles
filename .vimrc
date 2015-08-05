@@ -3,8 +3,8 @@ set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 
-""" General {
-  NeoBundle 'ConradIrwin/vim-bracketed-paste'  " No need for :set paste!
+" General {
+  NeoBundle 'wincent/terminus'  " Enhanced terminal integration for Vim
   NeoBundle 'eiginn/netrw'  " Network oriented reading, writing, and browsing
   NeoBundle 'fholgado/minibufexpl.vim'  " Elegant buffer explorer
   NeoBundle 'itchyny/lightline.vim'  " Statusline/tabline for Vim
@@ -17,9 +17,9 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'terryma/vim-multiple-cursors'  " Multiple cursor
   NeoBundle 'tpope/vim-abolish'  " String substitute for singular / plural (context, sensitive)
   NeoBundle 'tyru/open-browser.vim'
-""" }
+" }
 
-""" General Programming {
+" General Programming {
   NeoBundle 'godlygeek/tabular'  " Text filtering and alignment (Leader a = / Leader a :)
   NeoBundle 'lambdalisue/vim-gista'  " Gist
   NeoBundle 'majutsushi/tagbar'  " Python tag list
@@ -31,21 +31,21 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'tpope/vim-fugitive'  " Git integration
   NeoBundle 'tpope/vim-surround'  " Quoting/parenthesizing made simple (cs'` ds' ysiw] yssb ds{ds))
   NeoBundle 'tpope/vim-repeat'  " Enable repeating supported plugin
-""" }
+" }
 
-""" Snippets & AutoComplete {
+" Snippets & AutoComplete {
   NeoBundle 'honza/vim-snippets'
   NeoBundle 'Shougo/neocomplete.vim.git'
   NeoBundle 'Shougo/neosnippet'
   NeoBundle 'Shougo/neosnippet-snippets'
   NeoBundle 'SirVer/ultisnips'
-""" }
+" }
 
-""" Go {
-  NeoBundle 'fatih/vim-go'
-""" }
+" Go {
+  " NeoBundle 'fatih/vim-go'
+" }
 
-""" Haskell {
+" Haskell {
   " NeoBundle 'adinapoli/cumino'
   " NeoBundle 'bitc/vim-hdevtools'
   " NeoBundle 'dag/vim2hs'
@@ -55,62 +55,64 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   " NeoBundle 'travitch/hasksyn'
   " NeoBundle 'Twinside/vim-haskellConceal'
   " NeoBundle 'Twinside/vim-haskellFold'
-""" }
+" }
 
-""" HTML {
-  NeoBundle 'gorodinskiy/vim-coloresque'
-  NeoBundle 'hail2u/vim-css3-syntax'
-  NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
-  NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
-""" }
+" HTML {
+  " NeoBundle 'gorodinskiy/vim-coloresque'
+  " NeoBundle 'hail2u/vim-css3-syntax'
+  " NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
+  " NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
+" }
 
-""" Javascript {
-  NeoBundle 'briancollins/vim-jst'
-  NeoBundle 'elzr/vim-json'
-  NeoBundle 'groenewege/vim-less'
-  NeoBundle 'kchmck/vim-coffee-script'
-  NeoBundle 'pangloss/vim-javascript'
-""" }
+" Javascript {
+  " NeoBundle 'briancollins/vim-jst'
+  " NeoBundle 'elzr/vim-json'
+  " NeoBundle 'groenewege/vim-less'
+  " NeoBundle 'kchmck/vim-coffee-script'
+  " NeoBundle 'pangloss/vim-javascript'
+" }
 
-""" PHP {
-  NeoBundle 'arnaud-lb/vim-php-namespace'
-  NeoBundle 'beyondwords/vim-twig'
-  NeoBundle 'spf13/PIV'
-""" }
+" PHP {
+  " NeoBundle 'arnaud-lb/vim-php-namespace'
+  " NeoBundle 'beyondwords/vim-twig'
+  " NeoBundle 'spf13/PIV'
+" }
 
-""" Python {
+" Python {
   NeoBundle 'jmcomets/vim-pony'  " Django Snippet
   NeoBundle 'klen/python-mode'  " Pick either python-mode or pyflakes & pydoc
   NeoBundle 'python_match.vim'
   NeoBundle 'pythoncomplete'
   NeoBundle 'yssource/python.vim'
-""" }
+" }
 
-""" Ruby {
-  NeoBundle 'tpope/vim-rails'
-  let g:rubycomplete_buffer_loading = 1
+" Ruby {
+  " NeoBundle 'tpope/vim-rails'
+  " let g:rubycomplete_buffer_loading = 1
   " let g:rubycomplete_classes_in_global = 1
   " let g:rubycomplete_rails = 1
-""" }
+" }
 
-""" Misc {
+" Misc {
+  " NeoBundle 'cespare/vim-toml'
   NeoBundle 'plasticboy/vim-markdown'
-  NeoBundle 'cespare/vim-toml'
-""" }
+  NeoBundle 'shime/livedown'
+" }
 
-""" Unite, async, and unite tags support {
+" Unite, async, and unite tags support {
   NeoBundle 'Shougo/neomru.vim'
   NeoBundle 'Shougo/unite.vim'
   NeoBundle 'Shougo/vimproc.vim', { 'build' : { 'unix' : 'make -f make_unix.mak', }, }
   NeoBundle 'Shougo/vimshell.vim'
   NeoBundle 'tsukkee/unite-tag'
-""" }
+" }
 
-""" Deps {
+" Deps {
   if executable('ag')
       NeoBundle 'rking/ag.vim'  " The Silver Searcher
+      let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
   endif
-""" }
+" }
 
 call neobundle#end()
 syntax on                     " syntax highlighing
@@ -217,7 +219,8 @@ NeoBundleCheck
   vnoremap <C-c> "+y
 
   """ Paste from clipboard
-  noremap <C-v> "+p
+  inoremap <C-v> <Esc>"+pa
+  nnoremap <C-v> "+p
 
   """ Changing : into ;
   nnoremap ; :
@@ -330,7 +333,7 @@ NeoBundleCheck
   set formatoptions=tcroql    " Setting text and comment formatting to auto
   set textwidth=79            " lines are automatically wrapped after 79 columns
   set colorcolumn=79          " highlight column 79 (where words will wrap)
-  set foldenable              " turn on folding
+  set nofoldenable            " turn off folding
   set splitright              " vsplit to right
   set splitbelow              " split to below
 
