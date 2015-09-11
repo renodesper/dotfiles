@@ -1,15 +1,15 @@
 set folder           = ~/.Mail               # mailbox location
-#set folder           = "imaps://imap.gmail.com:993" # imap url
+# set folder           = "imaps://imap.gmail.com:993" # imap url
 set alias_file       = ~/.mutt/alias         # where to store aliases
 set header_cache     = ~/.mutt/cache/headers # where to store headers
 set message_cachedir = ~/.mutt/cache/bodies  # where to store bodies
 set mailcap_path     = ~/.mailcap            # entries for filetypes
 set signature        = ~/.mutt/sig           # my signature file
 
-set realname = "Boy Sandy Gladies Arriezona"
-set from = "reno.esper@gmail.com"
-#set imap_user = "reno.esper@gmail.com"
-#set imap_pass = ""
+set realname = "Real Name"
+set from = "email@gmail.com"
+# set imap_user = "email@gmail.com"
+# set imap_pass = ""
 set sendmail = "/usr/bin/msmtp"
 set sendmail_wait = 0
 unset record
@@ -38,20 +38,20 @@ unhdr_order *                           # some distros order things by default
 hdr_order from: to: cc: date: subject:  # and in this order
 
 # Default inbox.
-set spoolfile = "+reno.esper@gmail.com/INBOX"
+set spoolfile = "+email@gmail.com/INBOX"
 #set spoolfile = "imaps://imap.gmail.com:993/INBOX"
 
 # Mailboxes to show in the sidebar and checked regularly.
-mailboxes +reno.esper@gmail.com/INBOX \
-          +reno.esper@gmail.com/archive \
-          +reno.esper@gmail.com/sent \
-          +reno.esper@gmail.com/drafts \
-          +reno.esper@gmail.com/flagged \
-          +reno.esper@gmail.com/trash
+mailboxes +email@gmail.com/INBOX \
+          +email@gmail.com/archive \
+          +email@gmail.com/sent \
+          +email@gmail.com/drafts \
+          +email@gmail.com/flagged \
+          +email@gmail.com/trash
 
 # Other special folders.
-set mbox      = "+reno.esper@gmail.com/archive"
-set postponed = "+reno.esper@gmail.com/drafts"
+set mbox      = "+email@gmail.com/archive"
+set postponed = "+email@gmail.com/drafts"
 
 set date_format = "%m/%d"
 set index_format = "[%Z]  %D  %-20.20F  %s"
@@ -146,5 +146,5 @@ macro index,pager g "goobook add" "add the sender address to Google contacts"
 macro index,pager gr "!goobook reload\n" "Goobook reload"
 
 # Color
-source /home/renodesper/.mutt/colorschemes/mutt-colors-solarized-light-16.muttrc
+source /home/$USER/.mutt/colorschemes/mutt-colors-solarized-light-16.muttrc
 color sidebar_new cyan default
