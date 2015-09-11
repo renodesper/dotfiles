@@ -1,2 +1,0 @@
-2013-08-11 15:22:39	jabber_oauth	Open this URL in your browser to authenticate: https://www.facebook.com/dialog/oauth?scope=offline_access,xmpp_login&response_type=code&redirect_uri=http://www.bitlbee.org/main.php/Facebook/oauth2.html&client_id=126828914005625
-2013-08-11 15:22:39	jabber_oauth	Respond to this message with the returned authorization token.
