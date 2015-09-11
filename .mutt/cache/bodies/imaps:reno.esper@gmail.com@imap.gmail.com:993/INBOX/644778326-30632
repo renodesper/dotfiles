@@ -1,0 +1,1018 @@
+Delivered-To: reno.esper@gmail.com
+Received: by 10.76.166.167 with SMTP id zh7csp233327oab;
+        Wed, 6 Nov 2013 01:00:21 -0800 (PST)
+X-Received: by 10.66.230.233 with SMTP id tb9mr2955321pac.38.1383728421200;
+        Wed, 06 Nov 2013 01:00:21 -0800 (PST)
+Return-Path: <sentto-9877740-7455-1383728418-reno.esper=gmail.com@returns.groups.yahoo.com>
+Received: from ng4-vm7.bullet.mail.gq1.yahoo.com (ng4-vm7.bullet.mail.gq1.yahoo.com. [98.136.219.46])
+        by mx.google.com with SMTP id sd2si16359501pbb.229.2013.11.06.01.00.20
+        for <reno.esper@gmail.com>;
+        Wed, 06 Nov 2013 01:00:21 -0800 (PST)
+Received-SPF: pass (google.com: manual fallback record for domain of sentto-9877740-7455-1383728418-reno.esper=gmail.com@returns.groups.yahoo.com designates 98.136.219.46 as permitted sender) client-ip=98.136.219.46;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: manual fallback record for domain of sentto-9877740-7455-1383728418-reno.esper=gmail.com@returns.groups.yahoo.com designates 98.136.219.46 as permitted sender) smtp.mail=sentto-9877740-7455-1383728418-reno.esper=gmail.com@returns.groups.yahoo.com;
+       dkim=pass header.i=@yahoogroups.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroups.com; s=echoe; t=1383728419; bh=23F37zZ9LV8dDVo/NbktA+T0vq+3ZI5PyJ5vW8y/Sa4=; h=Received:Received:X-Yahoo-Newman-Id:MIME-Version:Message-ID:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:From:To:Subject:X-Yahoo-Newman-Property:Reply-To:Content-Type:Content-Transfer-Encoding; b=R8pL24t6x9ExjQFVa5oVr7VeUGpA5qgs/JxuA4EmFRykyoX5t6QxRadiGHdKRxzvAV9XTa2BA/1IEH+O5WJg+rCNLMT0OIFfnX0wE/waHvY/Snvt3uPb9inTvQFjBEwwc26BUi+HEXVQGefQxrTgBa/+EHPz8pf8OWH+zD60Hp8=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=echoe; d=yahoogroups.com;
+	b=ndSG0H5AydI6RPmeUnsx2GfaAtt8LAoU0ZT/O0gH4R1DxKbZ2UIueI+WLVY1Aul5XZNuVjXP+idkN57QyngoT3bqkOt0VuZx/tMjFDV3Uu+r7946/ZR3UjLj2UEAtrwkkRjatquh2hubiEfIdHUMs+TIVlOXWbm5O97LkDkoxAg=;
+Received: from [98.137.0.80] by ng4.bullet.mail.gq1.yahoo.com with NNFMP; 06 Nov 2013 09:00:19 -0000
+Received: from [10.193.39.8] by tg1.bullet.mail.gq1.yahoo.com with NNFMP; 06 Nov 2013 09:00:19 -0000
+X-Yahoo-Newman-Id: 9877740-d7455
+MIME-Version: 1.0
+Message-ID: <1383728418.958.39286.m7@yahoogroups.com>
+Mailing-List: list jug-indonesia@yahoogroups.com; contact jug-indonesia-owner@yahoogroups.com
+Delivered-To: mailing list jug-indonesia@yahoogroups.com
+List-Id: <jug-indonesia.yahoogroups.com>
+Precedence: bulk
+List-Unsubscribe: <mailto:jug-indonesia-unsubscribe@yahoogroups.com>
+Date: 6 Nov 2013 09:00:18 -0000
+From: jug-indonesia@yahoogroups.com
+To: jug-indonesia@yahoogroups.com
+Subject: [JUG-Indonesia]  Digest Number 7455
+X-Yahoo-Newman-Property: groups-digest-ff-m
+Reply-To: "No Reply"<notify-dg-jug-indonesia@yahoogroups.com>
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<style type="text/css">
+<!--
+
+
+#ygrp-mkp {
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#ygrp-mkp hr {
+  border: 1px solid #d8d8d8;
+}
+
+#ygrp-mkp #hd {
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 122%;
+  margin: 10px 0;
+}
+
+#ygrp-mkp #ads {
+  margin-bottom: 10px;
+}
+
+#ygrp-mkp .ad {
+  padding: 0 0;
+}
+
+#ygrp-mkp .ad p {
+  margin: 0;
+}
+
+#ygrp-mkp .ad a {
+  color: #0000ff;
+  text-decoration: none;
+}
+#ygrp-sponsor #ygrp-lc {
+  font-family: Arial;
+}
+
+#ygrp-sponsor #ygrp-lc #hd {
+  margin: 10px 0px;
+  font-weight: 700;
+  font-size: 78%;
+  line-height: 122%;
+}
+
+#ygrp-sponsor #ygrp-lc .ad {
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<title>Java User Group Indonesia</title>
+</head>
+<body style="background-color: #ffffff;">
+
+ <div style="width:800px;">
+
+    <div  style="font-family: helvetica, clean, sans-serif; color: #efefef and #999999; font-size: 13px; font-style: normal; font-variant: normal; font-weight: Bold; text-decoration: none; drop-shadow: 1px #000000; background-color: #393939; height: 50px;" >
+   <div style="float: left; padding: 5px 0px 2px 20px">
+    <a style="text-decoration: none" href="http://groups.yahoo.com/;_ylc=X3oDMTJkMXFlNmZrBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNmdHIEc2xrA2dmcARzdGltZQMxMzgzNzI4NDE4"><span style="color: #ffffff;"> <img src="http://l.yimg.com/ru/static/images/yg/img/email/new_logo/logo-groups-transparent-180x40.png" border="0" alt="Yahoo! Groups"> </img> </span>
+    </a >
+   </div>
+
+   <div  style="float:right; padding: 20px 30px 7px 0px; font-size:13px; max-width: 550px;">
+    <a style="text-decoration: none; color: #ffffff;"  href="http://groups.yahoo.com/group/jug-indonesia;_ylc=X3oDMTJka3Q0NjJwBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNoZHIEc2xrA2hwaARzdGltZQMxMzgzNzI4NDE3" >
+      <span style="color: #ffffff"> Java User Group Indonesia </span> <span style="color: #b7b7b7" > Group </span> 
+    </a> 
+   </div>
+   <div style="clear:both;"> </div>
+
+  </div> 
+
+  <div style="float: left;" > 
+    <div style="float: left; background-color: #393939; height: 20px; width: 20px;"> 
+  </div>
+
+  <div style="float:left; width:750px; background-color: #f6f6f6; border-top: 1px #dddddd; border-left: 1px #dddddd; border-right: 1px #dddddd; border-bottom: none; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 11px; font-style: normal; font-variant: normal; font-weight: Bold; text-decoration: none;">
+      <h1 style="float:left; padding: 14px 0px 11px 20px; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 11px; font-style: normal; font-variant:normal; font-weight: Bold; text-decoration: none; margin: 0px;">
+        5  New 
+                  Messages              </h1>
+
+      <div style="float:right; padding: 14px 20px 10px 0px">
+        Digest #7455      </div>
+      <div style="clear:both"> 
+      </div>
+  </div>
+
+    <div style="float: left; background-color: #393939; height: 20px; width: 30px;"> 
+  </div>
+  <div style="clear:both;"> </div>
+  </div> 
+    
+  <div style="margin-left: 20px; margin-right: 30px; width:750px">   
+    <a name="toc"></a>
+    <div style="float: left; width: 748px; background-color: #ffffff; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; line-height:19px; ">
+                                          <div style="padding:5px 18px 4px 18px;">
+      <div style="float: left; width:30px; text-align: right; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+      1a 
+    </div>
+
+    <div style="float:left; padding: 0px 0px 0px 10px; width: 660px; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+       <a style="text-decoration:none; color: #3353f3;" href="#1a" > 
+           Memindahkan Stateless EJB ke JAR (Project) lain 
+       </a> 
+
+      <span style="margin-left: 3px; text-decoration: none; color: #333333">
+       by 
+                "Dsa Java"
+                       dsajava04             </span>
+    </div>
+
+    <div style="clear:both"> 
+    </div>
+  </div>
+                                                <div style="padding:5px 18px 4px 18px;">
+      <div style="float: left; width:30px; text-align: right; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+      1b 
+    </div>
+
+    <div style="float:left; padding: 0px 0px 0px 10px; width: 660px; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+       <a style="text-decoration:none; color: #3353f3;" href="#1b" > 
+           Re: Memindahkan Stateless EJB ke JAR (Project) lain 
+       </a> 
+
+      <span style="margin-left: 3px; text-decoration: none; color: #333333">
+       by 
+                "Muhammad Irwin"
+                       smirk137             </span>
+    </div>
+
+    <div style="clear:both"> 
+    </div>
+  </div>
+      <div style="height: 1px; background-color: #dedede; margin-top:2px; margin-bottom:2px;"> </div>
+                                                              <div style="padding:5px 18px 4px 18px;">
+      <div style="float: left; width:30px; text-align: right; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+      2a 
+    </div>
+
+    <div style="float:left; padding: 0px 0px 0px 10px; width: 660px; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+       <a style="text-decoration:none; color: #3353f3;" href="#2a" > 
+           Re: Python .. anyone? 
+       </a> 
+
+      <span style="margin-left: 3px; text-decoration: none; color: #333333">
+       by 
+                "Eko S.Wibowo"
+                       swdev_bali             </span>
+    </div>
+
+    <div style="clear:both"> 
+    </div>
+  </div>
+                                                <div style="padding:5px 18px 4px 18px;">
+      <div style="float: left; width:30px; text-align: right; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+      2b 
+    </div>
+
+    <div style="float:left; padding: 0px 0px 0px 10px; width: 660px; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+       <a style="text-decoration:none; color: #3353f3;" href="#2b" > 
+           Re: Python .. anyone? 
+       </a> 
+
+      <span style="margin-left: 3px; text-decoration: none; color: #333333">
+       by 
+                "Alpha Bagus Sunggono"
+                       bagusalfa             </span>
+    </div>
+
+    <div style="clear:both"> 
+    </div>
+  </div>
+      <div style="height: 1px; background-color: #dedede; margin-top:2px; margin-bottom:2px;"> </div>
+                                                              <div style="border-bottom:none; padding:5px 18px 7px 18px;">
+      <div style="float: left; width:30px; text-align: right; font-family: arial, helvetica, clean, sans-serif; color: #222222; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+      3a 
+    </div>
+
+    <div style="float:left; padding: 0px 0px 0px 10px; width: 660px; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none;"> 
+       <a style="text-decoration:none; color: #3353f3;" href="#3a" > 
+           Re: [OOT] Membuat Web Site Booking Pesawat 
+       </a> 
+
+      <span style="margin-left: 3px; text-decoration: none; color: #333333">
+       by 
+                "Ferdinand Neman"
+                       oetoeg             </span>
+    </div>
+
+    <div style="clear:both"> 
+    </div>
+  </div>
+                              </div>   
+ 
+        
+    <div style="clear:both"> 
+    </div>
+  </div>
+  <p> </p>
+
+  <div style="margin-left: 20px; margin-right: 30px; width:750px; margin-top: 27px">   
+   <div style="float: left; width: 584px;">
+    
+    <h1 style="font-size:110%; font-weight:bold; padding:0px 0px 10px 10px; margin: 0; ">
+             Messages          </h1>
+
+               
+ <div style="float: left; margin-bottom: 40px;" >
+
+      <div style="width:564px; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+      <h2 style="float: left; margin: 0px; padding: 0px; width:30px; color: #222222; text-align: right; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+       1a  
+      </h2>
+    
+      <h2 style="float: left; width: 524px; padding: 0px; margin: 0px 0px 0px 10px; float: left; color: #222222; font-weight: bold; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+        <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/message/91409;_ylc=X3oDMTJyZGxodG8xBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDA5BHNlYwNkbXNnBHNsawN2bXNnBHN0aW1lAzEzODM3Mjg0MTg-" name="1a"> 
+        <span style="color: #3353f3;">
+        Memindahkan Stateless EJB ke JAR (Project) lain        </span>
+        </a>
+      </h2>
+      <div style="clear:both;"> </div>
+   </div> 
+   <div style="float:left; width: 524px; line-height:20px; margin-left: 40px; ">
+      <h4 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #000000; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px; pading: 0px;">
+        Tue Nov&nbsp;5,&nbsp;2013 4:57&nbsp;am        (PST)        . Posted by:      </h4>
+
+      <h3 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px 0px 0px 1px; padding: 0px ">
+        <a style="text-decoration:none;"  href="mailto:dsajava04@yahoo.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain">
+        <span style="color: #3353f3;">
+        "Dsa Java"         dsajava04         </span>
+        </a>
+      </h3>
+    </div>
+
+        <div style="width: 524px; float:left; margin-top: 22px; margin-bottom: 6px; margin-left: 40px; font-family: arial, helvetica, clean, sans-serif; color: #333333; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; line-height:19px;">
+             Hi semua,<br>
+<br>
+Maafkan sebelumnya kalau pertanyaan saya ini pernah dibahas sebelumnya.<br>
+Perusahaan tempat saya bekerja memiliki sebuah aplikasi web yang berjalan di atas glassfish server, Java EE 6, Hibernate, dan primefaces. Belakangan ini, aplikasi yang ini akan dienhance besar2an dengan cukup banyak tambahan modul. Untuk business servicenya, kami memakai stateless EJB. Yang jadi masalah adalah, selama ini aplikasi baik dari data akses sampai ke UI nya berada di dalam satu project (netbeans + maven), sekarang karena momentumnya memang overhaul, juga sedang diusahakan pemecahan project yang ukurannya sudah cukup besar itu ke project2 yg lebih kecil. Yang jadi masalah adalah pada waktu memisahkan ejb dengan UI nya (managed bean), yang sejauh ini yang saya tahu sekarang kami harus membuat EJB tersebut menjadi @Remote (dengan menambah interface dan beberapa tambahan coding tentunya) dan tentunya diakses via container. Tentu saja ini jauh lebih ribet dari sekedar menganotate @Stateless dan @EJB seperti yang selama ini kami lakukan. Apakah ada<br>
+ rekan2 yang mengalami atau pernah mengalami permasalahan serupa? Mohon bisa dishare di sini. Mungkin saja pengamatan saya salah...<br>
+<br>
+Salam dan terima kasih,<br>
+Darwan<br>
+<br>
+         </div>
+        
+  
+  
+  
+  
+    
+
+  <div style="overflow:hidden; border-top:1px #e9e9e9 ; border-left: 1px #e9e9e9; border-right: 1px #e9e9e9; border-bottom: 1px #8a8a8a; border-style: solid ; z-index: -1; height: 25px; width: 524px; margin-left: 40px ">
+    <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; border-top: 1px #ffffff; background-color: #f6f6f6; padding: 5px 0px 5px 10px; margin-top: 1px; -webkit-text-size-adjust: none">
+                           <span style="margin-right: 4px;">
+           <a style="text-decoration: none" href="mailto:dsajava04@yahoo.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain" >
+            <span style="color: #3353f3; "> 
+            Reply to sender            </span>
+           </a> 
+          </span> 
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+           <a style="text-decoration: none" href="mailto:jug-indonesia@yahoogroups.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain" >
+            <span style="color: #3353f3; "> 
+            Reply to group            </span>
+           </a> 
+          </span>
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJyZ3MyZTg4BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDA5BHNlYwNkbXNnBHNsawNycGx5BHN0aW1lAzEzODM3Mjg0MTg-?act=reply&messageNum=91409">
+            <span style="color: #3353f3; "> 
+            Reply  via Web Post
+            </span>
+          </a> 
+          </span>
+          <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/message/91409;_ylc=X3oDMTM3bmRzZDE2BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDA5BHNlYwNkbXNnBHNsawN2dHBjBHN0aW1lAzEzODM3Mjg0MTgEdHBjSWQDOTE0MDk-">
+           <span style="color: #3353f3; "> 
+            All Messages  
+          (2)
+           </span>
+          </a>
+          </span> 
+          <span style="font-weight: bold"> . </span>
+
+          <span style="margin: 0px 9px 0px 9px;">
+          <a style="text-decoration: none; color: #3353f3;" href="#toc">
+            Top ^
+          </a> 
+          </span> 
+
+          <div style="clear:both;"> </div>
+                     </div>
+ </div>
+ </div>
+      
+ <div style="float: left; margin-bottom: 40px;" >
+
+      <div style="width:564px; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+      <h2 style="float: left; margin: 0px; padding: 0px; width:30px; color: #222222; text-align: right; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+       1b  
+      </h2>
+    
+      <h2 style="float: left; width: 524px; padding: 0px; margin: 0px 0px 0px 10px; float: left; color: #222222; font-weight: bold; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+        <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/message/91412;_ylc=X3oDMTJyc3ZnOTBpBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEyBHNlYwNkbXNnBHNsawN2bXNnBHN0aW1lAzEzODM3Mjg0MTg-" name="1b"> 
+        <span style="color: #3353f3;">
+        Re: Memindahkan Stateless EJB ke JAR (Project) lain        </span>
+        </a>
+      </h2>
+      <div style="clear:both;"> </div>
+   </div> 
+   <div style="float:left; width: 524px; line-height:20px; margin-left: 40px; ">
+      <h4 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #000000; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px; pading: 0px;">
+        Tue Nov&nbsp;5,&nbsp;2013 6:13&nbsp;pm        (PST)        . Posted by:      </h4>
+
+      <h3 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px 0px 0px 1px; padding: 0px ">
+        <a style="text-decoration:none;"  href="mailto:irwin13@gmail.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain">
+        <span style="color: #3353f3;">
+        "Muhammad Irwin"         smirk137         </span>
+        </a>
+      </h3>
+    </div>
+
+        <div style="width: 524px; float:left; margin-top: 22px; margin-bottom: 6px; margin-left: 40px; font-family: arial, helvetica, clean, sans-serif; color: #333333; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; line-height:19px;">
+             Kalau anda tidak mau ada perubahan besar di sisi EJB, misalnya dengan cara<br>
+membuat interface @Remote dan membuat Stateless Bean meng-implement<br>
+interface tersebut, maka ada cara lain, yaitu dengan cara meng-expose<br>
+Stateless Bean itu menjadi web services, contoh nya bisa dilihat disini :<br>
+<br>
+http://docs.<wbr>oracle.com/<wbr>javaee/6/<wbr>tutorial/<wbr>doc/bnbor.<wbr>html<br>
+http://kh-yiu.<wbr>blogspot.<wbr>com/2011/<wbr>07/ejb-3-<wbr>example-exposing<wbr>-stateless.<wbr>html<br>
+<br>
+Sedangkan perubahan di sisi UI, kalau dengan cara web services, perlu<br>
+meng-generate class-class web service client,<br>
+tapi kalau pakai cara interface @Remote, coding di sisi UI, IMHO,  jadi<br>
+lebih simple<br>
+<br>
+2013/11/5 Dsa Java &lt;dsajava04@yahoo.<wbr>com&gt;<br>
+<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi semua,<br>
+&gt;<br>
+&gt; Maafkan sebelumnya kalau pertanyaan saya ini pernah dibahas sebelumnya.<br>
+&gt; Perusahaan tempat saya bekerja memiliki sebuah aplikasi web yang berjalan<br>
+&gt; di atas glassfish server, Java EE 6, Hibernate, dan primefaces. Belakangan<br>
+&gt; ini, aplikasi yang ini akan dienhance besar2an dengan cukup banyak tambahan<br>
+&gt; modul. Untuk business servicenya, kami memakai stateless EJB. Yang jadi<br>
+&gt; masalah adalah, selama ini aplikasi baik dari data akses sampai ke UI nya<br>
+&gt; berada di dalam satu project (netbeans + maven), sekarang karena<br>
+&gt; momentumnya memang overhaul, juga sedang diusahakan pemecahan project yang<br>
+&gt; ukurannya sudah cukup besar itu ke project2 yg lebih kecil. Yang jadi<br>
+&gt; masalah adalah pada waktu memisahkan ejb dengan UI nya (managed bean), yang<br>
+&gt; sejauh ini yang saya tahu sekarang kami harus membuat EJB tersebut menjadi<br>
+&gt; @Remote (dengan menambah interface dan beberapa tambahan coding tentunya)<br>
+&gt; dan tentunya diakses via container. Tentu saja ini jauh lebih ribet dari<br>
+&gt; sekedar menganotate @Stateless dan @EJB seperti yang selama ini kami<br>
+&gt; lakukan. Apakah ada<br>
+&gt; rekan2 yang mengalami atau pernah mengalami permasalahan serupa? Mohon<br>
+&gt; bisa dishare di sini. Mungkin saja pengamatan saya salah...<br>
+&gt;<br>
+&gt; Salam dan terima kasih,<br>
+&gt; Darwan<br>
+&gt;  <br>
+&gt;<br>
+<br>
+-- <br>
+<br>
+MiRWIN<br>
+         </div>
+        
+  
+  
+  
+  
+    
+
+  <div style="overflow:hidden; border-top:1px #e9e9e9 ; border-left: 1px #e9e9e9; border-right: 1px #e9e9e9; border-bottom: 1px #8a8a8a; border-style: solid ; z-index: -1; height: 25px; width: 524px; margin-left: 40px ">
+    <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; border-top: 1px #ffffff; background-color: #f6f6f6; padding: 5px 0px 5px 10px; margin-top: 1px; -webkit-text-size-adjust: none">
+                           <span style="margin-right: 4px;">
+           <a style="text-decoration: none" href="mailto:irwin13@gmail.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain" >
+            <span style="color: #3353f3; "> 
+            Reply to sender            </span>
+           </a> 
+          </span> 
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+           <a style="text-decoration: none" href="mailto:jug-indonesia@yahoogroups.com?subject=Re%3A%20Memindahkan%20Stateless%20EJB%20ke%20JAR%20%28Project%29%20lain" >
+            <span style="color: #3353f3; "> 
+            Reply to group            </span>
+           </a> 
+          </span>
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJyOXQ0OGZnBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEyBHNlYwNkbXNnBHNsawNycGx5BHN0aW1lAzEzODM3Mjg0MTg-?act=reply&messageNum=91412">
+            <span style="color: #3353f3; "> 
+            Reply  via Web Post
+            </span>
+          </a> 
+          </span>
+          <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/message/91409;_ylc=X3oDMTM3amQxZjByBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEyBHNlYwNkbXNnBHNsawN2dHBjBHN0aW1lAzEzODM3Mjg0MTgEdHBjSWQDOTE0MDk-">
+           <span style="color: #3353f3; "> 
+            All Messages  
+          (2)
+           </span>
+          </a>
+          </span> 
+          <span style="font-weight: bold"> . </span>
+
+          <span style="margin: 0px 9px 0px 9px;">
+          <a style="text-decoration: none; color: #3353f3;" href="#toc">
+            Top ^
+          </a> 
+          </span> 
+
+          <div style="clear:both;"> </div>
+                     </div>
+ </div>
+ </div>
+                 
+ <div style="float: left; margin-bottom: 40px;" >
+
+      <div style="width:564px; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+      <h2 style="float: left; margin: 0px; padding: 0px; width:30px; color: #222222; text-align: right; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+       2a  
+      </h2>
+    
+      <h2 style="float: left; width: 524px; padding: 0px; margin: 0px 0px 0px 10px; float: left; color: #222222; font-weight: bold; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+        <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/message/91410;_ylc=X3oDMTJyY2VuaXNxBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEwBHNlYwNkbXNnBHNsawN2bXNnBHN0aW1lAzEzODM3Mjg0MTg-" name="2a"> 
+        <span style="color: #3353f3;">
+        Re: Python .. anyone?        </span>
+        </a>
+      </h2>
+      <div style="clear:both;"> </div>
+   </div> 
+   <div style="float:left; width: 524px; line-height:20px; margin-left: 40px; ">
+      <h4 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #000000; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px; pading: 0px;">
+        Tue Nov&nbsp;5,&nbsp;2013 6:12&nbsp;pm        (PST)        . Posted by:      </h4>
+
+      <h3 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px 0px 0px 1px; padding: 0px ">
+        <a style="text-decoration:none;"  href="mailto:swdev.bali@gmail.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F">
+        <span style="color: #3353f3;">
+        "Eko S.Wibowo"         swdev_bali         </span>
+        </a>
+      </h3>
+    </div>
+
+        <div style="width: 524px; float:left; margin-top: 22px; margin-bottom: 6px; margin-left: 40px; font-family: arial, helvetica, clean, sans-serif; color: #333333; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; line-height:19px;">
+             Wkwkwk. analisa terakhir nggak banget deh.<br>
+<br>
+Jujur aja, ngeblog python ini cmn bagian dari kerjaan freelancing ane di<br>
+odesk. Jadi, untuk ningkatin hitsnya, post kesini deh :v<br>
+<br>
+Sakjane bs dibilang nyepam ding :p<br>
+         </div>
+        
+  
+  
+  
+  
+    
+
+  <div style="overflow:hidden; border-top:1px #e9e9e9 ; border-left: 1px #e9e9e9; border-right: 1px #e9e9e9; border-bottom: 1px #8a8a8a; border-style: solid ; z-index: -1; height: 25px; width: 524px; margin-left: 40px ">
+    <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; border-top: 1px #ffffff; background-color: #f6f6f6; padding: 5px 0px 5px 10px; margin-top: 1px; -webkit-text-size-adjust: none">
+                           <span style="margin-right: 4px;">
+           <a style="text-decoration: none" href="mailto:swdev.bali@gmail.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F" >
+            <span style="color: #3353f3; "> 
+            Reply to sender            </span>
+           </a> 
+          </span> 
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+           <a style="text-decoration: none" href="mailto:jug-indonesia@yahoogroups.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F" >
+            <span style="color: #3353f3; "> 
+            Reply to group            </span>
+           </a> 
+          </span>
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJybGF1MmNhBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEwBHNlYwNkbXNnBHNsawNycGx5BHN0aW1lAzEzODM3Mjg0MTg-?act=reply&messageNum=91410">
+            <span style="color: #3353f3; "> 
+            Reply  via Web Post
+            </span>
+          </a> 
+          </span>
+          <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/message/91403;_ylc=X3oDMTM3NTIybGwwBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEwBHNlYwNkbXNnBHNsawN2dHBjBHN0aW1lAzEzODM3Mjg0MTgEdHBjSWQDOTE0MDM-">
+           <span style="color: #3353f3; "> 
+            All Messages  
+          (6)
+           </span>
+          </a>
+          </span> 
+          <span style="font-weight: bold"> . </span>
+
+          <span style="margin: 0px 9px 0px 9px;">
+          <a style="text-decoration: none; color: #3353f3;" href="#toc">
+            Top ^
+          </a> 
+          </span> 
+
+          <div style="clear:both;"> </div>
+                     </div>
+ </div>
+ </div>
+      
+ <div style="float: left; margin-bottom: 40px;" >
+
+      <div style="width:564px; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+      <h2 style="float: left; margin: 0px; padding: 0px; width:30px; color: #222222; text-align: right; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+       2b  
+      </h2>
+    
+      <h2 style="float: left; width: 524px; padding: 0px; margin: 0px 0px 0px 10px; float: left; color: #222222; font-weight: bold; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+        <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/message/91413;_ylc=X3oDMTJycHJmajQ4BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEzBHNlYwNkbXNnBHNsawN2bXNnBHN0aW1lAzEzODM3Mjg0MTg-" name="2b"> 
+        <span style="color: #3353f3;">
+        Re: Python .. anyone?        </span>
+        </a>
+      </h2>
+      <div style="clear:both;"> </div>
+   </div> 
+   <div style="float:left; width: 524px; line-height:20px; margin-left: 40px; ">
+      <h4 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #000000; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px; pading: 0px;">
+        Tue Nov&nbsp;5,&nbsp;2013 11:43&nbsp;pm        (PST)        . Posted by:      </h4>
+
+      <h3 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px 0px 0px 1px; padding: 0px ">
+        <a style="text-decoration:none;"  href="mailto:bagusalfa@gmail.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F">
+        <span style="color: #3353f3;">
+        "Alpha Bagus Sunggono"         bagusalfa         </span>
+        </a>
+      </h3>
+    </div>
+
+        <div style="width: 524px; float:left; margin-top: 22px; margin-bottom: 6px; margin-left: 40px; font-family: arial, helvetica, clean, sans-serif; color: #333333; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; line-height:19px;">
+             Misalkan kita dijadikan pimpro dari suatu robot research yang nantinya akan<br>
+didaratkan di Jupiter,<br>
+akankah kita akan membuat decision bagi team utk mendevelop robot itu<br>
+dengan python ? I don&#39;t think so,<br>
+kecuali python tersebut memang dijalankan di atas framework Java.<br>
+Kalau Java -nya sendiri masih ada kemungkinan laah.<br>
+<br>
+Pada 3 November 2013 22.23, Eko S.Wibowo &lt;swdev.bali@gmail.<wbr>com&gt; menulis:<br>
+<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; Lama banget ga sua di grup ini. Baik2 semua? :v<br>
+&gt; Ane jg lompat2 aja pas develop sih, dan malah jd jarang banget di Java.<br>
+&gt; Terakhir Java... cuman job u/ ngepackage aplikasi java spy jalan di osx.<br>
+&gt;<br>
+&gt; Sekarang malah lagi demeeeen banget develop web dengan python.<br>
+&gt; Apa memang mindset develop aplikasi di Java kompleks nian, atau Python<br>
+&gt; yang terlalu simple ya? Apalagi ane lagi develop pakai Flask<br>
+&gt; (microframework)<wbr>, ... berasa ringan banget. Jadinya terus bandinigin<br>
+&gt; ma Java dah.<br>
+&gt;<br>
+&gt; Soriiii kalau bisa menjurus ke Perang Api, tapi kalau dibandingin sama<br>
+&gt; Python, secara adopsi bisnis, tetep masih mature Java ya? Atau ... gmn<br>
+&gt; ya?<br>
+&gt;<br>
+&gt; Thanks.<br>
+&gt;<br>
+&gt; PS : gara2 demen banget, ane lg ngeblog Python disini :<br>
+&gt; http://pythonthusia<wbr>st.pythonblogs.<wbr>com Seneng pisan ma Python... :D<br>
+&gt;<br>
+&gt; --<br>
+&gt; Eko S. Wibowo<br>
+&gt; ------------<wbr>---------<wbr>-<br>
+&gt; http://about.<wbr>me/ekowibowo<br>
+&gt; *Building my own company*<br>
+&gt;  <br>
+&gt;<br>
+<br>
+-- <br>
+Alpha Bagus Sunggono, CBSP<br>
+(Certified Brownies Solution Provider)<br>
+         </div>
+        
+  
+  
+  
+  
+    
+
+  <div style="overflow:hidden; border-top:1px #e9e9e9 ; border-left: 1px #e9e9e9; border-right: 1px #e9e9e9; border-bottom: 1px #8a8a8a; border-style: solid ; z-index: -1; height: 25px; width: 524px; margin-left: 40px ">
+    <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; border-top: 1px #ffffff; background-color: #f6f6f6; padding: 5px 0px 5px 10px; margin-top: 1px; -webkit-text-size-adjust: none">
+                           <span style="margin-right: 4px;">
+           <a style="text-decoration: none" href="mailto:bagusalfa@gmail.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F" >
+            <span style="color: #3353f3; "> 
+            Reply to sender            </span>
+           </a> 
+          </span> 
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+           <a style="text-decoration: none" href="mailto:jug-indonesia@yahoogroups.com?subject=Re%3A%20Python%20%2E%2E%20anyone%3F" >
+            <span style="color: #3353f3; "> 
+            Reply to group            </span>
+           </a> 
+          </span>
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJydWx1OTU4BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEzBHNlYwNkbXNnBHNsawNycGx5BHN0aW1lAzEzODM3Mjg0MTg-?act=reply&messageNum=91413">
+            <span style="color: #3353f3; "> 
+            Reply  via Web Post
+            </span>
+          </a> 
+          </span>
+          <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/message/91403;_ylc=X3oDMTM3a29vdjJqBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDEzBHNlYwNkbXNnBHNsawN2dHBjBHN0aW1lAzEzODM3Mjg0MTgEdHBjSWQDOTE0MDM-">
+           <span style="color: #3353f3; "> 
+            All Messages  
+          (6)
+           </span>
+          </a>
+          </span> 
+          <span style="font-weight: bold"> . </span>
+
+          <span style="margin: 0px 9px 0px 9px;">
+          <a style="text-decoration: none; color: #3353f3;" href="#toc">
+            Top ^
+          </a> 
+          </span> 
+
+          <div style="clear:both;"> </div>
+                     </div>
+ </div>
+ </div>
+                 
+ <div style="float: left; margin-bottom: 40px;" >
+
+      <div style="width:564px; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+      <h2 style="float: left; margin: 0px; padding: 0px; width:30px; color: #222222; text-align: right; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+       3a  
+      </h2>
+    
+      <h2 style="float: left; width: 524px; padding: 0px; margin: 0px 0px 0px 10px; float: left; color: #222222; font-weight: bold; line-height:20px; font-family: arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none;">
+        <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/message/91411;_ylc=X3oDMTJybWpjamJxBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDExBHNlYwNkbXNnBHNsawN2bXNnBHN0aW1lAzEzODM3Mjg0MTg-" name="3a"> 
+        <span style="color: #3353f3;">
+        Re: [OOT] Membuat Web Site Booking Pesawat        </span>
+        </a>
+      </h2>
+      <div style="clear:both;"> </div>
+   </div> 
+   <div style="float:left; width: 524px; line-height:20px; margin-left: 40px; ">
+      <h4 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #000000; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px; pading: 0px;">
+        Tue Nov&nbsp;5,&nbsp;2013 6:12&nbsp;pm        (PST)        . Posted by:      </h4>
+
+      <h3 style="float: left; font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin: 0px 0px 0px 1px; padding: 0px ">
+        <a style="text-decoration:none;"  href="mailto:newm4n@gmail.com?subject=Re%3A%20%5BOOT%5D%20Membuat%20Web%20Site%20Booking%20Pesawat">
+        <span style="color: #3353f3;">
+        "Ferdinand Neman"         oetoeg         </span>
+        </a>
+      </h3>
+    </div>
+
+        <div style="width: 524px; float:left; margin-top: 22px; margin-bottom: 6px; margin-left: 40px; font-family: arial, helvetica, clean, sans-serif; color: #333333; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; line-height:19px;">
+             Galileo atau Sabre kalau gak salah adalah mekanisme untuk sharing Open <br>
+Fare/Seat Inventory jika ingin ticketing multi-lag dengan beberapa <br>
+maskapai, biar schedule dan booking di tiap-tiap airline bisa synchron. <br>
+Dan ini sebenarnya bukan untuk penerbangan internasional saja, domestik <br>
+boleh asalkan dalam 1 tiket ada beberapa lag yang di jalankan oleh lebih <br>
+dari 1 airline.<br>
+<br>
+Tapi kalau domestik, biasanya cukup dilayani 1 airline saja, karenanya <br>
+gak perlu lagi macam Sabre atau Galileo.<br>
+<br>
+Contoh.<br>
+<br>
+Terbang dari Jakarta, dengan tujuan Harare. Tidak ada 1 penerbangan-<wbr>pun <br>
+yang melayani penerbangan ini, walaupun multi-lag (contoh : <br>
+Jakarta-Singapore-<wbr>New Delhi-Cairo-<wbr>Cape Town-Harare)<wbr>.<br>
+<br>
+Dengan menggunakan Galileo atau Sabre maka untuk setiap lag bisa <br>
+dibooking pada airline berbeda beda dalam 1 tiket. Dimana tiap lag sudah <br>
+di sesuaikan jadwal waktu penerbangannya agar cocok.<br>
+<br>
+Jakarta - Singapore (Garuda)<br>
+Singapore - New Delhi - Cairo (Air India)<br>
+Cairo - Cape Town (Etihad)<br>
+Cape Town - Harare (SAA)<br>
+<br>
+Tiap-tiap airline tersebut harus buka (open fare) ketersediaan seat, dan <br>
+jadwal penerbangan mereka yang diatur dalam masing-masing protocol <br>
+(sabre atau galileo).<br>
+<br>
+Kalau nasional, Jakarta - Jaya Pura, banyak penerbangan lokal yang bisa <br>
+layani. Jadi gak perlu multi-lag antara bebera airline, cukup 1 airline.<br>
+<br>
+Untuk bisa ikutan booking pesawat di galileo/sabre, tentu airline <br>
+bersangkutan harus member. Tapi untuk liat open fare, mungkin gak perlu. <br>
+Kurang paham sayanya. Mungkin om Samuel boleh jelaskan, setau saya <br>
+beliau pernah develop something untuk sabre atau galileo, saya lupa.<br>
+<br>
+Kurang lebih begitu penjelasannya, klo ada yg salah, mohon koreksinya.<br>
+<br>
+Salam.<br>
+Ferdinand.<br>
+<br>
+On 11/4/13, 10:43 AM, adit novandri wrote:<br>
+&gt; Dear All<br>
+&gt;<br>
+&gt;<br>
+&gt; Mau nanya bagaimana cara nya membuat web site untuk booking pesawat, <br>
+&gt; data untuk penerbangannya apakah didapat dari web service yang <br>
+&gt; disediakan masing2 maskapai atau bagaimana ya ? Atau apakah ada pihak <br>
+&gt; ketiga yang memang sudah menyediakan service yang bisa dipakai untuk <br>
+&gt; berbagai macam jenis maskapai seperti galileo tapi untuk yang <br>
+&gt; penerbangan domestik mengingat galileo tadi udah coba nanya hanya <br>
+&gt; untuk penerbangan international saja.<br>
+&gt;<br>
+&gt;<br>
+&gt; regards,<br>
+&gt;<br>
+&gt; Adit<br>
+&gt; <br>
+<br>
+         </div>
+        
+  
+  
+  
+  
+    
+
+  <div style="overflow:hidden; border-top:1px #e9e9e9 ; border-left: 1px #e9e9e9; border-right: 1px #e9e9e9; border-bottom: 1px #8a8a8a; border-style: solid ; z-index: -1; height: 25px; width: 524px; margin-left: 40px ">
+    <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; border-top: 1px #ffffff; background-color: #f6f6f6; padding: 5px 0px 5px 10px; margin-top: 1px; -webkit-text-size-adjust: none">
+                           <span style="margin-right: 4px;">
+           <a style="text-decoration: none" href="mailto:newm4n@gmail.com?subject=Re%3A%20%5BOOT%5D%20Membuat%20Web%20Site%20Booking%20Pesawat" >
+            <span style="color: #3353f3; "> 
+            Reply to sender            </span>
+           </a> 
+          </span> 
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+           <a style="text-decoration: none" href="mailto:jug-indonesia@yahoogroups.com?subject=Re%3A%20%5BOOT%5D%20Membuat%20Web%20Site%20Booking%20Pesawat" >
+            <span style="color: #3353f3; "> 
+            Reply to group            </span>
+           </a> 
+          </span>
+           <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJybjI1ZmYzBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDExBHNlYwNkbXNnBHNsawNycGx5BHN0aW1lAzEzODM3Mjg0MTg-?act=reply&messageNum=91411">
+            <span style="color: #3353f3; "> 
+            Reply  via Web Post
+            </span>
+          </a> 
+          </span>
+          <span style="font-weight: bold"> . </span>
+          <span style="margin: 0px 4px 0px 4px;">
+          <a style="text-decoration: none" href="http://groups.yahoo.com/group/jug-indonesia/message/91406;_ylc=X3oDMTM3ZG9tMDFzBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BG1zZ0lkAzkxNDExBHNlYwNkbXNnBHNsawN2dHBjBHN0aW1lAzEzODM3Mjg0MTgEdHBjSWQDOTE0MDY-">
+           <span style="color: #3353f3; "> 
+            All Messages  
+          (3)
+           </span>
+          </a>
+          </span> 
+          <span style="font-weight: bold"> . </span>
+
+          <span style="margin: 0px 9px 0px 9px;">
+          <a style="text-decoration: none; color: #3353f3;" href="#toc">
+            Top ^
+          </a> 
+          </span> 
+
+          <div style="clear:both;"> </div>
+                     </div>
+ </div>
+ </div>
+         </div> 
+
+
+   <!-- Start vitality -->
+   <div style="float:left; width: 166px; ">
+   <div style="font-family: arial, helvetica, clean, sans-serif; color: #3353f3; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; ">
+
+          <div style="border-radius: 3px; border-style:solid; border-width:1px; padding: 10px 0px 8px 8px; background-color: #3353f3; " >
+        <div style="float: left; width:80%">
+         <a style="color: #ffffff; text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia;_ylc=X3oDMTJlc2NsZ285BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTM4MzcyODQxOA--">
+           <span style="color: #ffffff"> Visit Your Group </span>
+         </a>
+        </div>
+        <div style="float:left; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px; "> 
+         <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia;_ylc=X3oDMTJlc2NsZ285BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTM4MzcyODQxOA--">
+            <span style="color: #ffffff; "> &gt; </span>
+         </a>
+        </div>
+        <div style="clear:both;"> </div>
+      </div>
+
+         <div style="background-color: #f2f2f2; padding: 0px 0px 0px 8px; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #e5e5e5;">
+      <div style="width:80%; float:left; margin-top: 12px; margin-bottom: 12px;">
+        <a style="text-decoration:none" href="http://groups.yahoo.com/group/jug-indonesia/messages;_ylc=X3oDMTJmZjd0cXBqBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNkbXNnBHNsawNhdHBjBHN0aW1lAzEzODM3Mjg0MTg-?xm=1&m=p&tidx=1">
+         <span style="color: #3353f3; "> 
+          View All Topics         </span>
+         </a>
+      </div>
+      <div style="float:left; margin-top:10px; margin-bottom: 10px; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+       <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/messages;_ylc=X3oDMTJmZjd0cXBqBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNkbXNnBHNsawNhdHBjBHN0aW1lAzEzODM3Mjg0MTg-?xm=1&m=p&tidx=1">
+          <span style="color: #3353f3; "> &gt; </span>
+       </a>
+      </div>
+      <div style="clear:both"> </div>
+     </div>
+     <div style="background-color: #f2f2f2; padding: 0px 0px 0px 8px; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #e5e5e5;">
+      <div style="width:80%; float:left; margin-top: 12px; margin-bottom: 12px;">
+        <a style="text-decoration:none" href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJmOW9qamU3BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNkbXNnBHNsawNudHBjBHN0aW1lAzEzODM3Mjg0MTg-">
+         <span style="color: #3353f3; "> 
+         Create New Topic         </span>
+         </a>
+      </div>
+      <div style="float:left; margin-top:10px; margin-bottom: 10px; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+       <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/post;_ylc=X3oDMTJmOW9qamU3BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNkbXNnBHNsawNudHBjBHN0aW1lAzEzODM3Mjg0MTg-">
+          <span style="color: #3353f3; "> &gt; </span>
+       </a>
+      </div>
+      <div style="clear:both"> </div>
+     </div>
+   
+      <div >
+                             <div style="background-color: #f2f2f2; padding: 0px 0px 0px 8px; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #e5e5e5;">
+    <div style="width:80%; float:left; margin-top: 12px; margin-bottom: 12px;">
+    <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/members;_ylc=X3oDMTJmc251MzY3BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzEzODM3Mjg0MTg-?o=6"><span style="color: #3353f3"> 6 New Members</span> </a> 
+    </div>
+    <div style="float:left; margin-top:10px; margin-bottom: 10px; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+     <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/members;_ylc=X3oDMTJmc251MzY3BF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzEzODM3Mjg0MTg-?o=6">
+        <span style="color: #3353f3; "> &gt; </span>
+     </a>
+    </div>
+    <div style="clear:both"> </div>
+   </div>
+                                                          </div>
+     <div style="background-color: #ffffff; height: 27px; padding: 0px 0px 0px 8px; ">
+     </div>
+     <div style="background-color: #f2f2f2; padding: 0px 0px 0px 8px; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #e5e5e5;">
+      <div style="width:70%; float:left; margin-top: 12px; color: #333333;">We are making changes based on your feedback, Thank you ! 
+      </div>
+      <div style="width:80%; float:left; margin-top: 12px; margin-bottom: 12px;">
+         <a style="color: #ffffff; text-decoration:none;"  href="mailto:ygroupsnotifications@yahoogroups.com?subject=Feedback on the redesigned daily digest v4">
+             <span style="color: #3353f3"> Submit Feedback </span>
+         </a>
+      </div>
+      <div style="float:left; margin-top:10px; margin-bottom: 10px; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+       <a style="text-decoration:none;"  href="mailto:ygroupsnotifications@yahoogroups.com?subject=Feedback on the redesigned daily digest v4">
+          <span style="color: #3353f3; "> &gt; </span>
+       </a>
+      </div>
+      <div style="clear:both"> </div>
+     </div>
+     <div style="background-color: #f2f2f2; padding: 0px 0px 0px 8px; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #e5e5e5; ">
+      <div style="width:80%; float:left; margin-top: 12px; color: #333333;">The Yahoo! Groups Product Blog
+      </div>
+      <div style="width:80%; float:left; margin-top: 12px; margin-bottom: 12px;">
+         <a style="color: #ffffff; text-decoration:none;"  href="http://yahoogroups.tumblr.com/">
+             <span style="color: #3353f3"> Check it out! </span>
+         </a>
+      </div>
+      <div style="float:left; margin-top:10px; margin-bottom: 10px; font-size: 13px; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+       <a style="text-decoration:none;"  href="http://yahoogroups.tumblr.com/">
+          <span style="color: #3353f3; "> &gt; </span>
+       </a>
+      </div>
+      <div style="clear:both"> </div>
+     </div>
+      </div> <!-- End vitality -->
+
+   <div style="clear:both" > </div>
+  </div>
+  <div style="clear:both" > </div>
+ </div>
+
+    <div style="float: left; width: 800px; height: auto; background-color: #efefef; font-family: arial, helvetica, clean, sans-serif; color: #444444; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; margin-top: 10px"> 
+   <div style="float:right; padding: 15px 50px 0px 0px; font-size: 10px;">
+    GROUP FOOTER MESSAGE
+   </div>
+   <div style="width: 720px; padding: 30px 40px 24px 40px;" >
+    ====<BR>
+Web JUG adalah www.jug.or.id, dan fanpagenya adalah <a href="https://www.facebook.com/jug.indonesia">https://www.facebook.com/jug.indonesia</a><BR>
+===<BR>
+<BR>
+Kalau mau keluar dari mailing list ini, caranya kirim sebuah email ke jug-indonesia-unsubscribe@yahoogroups.com.<BR>
+<BR>
+Jangan lupa, website JUG Indonesia adalah <a href="http://www.jug.or.id">http://www.jug.or.id</a><BR>
+   </div>
+  </div>
+  
+   <div  style="float: left; width: 800px; height: 50px; font-family: arial, helvetica, clean, sans-serif; color: #ffffff; font-size: 13px; font-weight: bold; text-decoration: none; background-color:#393939; -webkit-text-size-adjust: none" >
+
+  <div style="float: left; width: 220px; padding: 5px 0px 2px 40px;">
+ <a style="text-decoration:none;" href="http://groups.yahoo.com/;_ylc=X3oDMTJkMXFlNmZrBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNmdHIEc2xrA2dmcARzdGltZQMxMzgzNzI4NDE4"><span style="color: #ffffff; height: 21px;"> <img src="http://l.yimg.com/ru/static/images/yg/img/email/new_logo/logo-groups-transparent-180x40.png" border="0" alt="Yahoo! Groups"> </img></a >
+  </div>
+
+  <div style="float: left; width: 166px; padding: 20px 0px 7px 24px;">
+   <div style="float: left;">
+      <a style="color: #ffffff; text-decoration:none;" href="http://groups.yahoo.com/group/jug-indonesia/join;_ylc=X3oDMTJmdmZoNWtrBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEzODM3Mjg0MTg-"><span style="color: #ffffff"> CHANGE SETTINGS </span></a>
+   </div>
+   <div style="float:left; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+     <a style="text-decoration:none;"  href="http://groups.yahoo.com/group/jug-indonesia/join;_ylc=X3oDMTJmdmZoNWtrBF9TAzk3MzU5NzE1BGdycElkAzk4Nzc3NDAEZ3Jwc3BJZAMxNzA1MDA2OTA1BHNlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEzODM3Mjg0MTg-">
+        <span style="color: #ffffff; "> &gt; </span>
+     </a>
+   </div>
+  </div>
+
+  <div style="float: left; width: 123px; padding: 20px 0px 7px 18px;">
+   <div style="float: left;">
+     <a style="color: #ffffff; text-decoration:none;  " href="http://info.yahoo.com/legal/us/yahoo/utos/terms/">
+       <span style="color: #ffffff"> TERMS OF USE </span>
+     </a> 
+   </div>
+   <div style="float:left; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+     <a style="text-decoration:none;"  href="http://info.yahoo.com/legal/us/yahoo/utos/terms/">
+        <span style="color: #ffffff; "> &gt; </span>
+     </a>
+   </div>
+  </div>
+
+  <div style="float: left; width: 119px; padding: 20px 36px 7px 18px;">
+   <div style="float: left;">
+     <a style="color: #ffffff; text-decoration:none;" href="mailto:jug-indonesia-unsubscribe@yahoogroups.com?subject=Unsubscribe">
+       <span style="color: #ffffff"> UNSUBSCRIBE </span>
+     </a>
+   </div>
+   <div style="float:left; color: #ffffff; text-align: center; width: 20px; height: 20px;"> 
+     <a style="text-decoration:none;"  href="mailto:jug-indonesia-unsubscribe@yahoogroups.com?subject=Unsubscribe">
+        <span style="color: #ffffff; "> &gt; </span>
+     </a>
+   </div>
+  </div>
+
+ </div> 
+ <div style="clear:both" > </div>
+</div> 
+</body>
+</html>

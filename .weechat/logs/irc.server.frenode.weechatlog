@@ -1,0 +1,9 @@
+2014-02-01 12:07:07	--	irc: connecting to server frenode/6667...
+2014-02-01 12:07:08	=!=	irc: address "frenode" not found
+2014-02-01 12:07:08	=!=	irc: error: Name or service not known
+2014-02-01 12:07:08	--	irc: reconnecting to server in 10 seconds
+2014-02-01 12:07:18	--	irc: reconnecting to server...
+2014-02-01 12:07:18	--	irc: connecting to server frenode/6667...
+2014-02-01 12:07:18	=!=	irc: address "frenode" not found
+2014-02-01 12:07:18	=!=	irc: error: Name or service not known
+2014-02-01 12:07:18	--	irc: reconnecting to server in 20 seconds

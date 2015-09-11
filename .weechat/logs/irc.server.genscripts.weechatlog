@@ -1,0 +1,83 @@
+2013-08-11 13:28:08	--	irc: connecting to server irc.genscripts.net/6667 (SSL)...
+2013-08-11 13:28:10	=!=	irc: TLS handshake failed
+2013-08-11 13:28:10	=!=	irc: error: An unexpected TLS packet was received.
+2013-08-11 13:28:10	--	irc: reconnecting to server in 10 seconds
+2013-08-11 13:28:20	--	irc: reconnecting to server...
+2013-08-11 13:28:20	--	irc: connecting to server irc.genscripts.net/6667 (SSL)...
+2013-08-11 13:28:21	=!=	irc: TLS handshake failed
+2013-08-11 13:28:21	=!=	irc: error: An unexpected TLS packet was received.
+2013-08-11 13:28:21	--	irc: reconnecting to server in 20 seconds
+2013-08-11 13:28:41	--	irc: reconnecting to server...
+2013-08-11 13:28:41	--	irc: connecting to server irc.genscripts.net/6667 (SSL)...
+2013-08-11 13:28:42	=!=	irc: TLS handshake failed
+2013-08-11 13:28:42	=!=	irc: error: An unexpected TLS packet was received.
+2013-08-11 13:28:42	--	irc: reconnecting to server in 40 seconds
+2013-08-11 13:29:22	--	irc: reconnecting to server...
+2013-08-11 13:29:22	--	irc: connecting to server irc.genscripts.net/6667 (SSL)...
+2013-08-11 13:29:23	=!=	irc: TLS handshake failed
+2013-08-11 13:29:23	=!=	irc: error: An unexpected TLS packet was received.
+2013-08-11 13:29:23	--	irc: reconnecting to server in 1 minute, 20 seconds
+2013-08-11 16:18:10	--	irc: connecting to server irc.genscripts.net/6667...
+2013-08-11 16:18:10	--	irc: connected to irc.genscripts.net/6667 (174.123.79.125)
+2013-08-11 16:18:10	--	zeus.genscripts.net (zeus.genscripts.net): *** Looking up your hostname...
+2013-08-11 16:18:10	--	zeus.genscripts.net (zeus.genscripts.net): *** Checking Ident
+2013-08-11 16:18:11	--	zeus.genscripts.net (zeus.genscripts.net): *** Found your hostname
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** No Ident response
+2013-08-11 16:18:23	--	Welcome to the Genscripts IRC Network renodesper!renodesper@114.79.3.142
+2013-08-11 16:18:23	--	Your host is zeus.genscripts.net, running version solid-ircd-3.4(08)stable
+2013-08-11 16:18:23	--	*** Your host is zeus.genscripts.net, running version solid-ircd-3.4(08)stable
+2013-08-11 16:18:23	--	This server was created Sun Jan 6 2013 at 19:33:03 CST
+2013-08-11 16:18:23	--	zeus.genscripts.net solid-ircd-3.4(08)stable aAbcCdefFghHiIjkKmnoOrRsvwxXy bceiIjklLmMnoOprRstv
+2013-08-11 16:18:23	--	NETWORK=Genscripts SAFELIST MAXBANS=100 MAXCHANNELS=20 CHANNELLEN=32 KICKLEN=307 NICKLEN=25 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:20 PREFIX=(ohv)@%+ STATUSMSG=@+ :are available on this server
+2013-08-11 16:18:23	--	CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,cimMnOprRstNS MAXLIST=b:100,e:45,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2013-08-11 16:18:23	--	There are 8 users and 43 invisible on 3 servers
+2013-08-11 16:18:23	--	29 :IRC Operators online
+2013-08-11 16:18:23	--	11 :channels formed
+2013-08-11 16:18:23	--	I have 27 clients and 0 servers
+2013-08-11 16:18:23	--	Current local users: 27 Max: 106
+2013-08-11 16:18:23	--	Current global users: 51 Max: 126
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- motd was last changed at 23/3/2013 17:24
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- Please read the motd if you haven't read it
+2013-08-11 16:18:23	--	- zeus.genscripts.net Message of the Day -
+2013-08-11 16:18:23	--	- *** This is the short motd ***
+2013-08-11 16:18:23	--	End of /MOTD command.
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- This server runs an open proxy monitor to prevent abuse.
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- If you see connections on various ports from proxy.genscripts.com
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- please disregard them, as they are the monitor in action.
+2013-08-11 16:18:23	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- For more information please visit http://www.genscripts.net
+2013-08-11 16:18:23	--	User mode [+v] by renodesper
+2013-08-11 16:18:23	--	NickServ (NickServ@services.genscripts.net): Welcome to Genscripts, renodesper! Here on Genscripts, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+2013-08-11 16:18:23	--	CTCP requested by StatServ2: VERSION
+2013-08-11 16:18:23	--	CTCP reply to StatServ2: VERSION WeeChat 0.4.1 (May 20 2013)
+2013-08-17 08:37:58	--	irc: connecting to server irc.genscripts.net/6667...
+2013-08-17 08:37:59	--	irc: connected to irc.genscripts.net/6667 (174.123.79.125)
+2013-08-17 08:37:59	--	zeus.genscripts.net (zeus.genscripts.net): *** Looking up your hostname...
+2013-08-17 08:37:59	--	zeus.genscripts.net (zeus.genscripts.net): *** Checking Ident
+2013-08-17 08:37:59	--	zeus.genscripts.net (zeus.genscripts.net): *** Found your hostname
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** No Ident response
+2013-08-17 08:38:13	--	Welcome to the Genscripts IRC Network renodesper!renodesper@114.79.2.21
+2013-08-17 08:38:13	--	Your host is zeus.genscripts.net, running version solid-ircd-3.4(08)stable
+2013-08-17 08:38:13	--	*** Your host is zeus.genscripts.net, running version solid-ircd-3.4(08)stable
+2013-08-17 08:38:13	--	This server was created Sun Jan 6 2013 at 19:33:03 CST
+2013-08-17 08:38:13	--	zeus.genscripts.net solid-ircd-3.4(08)stable aAbcCdefFghHiIjkKmnoOrRsvwxXy bceiIjklLmMnoOprRstv
+2013-08-17 08:38:13	--	NETWORK=Genscripts SAFELIST MAXBANS=100 MAXCHANNELS=20 CHANNELLEN=32 KICKLEN=307 NICKLEN=25 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:20 PREFIX=(ohv)@%+ STATUSMSG=@+ :are available on this server
+2013-08-17 08:38:13	--	CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,cimMnOprRstNS MAXLIST=b:100,e:45,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2013-08-17 08:38:13	--	There are 9 users and 43 invisible on 3 servers
+2013-08-17 08:38:13	--	30 :IRC Operators online
+2013-08-17 08:38:13	--	11 :channels formed
+2013-08-17 08:38:13	--	I have 28 clients and 0 servers
+2013-08-17 08:38:13	--	Current local users: 28 Max: 106
+2013-08-17 08:38:13	--	Current global users: 52 Max: 126
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- motd was last changed at 23/3/2013 17:24
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- Please read the motd if you haven't read it
+2013-08-17 08:38:13	--	- zeus.genscripts.net Message of the Day -
+2013-08-17 08:38:13	--	- *** This is the short motd ***
+2013-08-17 08:38:13	--	End of /MOTD command.
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- This server runs an open proxy monitor to prevent abuse.
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- If you see connections on various ports from proxy.genscripts.com
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- please disregard them, as they are the monitor in action.
+2013-08-17 08:38:13	--	zeus.genscripts.net (zeus.genscripts.net): *** Notice -- For more information please visit http://www.genscripts.net
+2013-08-17 08:38:13	--	User mode [+v] by renodesper
+2013-08-17 08:38:13	--	NickServ (NickServ@services.genscripts.net): Welcome to Genscripts, renodesper! Here on Genscripts, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+2013-08-17 08:38:13	--	CTCP requested by StatServ2: VERSION
+2013-08-17 08:38:13	--	CTCP reply to StatServ2: VERSION WeeChat 0.4.1 (May 20 2013)

@@ -1,0 +1,18 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+mpd_host localhost
+
+
+TEXT
+^ca(1, amixer -q set Master toggle)\
+^ca(4, amixer -q set Master 5%+ unmute)\
+^ca(5, amixer -q set Master 5%- unmute)\
+^bg(\#ffffff)^fg(\#336699)  ^i(/home/renodesper/.scripts/icons/vol1.xbm)  \
+^bg(\#ffffff)^fg(\#000000)${exec ~/.scripts/volumebar.sh}  \
+^ca()^ca()^ca()\
+^bg(\#ffffff)^fg(\#336699)  ^i(/home/renodesper/.scripts/icons/batt1full.xbm)  ^bg(\#ffffff)^fg(\#000000)${execi 120 ~/.scripts/batterybar.sh}  \
+^ca(1, ~/.scripts/calendar.sh)^bg(\#ffffff)^fg(\#336699)  ^i(/home/$USER/.scripts/icons/clock1.xbm)  ^bg(\#ffffff)^fg(\#000000)${time %a, %d %b '%y}  ^ca()\
+^ca(1, ~/.scripts/clock.sh)^bg(\#ffffff)^fg(\#336699)  ^i(/home/$USER/.scripts/icons/clock1.xbm)  ^bg(\#ffffff)^fg(\#000000)${time %H:%M}  ^ca()\

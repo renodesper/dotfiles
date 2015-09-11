@@ -1,0 +1,537 @@
+2015-06-17 23:42:36	-->	renodesper (~renodespe@36.72.99.135) has joined #archlinux-unregistered
+2015-06-17 23:42:36	--	Topic for #archlinux-unregistered is "=== You cannot join #archlinux until you are identified with NickServ.  Register and identify by following the instructions at <http://freenode.net/faq.shtml#nicksetup>.  You can get a list of people who can help you by typing `/msg chanserv access #archlinux list`, or join #freenode and ask there.  ===   No one will see what you say in here.  ==="
+2015-06-17 23:42:36	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Mon, 29 Dec 2014 01:13:19
+2015-06-17 23:42:36	--	Channel #archlinux-unregistered: 207 nicks (6 ops, 0 voices, 201 normals)
+2015-06-17 23:42:39	--	Channel created on Sun, 28 Dec 2014 06:49:46
+2015-06-17 23:43:05	-->	_afu_ has joined #archlinux-unregistered
+2015-06-17 23:43:16	-->	sledgeha1mer has joined #archlinux-unregistered
+2015-06-17 23:43:19	-->	lurkii_ has joined #archlinux-unregistered
+2015-06-17 23:43:19	-->	Boyne_ has joined #archlinux-unregistered
+2015-06-17 23:43:21	-->	stalwart629 has joined #archlinux-unregistered
+2015-06-17 23:43:21	@evilgrawity	stalwart629: You can "/join #archlinux" now.
+2015-06-17 23:43:21	-->	dr_rokowski1 has joined #archlinux-unregistered
+2015-06-17 23:43:22	-->	Icabob has joined #archlinux-unregistered
+2015-06-17 23:43:24	-->	Strog_ has joined #archlinux-unregistered
+2015-06-17 23:43:25	-->	NoSyK has joined #archlinux-unregistered
+2015-06-17 23:43:25	-->	emperiz- has joined #archlinux-unregistered
+2015-06-17 23:43:25	-->	_CommandeR_ has joined #archlinux-unregistered
+2015-06-17 23:43:30	-->	berceanu_ has joined #archlinux-unregistered
+2015-06-17 23:43:32	-->	helasrai1am has joined #archlinux-unregistered
+2015-06-17 23:43:38	-->	yoshi314_ has joined #archlinux-unregistered
+2015-06-17 23:43:41	-->	axyridis_ has joined #archlinux-unregistered
+2015-06-17 23:43:50	-->	otome_ has joined #archlinux-unregistered
+2015-06-17 23:43:51	-->	KittyKatt_ has joined #archlinux-unregistered
+2015-06-17 23:43:56	-->	msx1 has joined #archlinux-unregistered
+2015-06-17 23:43:56	-->	rocker2344_ has joined #archlinux-unregistered
+2015-06-17 23:43:57	-->	valir has joined #archlinux-unregistered
+2015-06-17 23:44:11	-->	camerongray_ has joined #archlinux-unregistered
+2015-06-17 23:44:14	-->	Guest33794 has joined #archlinux-unregistered
+2015-06-17 23:44:32	-->	justin8_ has joined #archlinux-unregistered
+2015-06-17 23:44:35	-->	bubbathevtog_ has joined #archlinux-unregistered
+2015-06-17 23:44:48	-->	Aziroshin_ has joined #archlinux-unregistered
+2015-06-17 23:44:49	@evilgrawity	NoSyK: You can "/join #archlinux" now.
+2015-06-17 23:44:50	-->	Kilroo1 has joined #archlinux-unregistered
+2015-06-17 23:44:52	-->	friese has joined #archlinux-unregistered
+2015-06-17 23:44:57	<--	NoSyK has left #archlinux-unregistered
+2015-06-17 23:45:07	<--	savantgarde has quit (Remote host closed the connection)
+2015-06-17 23:45:09	<--	tty2 has quit (*.net *.split)
+2015-06-17 23:45:09	<--	axyridis has quit (*.net *.split)
+2015-06-17 23:45:09	<--	stalwart729 has quit (*.net *.split)
+2015-06-17 23:45:09	<--	rocker2344 has quit (*.net *.split)
+2015-06-17 23:45:09	<--	lurkii has quit (*.net *.split)
+2015-06-17 23:45:09	<--	Rena has quit (*.net *.split)
+2015-06-17 23:45:09	<--	helasraizam has quit (*.net *.split)
+2015-06-17 23:45:10	<--	justin8 has quit (*.net *.split)
+2015-06-17 23:45:10	<--	berceanu has quit (*.net *.split)
+2015-06-17 23:45:10	<--	dflurker has quit (*.net *.split)
+2015-06-17 23:45:10	<--	Artpicre has quit (*.net *.split)
+2015-06-17 23:47:05	-->	sysrmr has joined #archlinux-unregistered
+2015-06-17 23:47:08	<--	letik has quit (Ping timeout: 272 seconds)
+2015-06-17 23:47:52	-->	pablotron has joined #archlinux-unregistered
+2015-06-17 23:47:52	@evilgrawity	pablotron: You can "/join #archlinux" now.
+2015-06-17 23:48:19	-->	savantgarde has joined #archlinux-unregistered
+2015-06-17 23:48:41	-->	MZK has joined #archlinux-unregistered
+2015-06-17 23:48:44	@evilgrawity	savantgarde: You can "/join #archlinux" now.
+2015-06-17 23:49:10	<--	pablotron has left #archlinux-unregistered
+2015-06-17 23:49:10	<--	savantgarde has left #archlinux-unregistered
+2015-06-17 23:49:26	-->	tty2 has joined #archlinux-unregistered
+2015-06-17 23:50:42	<--	Guest33794 has quit (Quit: Hequinox)
+2015-06-17 23:51:07	<--	axyridis_ has quit (Ping timeout: 250 seconds)
+2015-06-17 23:51:15	<--	msx1 has left #archlinux-unregistered
+2015-06-17 23:51:20	<--	oxhak_ has quit (Remote host closed the connection)
+2015-06-17 23:52:18	--	_CommandeR_ is now known as Justice
+2015-06-17 23:52:19	-->	llinguini has joined #archlinux-unregistered
+2015-06-17 23:52:46	-->	tasse has joined #archlinux-unregistered
+2015-06-17 23:52:46	@evilgrawity	tasse: You can "/join #archlinux" now.
+2015-06-17 23:52:56	<--	tasse has left #archlinux-unregistered
+2015-06-17 23:53:36	-->	dunp has joined #archlinux-unregistered
+2015-06-17 23:53:36	@evilgrawity	dunp: You can "/join #archlinux" now.
+2015-06-17 23:53:44	<--	Tesla421 has quit (Quit: Leaving.)
+2015-06-17 23:54:23	-->	neozaru has joined #archlinux-unregistered
+2015-06-17 23:54:54	<--	MrPeacock has quit (Ping timeout: 276 seconds)
+2015-06-17 23:55:28	<--	dunp has left #archlinux-unregistered
+2015-06-17 23:58:41	-->	scientes has joined #archlinux-unregistered
+2015-06-17 23:58:41	@evilgrawity	scientes: You can "/join #archlinux" now.
+2015-06-17 23:59:23	-->	jagob has joined #archlinux-unregistered
+2015-06-18 00:00:37	-->	s4ndm4n has joined #archlinux-unregistered
+2015-06-18 00:00:40	<--	s4ndm4n has quit (Max SendQ exceeded)
+2015-06-18 00:01:08	-->	s4ndm4n has joined #archlinux-unregistered
+2015-06-18 00:01:08	<--	s4ndm4n has quit (Changing host)
+2015-06-18 00:01:08	-->	s4ndm4n has joined #archlinux-unregistered
+2015-06-18 00:01:09	@evilgrawity	s4ndm4n: You can "/join #archlinux" now.
+2015-06-18 00:01:25	<--	s4ndm4n has left #archlinux-unregistered
+2015-06-18 00:01:46	-->	h0ru5 has joined #archlinux-unregistered
+2015-06-18 00:02:46	<--	iconz has quit (Quit: leaving)
+2015-06-18 00:03:50	-->	hopses has joined #archlinux-unregistered
+2015-06-18 00:04:22	@evilgrawity	hopses: You can "/join #archlinux" now.
+2015-06-18 00:04:31	<--	hopses has left #archlinux-unregistered
+2015-06-18 00:04:57	-->	hejux has joined #archlinux-unregistered
+2015-06-18 00:09:19	<--	atarocch has quit (Ping timeout: 250 seconds)
+2015-06-18 00:10:30	<--	mcescher has quit (Ping timeout: 256 seconds)
+2015-06-18 00:10:36	-->	abara has joined #archlinux-unregistered
+2015-06-18 00:11:58	-->	ktlr has joined #archlinux-unregistered
+2015-06-18 00:11:58	@evilgrawity	ktlr: You can "/join #archlinux" now.
+2015-06-18 00:12:46	<--	llinguini has quit (Ping timeout: 256 seconds)
+2015-06-18 00:12:52	-->	Madinn has joined #archlinux-unregistered
+2015-06-18 00:14:14	-->	Bhavya has joined #archlinux-unregistered
+2015-06-18 00:15:52	<--	Madinn_ has quit (Ping timeout: 276 seconds)
+2015-06-18 00:16:09	-->	savantgarde has joined #archlinux-unregistered
+2015-06-18 00:16:52	<--	GriefNorth has quit (Quit: Konversation terminated!)
+2015-06-18 00:18:18	<--	mongole has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:18:28	-->	setty1 has joined #archlinux-unregistered
+2015-06-18 00:18:44	@evilgrawity	setty1: You can "/join #archlinux" now.
+2015-06-18 00:19:35	<--	Popsikle has left #archlinux-unregistered
+2015-06-18 00:20:30	<--	Justice has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:20:32	-->	charlytavu has joined #archlinux-unregistered
+2015-06-18 00:20:32	@evilgrawity	charlytavu: You can "/join #archlinux" now.
+2015-06-18 00:22:42	<--	Scou13t has quit (Remote host closed the connection)
+2015-06-18 00:22:46	-->	dureyes has joined #archlinux-unregistered
+2015-06-18 00:23:10	<--	dr_rokowski1 has quit (Quit: WeeChat 1.2)
+2015-06-18 00:23:37	-->	dr_rokowski has joined #archlinux-unregistered
+2015-06-18 00:23:37	@evilgrawity	dr_rokowski: You can "/join #archlinux" now.
+2015-06-18 00:25:50	<--	dr_rokowski has left #archlinux-unregistered
+2015-06-18 00:26:23	<--	_1k5 has quit (Quit: leaving)
+2015-06-18 00:26:59	-->	VideahGams has joined #archlinux-unregistered
+2015-06-18 00:27:14	-->	llinguini has joined #archlinux-unregistered
+2015-06-18 00:27:14	-->	I has joined #archlinux-unregistered
+2015-06-18 00:27:38	--	I is now known as Guest33198
+2015-06-18 00:27:54	<--	Guest33198 has quit (Remote host closed the connection)
+2015-06-18 00:29:30	-->	_1k5 has joined #archlinux-unregistered
+2015-06-18 00:29:44	<--	_1k5 has quit (Client Quit)
+2015-06-18 00:30:17	@evilgrawity	_afu_: You can "/join #archlinux" now.
+2015-06-18 00:30:26	<--	headtrip has quit (Quit: (null))
+2015-06-18 00:30:32	<--	_afu_ has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:30:44	<--	Lynkzz has quit (Quit: Leaving)
+2015-06-18 00:31:41	@evilgrawity	dureyes: You can "/join #archlinux" now.
+2015-06-18 00:32:06	<--	Awesomesaurus has quit (Ping timeout: 272 seconds)
+2015-06-18 00:32:18	<--	dureyes has left #archlinux-unregistered
+2015-06-18 00:32:43	-->	jolda has joined #archlinux-unregistered
+2015-06-18 00:32:44	-->	zaurav has joined #archlinux-unregistered
+2015-06-18 00:33:45	@evilgrawity	zaurav: You can "/join #archlinux" now.
+2015-06-18 00:33:56	<--	zaurav has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:34:15	-->	AlexTznet has joined #archlinux-unregistered
+2015-06-18 00:36:30	<--	Kelzier has quit (Ping timeout: 276 seconds)
+2015-06-18 00:36:50	-->	impius has joined #archlinux-unregistered
+2015-06-18 00:37:02	<--	emperiz- has quit (Quit: Leaving)
+2015-06-18 00:37:07	-->	Kelzier has joined #archlinux-unregistered
+2015-06-18 00:38:22	-->	HNIakahaven has joined #archlinux-unregistered
+2015-06-18 00:38:58	@evilgrawity	impius: You can "/join #archlinux" now.
+2015-06-18 00:38:59	-->	mihok has joined #archlinux-unregistered
+2015-06-18 00:39:00	@evilgrawity	mihok: You can "/join #archlinux" now.
+2015-06-18 00:39:09	<--	impius has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:39:32	<--	savantgarde has quit (Remote host closed the connection)
+2015-06-18 00:39:35	<--	piezo has quit (Read error: Connection reset by peer)
+2015-06-18 00:39:52	-->	Scou13t has joined #archlinux-unregistered
+2015-06-18 00:40:54	-->	capeta has joined #archlinux-unregistered
+2015-06-18 00:40:54	<--	capeta has quit (Changing host)
+2015-06-18 00:40:54	-->	capeta has joined #archlinux-unregistered
+2015-06-18 00:40:54	@evilgrawity	capeta: You can "/join #archlinux" now.
+2015-06-18 00:41:26	<--	capeta has left #archlinux-unregistered
+2015-06-18 00:42:25	<--	grawity has left #archlinux-unregistered
+2015-06-18 00:42:26	-->	grawity has joined #archlinux-unregistered
+2015-06-18 00:42:26	--	Mode #archlinux-unregistered [+o grawity] by ChanServ
+2015-06-18 00:43:56	-->	Kron has joined #archlinux-unregistered
+2015-06-18 00:43:56	@evilgrawity	Kron: You can "/join #archlinux" now.
+2015-06-18 00:44:36	--	Strog_ is now known as Strog
+2015-06-18 00:44:43	<--	abara has quit (Read error: Connection reset by peer)
+2015-06-18 00:45:18	-->	abara has joined #archlinux-unregistered
+2015-06-18 00:45:48	<--	Strog has quit (Changing host)
+2015-06-18 00:45:48	-->	Strog has joined #archlinux-unregistered
+2015-06-18 00:45:48	@evilgrawity	Strog: You can "/join #archlinux" now.
+2015-06-18 00:45:52	<--	Human_G33k has quit (Ping timeout: 252 seconds)
+2015-06-18 00:46:29	<--	Strog has left #archlinux-unregistered
+2015-06-18 00:48:32	<--	MZK has quit (Ping timeout: 264 seconds)
+2015-06-18 00:48:55	<--	Kron has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 00:49:05	@evilgrawity	sotram: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 00:50:19	<--	Kelzier has quit (Ping timeout: 276 seconds)
+2015-06-18 00:51:39	-->	everywhere has joined #archlinux-unregistered
+2015-06-18 00:51:44	-->	brosnan has joined #archlinux-unregistered
+2015-06-18 00:52:19	-->	PewZ has joined #archlinux-unregistered
+2015-06-18 00:52:26	<--	brosnan has quit (Changing host)
+2015-06-18 00:52:26	-->	brosnan has joined #archlinux-unregistered
+2015-06-18 00:52:27	@evilgrawity	brosnan: You can "/join #archlinux" now.
+2015-06-18 00:52:46	<--	brosnan has left #archlinux-unregistered
+2015-06-18 00:52:51	-->	thansen has joined #archlinux-unregistered
+2015-06-18 00:53:49	<--	goatman_ has quit (Ping timeout: 264 seconds)
+2015-06-18 00:54:05	<--	sotram has quit (Quit: Leaving)
+2015-06-18 00:54:24	-->	sotram has joined #archlinux-unregistered
+2015-06-18 00:56:28	-->	savantgarde has joined #archlinux-unregistered
+2015-06-18 00:56:28	@evilgrawity	savantgarde: You can "/join #archlinux" now.
+2015-06-18 00:58:01	<--	bigeast has quit (Ping timeout: 264 seconds)
+2015-06-18 00:58:28	-->	Matty_r has joined #archlinux-unregistered
+2015-06-18 00:59:05	<--	ktlr has quit (Quit: Leaving)
+2015-06-18 00:59:16	<--	charlytavu has quit (Quit: Quitte)
+2015-06-18 00:59:41	-->	Treah_Work has joined #archlinux-unregistered
+2015-06-18 00:59:57	<--	gnoze5 has quit (Remote host closed the connection)
+2015-06-18 01:00:17	@evilgrawity	Treah_Work: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 01:00:27	-->	Scou13t_ has joined #archlinux-unregistered
+2015-06-18 01:00:30	@evilgrawity	Treah_Work: You can "/join #archlinux" now.
+2015-06-18 01:00:33	<--	Matty_rr has quit (Ping timeout: 244 seconds)
+2015-06-18 01:00:36	<--	Goatman has quit (Ping timeout: 272 seconds)
+2015-06-18 01:00:50	<--	savantgarde has left #archlinux-unregistered
+2015-06-18 01:00:53	-->	Binero has joined #archlinux-unregistered
+2015-06-18 01:00:53	@evilgrawity	Binero: You can "/join #archlinux" now.
+2015-06-18 01:01:30	<--	Treah_Work has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:01:37	-->	MrPeacock has joined #archlinux-unregistered
+2015-06-18 01:01:37	@evilgrawity	MrPeacock: You can "/join #archlinux" now.
+2015-06-18 01:01:41	-->	everywhe` has joined #archlinux-unregistered
+2015-06-18 01:01:48	-->	tarok has joined #archlinux-unregistered
+2015-06-18 01:02:20	<--	Scou13t_ has quit (Client Quit)
+2015-06-18 01:02:32	<--	HNIakahaven has left #archlinux-unregistered
+2015-06-18 01:02:35	<--	sotram has quit (Quit: Leaving)
+2015-06-18 01:02:56	<--	Rokixz has quit (Ping timeout: 264 seconds)
+2015-06-18 01:03:15	<--	hejux has quit (Remote host closed the connection)
+2015-06-18 01:03:24	-->	hejux has joined #archlinux-unregistered
+2015-06-18 01:04:06	<--	everywhere has quit (Read error: Connection reset by peer)
+2015-06-18 01:04:06	<--	hejux has quit (Remote host closed the connection)
+2015-06-18 01:05:34	-->	snipyz has joined #archlinux-unregistered
+2015-06-18 01:06:21	@evilgrawity	snipyz: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 01:06:31	<--	Madinn has left #archlinux-unregistered
+2015-06-18 01:06:50	-->	imv has joined #archlinux-unregistered
+2015-06-18 01:07:34	<--	everywhe` has quit (Ping timeout: 272 seconds)
+2015-06-18 01:08:07	<--	jolda has quit
+2015-06-18 01:08:42	-->	v{}id has joined #archlinux-unregistered
+2015-06-18 01:09:42	-->	starly_ has joined #archlinux-unregistered
+2015-06-18 01:09:45	<--	starly_ has quit (Client Quit)
+2015-06-18 01:10:13	-->	zaurav has joined #archlinux-unregistered
+2015-06-18 01:11:03	<--	zaurav has quit (Client Quit)
+2015-06-18 01:11:21	-->	Florin has joined #archlinux-unregistered
+2015-06-18 01:11:45	--	Florin is now known as Guest6842
+2015-06-18 01:11:51	-->	avinashrbhat has joined #archlinux-unregistered
+2015-06-18 01:12:55	<--	rettori has quit (Read error: Connection reset by peer)
+2015-06-18 01:12:56	-->	Herbalist has joined #archlinux-unregistered
+2015-06-18 01:12:56	<--	Herbalist has quit (Changing host)
+2015-06-18 01:12:56	-->	Herbalist has joined #archlinux-unregistered
+2015-06-18 01:12:57	@evilgrawity	Herbalist: You can "/join #archlinux" now.
+2015-06-18 01:13:36	<--	Herbalist has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:15:06	-->	test` has joined #archlinux-unregistered
+2015-06-18 01:18:30	-->	pandb has joined #archlinux-unregistered
+2015-06-18 01:18:34	-->	flexus has joined #archlinux-unregistered
+2015-06-18 01:18:44	@evilgrawity	pandb: You can "/join #archlinux" now.
+2015-06-18 01:18:44	@evilgrawity	flexus: You can "/join #archlinux" now.
+2015-06-18 01:18:58	<--	flexus has left #archlinux-unregistered
+2015-06-18 01:20:12	-->	jny has joined #archlinux-unregistered
+2015-06-18 01:21:01	<--	test` has left #archlinux-unregistered
+2015-06-18 01:21:39	-->	jolda has joined #archlinux-unregistered
+2015-06-18 01:21:53	<--	Scou13t has quit (Remote host closed the connection)
+2015-06-18 01:21:58	-->	feelsqually has joined #archlinux-unregistered
+2015-06-18 01:25:19	<--	MrPeacock has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:26:13	<--	Guest6842 has quit (Ping timeout: 255 seconds)
+2015-06-18 01:30:57	-->	Scou13t has joined #archlinux-unregistered
+2015-06-18 01:34:01	-->	tomracing79 has joined #archlinux-unregistered
+2015-06-18 01:34:36	-->	finisboy has joined #archlinux-unregistered
+2015-06-18 01:35:02	-->	kriegersaurusrex has joined #archlinux-unregistered
+2015-06-18 01:36:42	-->	bluedrc has joined #archlinux-unregistered
+2015-06-18 01:37:01	<--	kreg has quit (Ping timeout: 255 seconds)
+2015-06-18 01:37:03	-->	shmibs has joined #archlinux-unregistered
+2015-06-18 01:37:03	@evilgrawity	shmibs: You can "/join #archlinux" now.
+2015-06-18 01:37:12	<--	llinguini has quit (Ping timeout: 256 seconds)
+2015-06-18 01:37:17	-->	axyridis_ has joined #archlinux-unregistered
+2015-06-18 01:38:09	<--	shmibs has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:38:13	<--	ThePub has quit (Ping timeout: 264 seconds)
+2015-06-18 01:38:30	-->	whitebook has joined #archlinux-unregistered
+2015-06-18 01:39:24	-->	owen has joined #archlinux-unregistered
+2015-06-18 01:39:37	<--	jonas_buet has quit (Read error: Connection reset by peer)
+2015-06-18 01:40:13	-->	zanny has joined #archlinux-unregistered
+2015-06-18 01:40:13	@evilgrawity	zanny: You can "/join #archlinux" now.
+2015-06-18 01:40:27	-->	jonas_buet has joined #archlinux-unregistered
+2015-06-18 01:40:54	-->	Florin_ has joined #archlinux-unregistered
+2015-06-18 01:41:31	<--	zanny has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:42:16	-->	mohammad has joined #archlinux-unregistered
+2015-06-18 01:42:29	<--	aryklein has left #archlinux-unregistered
+2015-06-18 01:42:40	--	mohammad is now known as Guest67193
+2015-06-18 01:44:16	<--	Scou13t has quit (Read error: Connection reset by peer)
+2015-06-18 01:46:10	@evilgrawity	owen: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 01:46:31	<--	Florin_ has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-06-18 01:47:57	-->	ThePub has joined #archlinux-unregistered
+2015-06-18 01:47:59	<--	ThePub has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:48:15	@evilgrawity	owen: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 01:48:59	-->	thegladiator has joined #archlinux-unregistered
+2015-06-18 01:50:04	<--	owen has quit (Quit: Leaving)
+2015-06-18 01:50:09	-->	LeVov has joined #archlinux-unregistered
+2015-06-18 01:50:10	@evilgrawity	LeVov: You can "/join #archlinux" now.
+2015-06-18 01:50:40	<--	jny has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:51:15	-->	owen has joined #archlinux-unregistered
+2015-06-18 01:51:45	<--	otome_ has quit (Read error: Connection reset by peer)
+2015-06-18 01:53:36	<--	owen has quit (Client Quit)
+2015-06-18 01:54:08	-->	yrdz` has joined #archlinux-unregistered
+2015-06-18 01:54:12	-->	owen_y has joined #archlinux-unregistered
+2015-06-18 01:55:29	<--	yrdz` has left #archlinux-unregistered
+2015-06-18 01:55:43	@evilgrawity	owen_y: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 01:55:52	@evilgrawity	owen_y: You can "/join #archlinux" now.
+2015-06-18 01:55:58	<--	owen_y has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 01:57:26	<--	abara has quit (Read error: Connection reset by peer)
+2015-06-18 01:57:56	-->	abara has joined #archlinux-unregistered
+2015-06-18 01:58:59	<--	thegladiator has quit (Read error: Connection reset by peer)
+2015-06-18 02:00:05	<--	woznme has quit (Read error: Connection reset by peer)
+2015-06-18 02:00:47	-->	yurikoles has joined #archlinux-unregistered
+2015-06-18 02:05:36	<--	yurikoles has quit (Remote host closed the connection)
+2015-06-18 02:06:45	-->	Matty_rr has joined #archlinux-unregistered
+2015-06-18 02:07:02	-->	usrc has joined #archlinux-unregistered
+2015-06-18 02:07:03	-->	shndns has joined #archlinux-unregistered
+2015-06-18 02:07:11	<--	usrc has quit (Client Quit)
+2015-06-18 02:07:15	-->	HNIakahaven_ has joined #archlinux-unregistered
+2015-06-18 02:07:20	<--	HNIakahaven_ has quit (Client Quit)
+2015-06-18 02:07:48	-->	yurikoles has joined #archlinux-unregistered
+2015-06-18 02:07:48	@evilgrawity	yurikoles: You can "/join #archlinux" now.
+2015-06-18 02:08:11	-->	woznme has joined #archlinux-unregistered
+2015-06-18 02:08:11	@evilgrawity	woznme: You can "/join #archlinux" now.
+2015-06-18 02:09:05	<--	abara has quit (Read error: Connection reset by peer)
+2015-06-18 02:10:33	<--	Matty_r has quit (Ping timeout: 265 seconds)
+2015-06-18 02:11:55	-->	Kelzier has joined #archlinux-unregistered
+2015-06-18 02:11:56	<--	scientes has quit (Remote host closed the connection)
+2015-06-18 02:12:39	<--	shndns has left #archlinux-unregistered
+2015-06-18 02:12:44	-->	Itv has joined #archlinux-unregistered
+2015-06-18 02:12:59	-->	spacemanjr has joined #archlinux-unregistered
+2015-06-18 02:13:09	--	mgue1 is now known as mgue
+2015-06-18 02:13:22	<--	Itv has quit (Excess Flood)
+2015-06-18 02:13:56	<--	h0ru5 has quit (Read error: Connection reset by peer)
+2015-06-18 02:14:25	-->	loelv has joined #archlinux-unregistered
+2015-06-18 02:15:18	<--	spacemanjr has quit (Client Quit)
+2015-06-18 02:15:38	<--	loelv has quit (Excess Flood)
+2015-06-18 02:15:46	-->	spacemanjr has joined #archlinux-unregistered
+2015-06-18 02:16:24	<--	snipyz has quit (Quit: I-n-v-i-s-i-o-n 2.0 Build 3515)
+2015-06-18 02:16:28	<--	spacemanjr has quit (Client Quit)
+2015-06-18 02:16:52	-->	spacemanjr has joined #archlinux-unregistered
+2015-06-18 02:17:19	-->	oxhak_ has joined #archlinux-unregistered
+2015-06-18 02:17:59	-->	Oriz has joined #archlinux-unregistered
+2015-06-18 02:19:30	<--	Oriz has quit (Excess Flood)
+2015-06-18 02:19:55	<--	rubiano has quit (Quit: leaving)
+2015-06-18 02:20:02	<--	jehaby has quit (Remote host closed the connection)
+2015-06-18 02:20:58	-->	DryEagle has joined #archlinux-unregistered
+2015-06-18 02:20:58	@evilgrawity	DryEagle: You can "/join #archlinux" now.
+2015-06-18 02:21:04	<--	DryEagle has left #archlinux-unregistered
+2015-06-18 02:22:20	-->	ixuu has joined #archlinux-unregistered
+2015-06-18 02:23:08	<--	ixuu has quit (Excess Flood)
+2015-06-18 02:24:57	-->	mandragore has joined #archlinux-unregistered
+2015-06-18 02:25:59	-->	Yayi1 has joined #archlinux-unregistered
+2015-06-18 02:26:09	-->	Florin has joined #archlinux-unregistered
+2015-06-18 02:26:32	--	Florin is now known as Guest55393
+2015-06-18 02:26:58	<--	Yayi1 has left #archlinux-unregistered
+2015-06-18 02:27:25	-->	fyrril2 has joined #archlinux-unregistered
+2015-06-18 02:27:56	<--	evilgrawity has quit (Quit: kvmnode!)
+2015-06-18 02:28:28	-->	mode9 has joined #archlinux-unregistered
+2015-06-18 02:31:36	-->	gshereme has joined #archlinux-unregistered
+2015-06-18 02:32:10	-->	Rokixz has joined #archlinux-unregistered
+2015-06-18 02:32:13	-->	tessellated has joined #archlinux-unregistered
+2015-06-18 02:32:57	-->	evilgrawity has joined #archlinux-unregistered
+2015-06-18 02:32:57	--	Mode #archlinux-unregistered [+o evilgrawity] by ChanServ
+2015-06-18 02:34:36	<--	Guest55393 has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-06-18 02:35:23	-->	aiuy has joined #archlinux-unregistered
+2015-06-18 02:36:08	<--	aiuy has quit (Excess Flood)
+2015-06-18 02:36:38	-->	syslock has joined #archlinux-unregistered
+2015-06-18 02:37:20	-->	Zewoy has joined #archlinux-unregistered
+2015-06-18 02:38:02	<--	Zewoy has quit (Excess Flood)
+2015-06-18 02:40:56	<--	shinnya has quit (Ping timeout: 265 seconds)
+2015-06-18 02:44:59	-->	thegladiator has joined #archlinux-unregistered
+2015-06-18 02:45:00	@evilgrawity	thegladiator: You can "/join #archlinux" now.
+2015-06-18 02:45:09	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:45:25	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:45:30	-->	an0nmat1r has joined #archlinux-unregistered
+2015-06-18 02:45:46	<--	atomicwerks has quit (Ping timeout: 256 seconds)
+2015-06-18 02:45:47	<--	jonas_buet has quit (Ping timeout: 246 seconds)
+2015-06-18 02:45:48	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:46:11	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:46:47	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:46:58	-->	HNIakahaven has joined #archlinux-unregistered
+2015-06-18 02:47:06	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:47:09	<--	HNIakahaven has left #archlinux-unregistered
+2015-06-18 02:47:10	<--	thegladiator has left #archlinux-unregistered
+2015-06-18 02:47:12	-->	frb has joined #archlinux-unregistered
+2015-06-18 02:47:38	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:47:39	<--	frb has quit (Max SendQ exceeded)
+2015-06-18 02:47:48	<--	sithlord48_ has quit (Ping timeout: 252 seconds)
+2015-06-18 02:48:52	<--	KnusperKeks has quit (Remote host closed the connection)
+2015-06-18 02:49:12	-->	troulouliou_dev has joined #archlinux-unregistered
+2015-06-18 02:49:33	-->	Ikq has joined #archlinux-unregistered
+2015-06-18 02:50:03	-->	KnusperKeks has joined #archlinux-unregistered
+2015-06-18 02:50:11	<--	Ikq has quit (Max SendQ exceeded)
+2015-06-18 02:51:10	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:51:30	-->	Ogs has joined #archlinux-unregistered
+2015-06-18 02:51:38	<--	v{}id has quit (Quit: Bye.)
+2015-06-18 02:51:56	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:51:56	<--	Ogs has quit (Excess Flood)
+2015-06-18 02:52:36	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:53:08	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:53:24	-->	christensons_ has joined #archlinux-unregistered
+2015-06-18 02:54:08	-->	torwag1 has joined #archlinux-unregistered
+2015-06-18 02:54:23	<--	whitebook has quit (Remote host closed the connection)
+2015-06-18 02:54:35	-->	muu has joined #archlinux-unregistered
+2015-06-18 02:55:13	<--	muu has quit (Excess Flood)
+2015-06-18 02:55:18	@evilgrawity	torwag1: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-18 02:55:26	<--	spaceman1r has quit (Client Quit)
+2015-06-18 02:55:37	<--	torwag1 has left #archlinux-unregistered
+2015-06-18 02:55:54	-->	mantiz has joined #archlinux-unregistered
+2015-06-18 02:55:57	-->	spaceman1r has joined #archlinux-unregistered
+2015-06-18 02:56:16	-->	nous has joined #archlinux-unregistered
+2015-06-18 02:56:53	-->	eje has joined #archlinux-unregistered
+2015-06-18 02:56:54	-->	mohammad has joined #archlinux-unregistered
+2015-06-18 02:57:01	<--	eje has quit (Max SendQ exceeded)
+2015-06-18 02:57:08	<--	pandb has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 02:57:17	--	mohammad is now known as Guest87960
+2015-06-18 02:57:19	<--	Guest87960 has quit (Remote host closed the connection)
+2015-06-18 02:58:00	-->	mongole has joined #archlinux-unregistered
+2015-06-18 02:58:00	@evilgrawity	mongole: You can "/join #archlinux" now.
+2015-06-18 02:58:04	-->	wohai has joined #archlinux-unregistered
+2015-06-18 02:58:36	<--	wohai has quit (Excess Flood)
+2015-06-18 02:59:21	-->	ueut has joined #archlinux-unregistered
+2015-06-18 02:59:49	<--	ueut has quit (Excess Flood)
+2015-06-18 03:00:36	<--	bluedrc has quit (Quit: Lost terminal)
+2015-06-18 03:00:50	-->	qwebirc5185 has joined #archlinux-unregistered
+2015-06-18 03:01:24	<--	qwebirc5185 has left #archlinux-unregistered
+2015-06-18 03:01:53	-->	wrok has joined #archlinux-unregistered
+2015-06-18 03:02:34	<--	wrok has quit (Max SendQ exceeded)
+2015-06-18 03:04:31	-->	Frhoa has joined #archlinux-unregistered
+2015-06-18 03:04:51	-->	Kron has joined #archlinux-unregistered
+2015-06-18 03:04:51	@evilgrawity	Kron: You can "/join #archlinux" now.
+2015-06-18 03:05:10	<--	Kron has left #archlinux-unregistered
+2015-06-18 03:05:15	-->	OlafLostViking has joined #archlinux-unregistered
+2015-06-18 03:05:25	<--	OlafLostViking has quit (Client Quit)
+2015-06-18 03:05:39	<--	Frhoa has quit (Excess Flood)
+2015-06-18 03:06:19	-->	OlafLostViking has joined #archlinux-unregistered
+2015-06-18 03:06:19	@evilgrawity	OlafLostViking: You can "/join #archlinux" now.
+2015-06-18 03:07:23	-->	aueh has joined #archlinux-unregistered
+2015-06-18 03:07:59	<--	aueh has quit (Excess Flood)
+2015-06-18 03:08:19	-->	cork_ has joined #archlinux-unregistered
+2015-06-18 03:08:29	<--	kadosh has quit (Ping timeout: 265 seconds)
+2015-06-18 03:09:09	<--	spaceman1r has quit (Quit: leaving)
+2015-06-18 03:10:06	--	irc: disconnected from server
+2015-06-18 22:48:55	-->	renodesper (~renodespe@36.72.99.135) has joined #archlinux-unregistered
+2015-06-18 22:48:55	--	Topic for #archlinux-unregistered is "=== You cannot join #archlinux until you are identified with NickServ.  Register and identify by following the instructions at <http://freenode.net/faq.shtml#nicksetup>.  You can get a list of people who can help you by typing `/msg chanserv access #archlinux list`, or join #freenode and ask there.  ===   No one will see what you say in here.  ==="
+2015-06-18 22:48:55	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Mon, 29 Dec 2014 01:13:19
+2015-06-18 22:48:55	--	Channel #archlinux-unregistered: 219 nicks (6 ops, 0 voices, 213 normals)
+2015-06-18 22:48:55	--	Notice(sinisalo.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2015-06-18 22:48:58	--	Channel created on Sun, 28 Dec 2014 06:49:46
+2015-06-18 22:50:53	-->	arlefreak1 has joined #archlinux-unregistered
+2015-06-18 22:51:15	<--	zrj has quit (Client Quit)
+2015-06-18 22:51:55	-->	MoonUnit` has joined #archlinux-unregistered
+2015-06-18 22:52:00	-->	roothy has joined #archlinux-unregistered
+2015-06-18 22:52:18	-->	unknwn has joined #archlinux-unregistered
+2015-06-18 22:52:52	-->	kolazic has joined #archlinux-unregistered
+2015-06-18 22:52:52	<--	kolazic has quit (Changing host)
+2015-06-18 22:52:52	-->	kolazic has joined #archlinux-unregistered
+2015-06-18 22:52:52	@evilgrawity	kolazic: You can "/join #archlinux" now.
+2015-06-18 22:53:32	-->	syslock has joined #archlinux-unregistered
+2015-06-18 22:54:08	-->	himmAllRight17 has joined #archlinux-unregistered
+2015-06-18 22:57:12	-->	renodesper (~renodespe@36.72.99.135) has joined #archlinux-unregistered
+2015-06-18 22:57:12	--	Topic for #archlinux-unregistered is "=== You cannot join #archlinux until you are identified with NickServ.  Register and identify by following the instructions at <http://freenode.net/faq.shtml#nicksetup>.  You can get a list of people who can help you by typing `/msg chanserv access #archlinux list`, or join #freenode and ask there.  ===   No one will see what you say in here.  ==="
+2015-06-18 22:57:12	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Mon, 29 Dec 2014 01:13:19
+2015-06-18 22:57:12	--	Channel #archlinux-unregistered: 223 nicks (6 ops, 0 voices, 217 normals)
+2015-06-18 22:57:12	--	Channel created on Sun, 28 Dec 2014 06:49:46
+2015-06-18 22:57:12	@evilgrawity	renodesper: You can "/join #archlinux" now.
+2015-06-18 22:57:48	<--	HeyCitizen has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-18 22:57:55	-->	sqlock has joined #archlinux-unregistered
+2015-06-18 22:58:28	<--	rettori has quit (Remote host closed the connection)
+2015-06-18 22:58:43	<--	renodesper has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-20 22:49:30	-->	renodesper (~renodespe@36.72.79.179) has joined #archlinux-unregistered
+2015-06-20 22:49:30	--	Topic for #archlinux-unregistered is "=== You cannot join #archlinux until you are identified with NickServ.  Register and identify by following the instructions at <http://freenode.net/faq.shtml#nicksetup>.  You can get a list of people who can help you by typing `/msg chanserv access #archlinux list`, or join #freenode and ask there.  ===   No one will see what you say in here.  ==="
+2015-06-20 22:49:30	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Mon, 29 Dec 2014 01:13:19
+2015-06-20 22:49:30	--	Channel #archlinux-unregistered: 267 nicks (5 ops, 0 voices, 262 normals)
+2015-06-20 22:49:30	--	Channel created on Sun, 28 Dec 2014 06:49:46
+2015-06-20 22:51:13	<--	agumonkey has quit (Ping timeout: 250 seconds)
+2015-06-20 22:52:34	<--	samzorn has quit (Ping timeout: 276 seconds)
+2015-06-20 22:53:09	-->	junjun has joined #archlinux-unregistered
+2015-06-20 22:53:09	<--	Drevkevac has quit (Ping timeout: 245 seconds)
+2015-06-20 22:53:33	@evilgrawity	junjun: You can "/join #archlinux" now.
+2015-06-20 22:53:37	<--	aLLamox has quit (Changing host)
+2015-06-20 22:53:37	-->	aLLamox has joined #archlinux-unregistered
+2015-06-20 22:53:37	@evilgrawity	aLLamox: You can "/join #archlinux" now.
+2015-06-20 22:53:52	<--	capoderra has quit (Remote host closed the connection)
+2015-06-20 22:53:54	<--	junjun has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-20 22:54:29	<--	freeking has quit (Ping timeout: 246 seconds)
+2015-06-20 22:56:42	-->	samzorn has joined #archlinux-unregistered
+2015-06-20 22:57:02	<--	badagent has quit (Ping timeout: 252 seconds)
+2015-06-20 22:58:03	<--	cork_ has quit (Remote host closed the connection)
+2015-06-20 22:58:30	-->	lagagnon has joined #archlinux-unregistered
+2015-06-20 22:58:30	<--	arlefreak2 has quit (Ping timeout: 252 seconds)
+2015-06-20 22:58:41	-->	Kron has joined #archlinux-unregistered
+2015-06-20 22:59:05	-->	Florck2709 has joined #archlinux-unregistered
+2015-06-20 22:59:12	@evilgrawity	Florck2709: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-20 22:59:12	-->	MoonUnit` has joined #archlinux-unregistered
+2015-06-20 22:59:16	@evilgrawity	MoonUnit`: You can "/join #archlinux" now.
+2015-06-20 22:59:22	<--	MoonUnit` has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-20 23:00:24	@evilgrawity	Florck2709: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-20 23:00:33	-->	badagent has joined #archlinux-unregistered
+2015-06-20 23:00:33	@evilgrawity	badagent: You can "/join #archlinux" now.
+2015-06-20 23:00:34	<--	Florck2709 has quit (Client Quit)
+2015-06-20 23:00:59	-->	Florck has joined #archlinux-unregistered
+2015-06-20 23:01:06	<--	Florck has quit (Client Quit)
+2015-06-20 23:01:12	<--	samzorn has quit (Ping timeout: 264 seconds)
+2015-06-20 23:03:13	@evilgrawity	kivutar: You can "/join #archlinux" now.
+2015-06-20 23:03:59	<--	tdz1 has quit (Ping timeout: 245 seconds)
+2015-06-20 23:04:06	<--	lagagnon has quit (Ping timeout: 276 seconds)
+2015-06-20 23:04:50	-->	erikw has joined #archlinux-unregistered
+2015-06-20 23:05:23	<--	White_Light has quit (Quit: Leaving)
+2015-06-20 23:05:41	-->	zenguy_pc has joined #archlinux-unregistered
+2015-06-20 23:06:43	<--	Awesomesaurus has quit (Ping timeout: 255 seconds)
+2015-06-20 23:07:20	-->	cork_ has joined #archlinux-unregistered
+2015-06-20 23:09:46	-->	Drevkevac_znc has joined #archlinux-unregistered
+2015-06-20 23:10:25	-->	dirtymara has joined #archlinux-unregistered
+2015-06-20 23:11:08	<--	Levoc has quit (Quit: Leaving)
+2015-06-20 23:11:53	-->	benborges has joined #archlinux-unregistered
+2015-06-20 23:12:04	@evilgrawity	dirtymara: You can "/join #archlinux" now.
+2015-06-20 23:12:19	@evilgrawity	cork_: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-20 23:12:25	@evilgrawity	cork_: You can "/join #archlinux" now.
+2015-06-20 23:12:28	<--	cork_ has left #archlinux-unregistered (requested by evilgrawity (Go back to #archlinux now.))
+2015-06-20 23:12:35	<--	dirtymara has left #archlinux-unregistered
+2015-06-20 23:14:14	-->	technoid_ has joined #archlinux-unregistered
+2015-06-20 23:14:14	@evilgrawity	technoid_: You can "/join #archlinux" now.
+2015-06-20 23:14:24	<--	technoid_ has left #archlinux-unregistered
+2015-06-20 23:16:22	<--	Drevkevac_znc has quit (Ping timeout: 256 seconds)
+2015-06-20 23:18:06	<--	mal2 has quit (Ping timeout: 244 seconds)
+2015-06-20 23:18:10	-->	Drevkevac_znc has joined #archlinux-unregistered
+2015-06-20 23:18:40	-->	mal2 has joined #archlinux-unregistered
+2015-06-20 23:20:18	-->	junjun has joined #archlinux-unregistered
+2015-06-20 23:20:28	<--	zenguy_pc has quit (Read error: Connection reset by peer)
+2015-06-20 23:20:33	@evilgrawity	junjun: You can "/join #archlinux" now.
+2015-06-20 23:20:41	<--	junjun has left #archlinux-unregistered
+2015-06-20 23:22:51	-->	Guest95891 has joined #archlinux-unregistered
+2015-06-20 23:22:56	@evilgrawity	Guest95891: You can't join #archlinux unless you're identified with NickServ. // Please register with freenode, following instructions at <https://freenode.net/faq.shtml#nicksetup>. Once you've successfully registered, use "/join #archlinux"
+2015-06-20 23:23:39	<--	Guest95891 has quit (Client Quit)
+2015-06-20 23:23:42	-->	usrc has joined #archlinux-unregistered
+2015-06-20 23:23:48	<--	usrc has quit (Client Quit)
+2015-06-20 23:25:01	-->	russor has joined #archlinux-unregistered
+2015-06-20 23:25:11	@evilgrawity	russor: You can "/join #archlinux" now.
+2015-06-20 23:25:18	<--	russor has left #archlinux-unregistered
+2015-06-20 23:26:49	-->	p1k has joined #archlinux-unregistered
+2015-06-20 23:29:33	<--	Drevkevac_znc has quit (Ping timeout: 256 seconds)
+2015-06-20 23:29:42	-->	capoderra has joined #archlinux-unregistered
+2015-06-20 23:30:15	-->	hopses has joined #archlinux-unregistered
+2015-06-20 23:30:50	-->	zieg has joined #archlinux-unregistered
+2015-06-20 23:32:25	-->	samzorn has joined #archlinux-unregistered
+2015-06-20 23:32:55	<--	hopses has left #archlinux-unregistered
+2015-06-20 23:33:34	-->	scientes has joined #archlinux-unregistered
+2015-06-20 23:33:44	<--	scientes has quit (Changing host)
+2015-06-20 23:33:44	-->	scientes has joined #archlinux-unregistered
+2015-06-20 23:33:44	@evilgrawity	scientes: You can "/join #archlinux" now.
+2015-06-20 23:36:58	-->	Drevkevac_znc has joined #archlinux-unregistered
+2015-06-20 23:37:22	--	irc: disconnected from server
+2015-06-20 23:37:48	-->	renodesper (~renodespe@36.72.79.179) has joined #archlinux-unregistered
+2015-06-20 23:37:48	--	Topic for #archlinux-unregistered is "=== You cannot join #archlinux until you are identified with NickServ.  Register and identify by following the instructions at <http://freenode.net/faq.shtml#nicksetup>.  You can get a list of people who can help you by typing `/msg chanserv access #archlinux list`, or join #freenode and ask there.  ===   No one will see what you say in here.  ==="
+2015-06-20 23:37:48	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Mon, 29 Dec 2014 01:13:19
+2015-06-20 23:37:48	--	Channel #archlinux-unregistered: 265 nicks (5 ops, 0 voices, 260 normals)
+2015-06-20 23:37:48	--	Channel created on Sun, 28 Dec 2014 06:49:46
+2015-06-20 23:37:48	@evilgrawity	renodesper: You can "/join #archlinux" now.
+2015-06-20 23:38:09	-->	zenguy_pc has joined #archlinux-unregistered
+2015-06-20 23:38:09	@evilgrawity	zenguy_pc: You can "/join #archlinux" now.
+2015-06-20 23:41:45	--	irc: disconnected from server

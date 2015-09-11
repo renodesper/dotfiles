@@ -1,0 +1,17 @@
+2013-11-05 16:06:50	--	irc: connecting to server bitlbee/6667...
+2013-11-05 16:06:51	=!=	irc: address "bitlbee" not found
+2013-11-05 16:06:51	=!=	irc: error: Name or service not known
+2013-11-05 16:06:51	--	irc: reconnecting to server in 10 seconds
+2013-11-05 16:07:01	--	irc: reconnecting to server...
+2013-11-05 16:07:01	--	irc: connecting to server bitlbee/6667...
+2013-11-05 16:07:01	=!=	irc: address "bitlbee" not found
+2013-11-05 16:07:01	=!=	irc: error: Name or service not known
+2013-11-05 16:07:01	--	irc: reconnecting to server in 20 seconds
+2013-11-05 16:07:21	--	irc: reconnecting to server...
+2013-11-05 16:07:21	--	irc: connecting to server bitlbee/6667...
+2013-11-05 16:07:21	=!=	irc: address "bitlbee" not found
+2013-11-05 16:07:21	=!=	irc: error: Name or service not known
+2013-11-05 16:07:21	--	irc: reconnecting to server in 40 seconds
+2013-11-05 16:07:33	=!=	irc: this buffer is not a channel!
+2013-11-05 16:07:47		irc: auto-reconnection is cancelled
+2013-11-05 16:07:47	--	irc: disconnected from server

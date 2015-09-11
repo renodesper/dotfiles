@@ -1,123 +1,125 @@
 set nocompatible
-set runtimepath+=~/.vim/bundle/neobundle.vim/
-
-call neobundle#begin(expand('~/.vim/bundle/'))
+call plug#begin(expand('~/.vim/bundle/'))
 
 " General {
-  NeoBundle 'wincent/terminus'  " Enhanced terminal integration for Vim
-  NeoBundle 'eiginn/netrw'  " Network oriented reading, writing, and browsing
-  NeoBundle 'fholgado/minibufexpl.vim'  " Elegant buffer explorer
-  NeoBundle 'itchyny/lightline.vim'  " Statusline/tabline for Vim
-  NeoBundle 'junegunn/goyo.vim'  " Distraction free
-  NeoBundle 'Lokaltog/vim-easymotion'  " Vim motion on speed (Leader Leader w/f/s)
-  NeoBundle 'mhinz/vim-startify'  " Start screen
-  NeoBundle 'nacitar/terminalkeys.vim'  " rxvt Terminal Keys support on tmux
-  NeoBundle 'ntpeters/vim-better-whitespace'  " Trim whitespace
-  NeoBundle 'sjl/gundo.vim'  " Visualize your undo tree
-  NeoBundle 'terryma/vim-multiple-cursors'  " Multiple cursor
-  NeoBundle 'tpope/vim-abolish'  " String substitute for singular / plural (context, sensitive)
-  NeoBundle 'tyru/open-browser.vim'
+    Plug 'wincent/terminus'  " Enhanced terminal integration for Vim
+    Plug 'eiginn/netrw'  " Network oriented reading, writing, and browsing
+    Plug 'fholgado/minibufexpl.vim'  " Elegant buffer explorer
+    Plug 'itchyny/lightline.vim'  " Statusline/tabline for Vim
+    Plug 'junegunn/goyo.vim'  " Distraction free
+    Plug 'Lokaltog/vim-easymotion'  " Vim motion on speed (Leader Leader w/f/s)
+    Plug 'mhinz/vim-startify'  " Start screen
+    Plug 'nacitar/terminalkeys.vim'  " rxvt Terminal Keys support on tmux
+    Plug 'ntpeters/vim-better-whitespace', {'on': 'ToggleStripWhitespaceOnSave'}  " Trim whitespace
+    Plug 'sjl/gundo.vim'  " Visualize your undo tree
+    Plug 'terryma/vim-multiple-cursors'  " Multiple cursor
+    Plug 'tpope/vim-abolish'  " String substitute for singular / plural (context, sensitive)
+    Plug 'tyru/open-browser.vim'
+    Plug 'vasconcelloslf/vim-interestingwords'
 " }
 
 " General Programming {
-  NeoBundle 'godlygeek/tabular'  " Text filtering and alignment (Leader a = / Leader a :)
-  NeoBundle 'lambdalisue/vim-gista'  " Gist
-  NeoBundle 'majutsushi/tagbar'  " Python tag list
-  NeoBundle 'mickaobrien/vim-stackoverflow'  " Stackoverflow from Vim
-  NeoBundle 'Raimondi/delimitMate'  " Auto close scope (brackets, quotes, etc)
-  NeoBundle 'scrooloose/syntastic'  " Awesome syntax checking plugin
-  NeoBundle 'terryma/vim-expand-region'  " Expand visual selection by multiple '+' and shrink by multiple '_'
-  NeoBundle 'tpope/vim-commentary'  " Language-agnostic commenting plugin (gcc gcap gcgc)
-  NeoBundle 'tpope/vim-fugitive'  " Git integration
-  NeoBundle 'tpope/vim-surround'  " Quoting/parenthesizing made simple (cs'` ds' ysiw] yssb ds{ds))
-  NeoBundle 'tpope/vim-repeat'  " Enable repeating supported plugin
+    Plug 'godlygeek/tabular'  " Text filtering and alignment (Leader a = / Leader a :)
+    Plug 'lambdalisue/vim-gista'  " Gist
+    Plug 'majutsushi/tagbar'  " Python tag list
+    Plug 'mickaobrien/vim-stackoverflow'  " Stackoverflow from Vim
+    Plug 'Raimondi/delimitMate'  " Auto close scope (brackets, quotes, etc)
+    Plug 'scrooloose/syntastic'  " Awesome syntax checking plugin
+    Plug 'terryma/vim-expand-region'  " Expand visual selection by multiple '+' and shrink by multiple '_'
+    Plug 'tpope/vim-commentary'  " Language-agnostic commenting plugin (gcc gcap gcgc)
+    Plug 'tpope/vim-fugitive'  " Git integration
+    Plug 'airblade/vim-gitgutter'  " Git Gutter
+    Plug 'tpope/vim-surround'  " Quoting/parenthesizing made simple (cs'` ds' ysiw] yssb ds{ds))
+    Plug 'tpope/vim-repeat'  " Enable repeating supported plugin
 " }
 
 " Snippets & AutoComplete {
-  NeoBundle 'honza/vim-snippets'
-  NeoBundle 'Shougo/neocomplete.vim.git'
-  NeoBundle 'Shougo/neosnippet'
-  NeoBundle 'Shougo/neosnippet-snippets'
-  NeoBundle 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
+    Plug 'Shougo/neocomplete.vim'
+    Plug 'Shougo/neosnippet'
+    Plug 'Shougo/neosnippet-snippets'
+    Plug 'SirVer/ultisnips'
 " }
 
 " Go {
-  " NeoBundle 'fatih/vim-go'
+    Plug 'fatih/vim-go', {'for': 'go'}
 " }
 
 " Haskell {
-  " NeoBundle 'adinapoli/cumino'
-  " NeoBundle 'bitc/vim-hdevtools'
-  " NeoBundle 'dag/vim2hs'
-  " NeoBundle 'eagletmt/ghcmod-vim'
-  " NeoBundle 'eagletmt/neco-ghc'
-  " NeoBundle 'lukerandall/haskellmode-vim'
-  " NeoBundle 'travitch/hasksyn'
-  " NeoBundle 'Twinside/vim-haskellConceal'
-  " NeoBundle 'Twinside/vim-haskellFold'
+    " Plug 'adinapoli/cumino'
+    " Plug 'bitc/vim-hdevtools'
+    " Plug 'dag/vim2hs'
+    " Plug 'eagletmt/ghcmod-vim'
+    " Plug 'eagletmt/neco-ghc'
+    " Plug 'lukerandall/haskellmode-vim'
+    " Plug 'travitch/hasksyn'
+    " Plug 'Twinside/vim-haskellConceal'
+    " Plug 'Twinside/vim-haskellFold'
 " }
 
 " HTML {
-  " NeoBundle 'gorodinskiy/vim-coloresque'
-  " NeoBundle 'hail2u/vim-css3-syntax'
-  " NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}  " Awesome HAML to HTML by CTRL-E on HTML files
-  " NeoBundle 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
+    Plug 'gorodinskiy/vim-coloresque'
+    Plug 'hail2u/vim-css3-syntax'
+    Plug 'rstacruz/sparkup'  " Awesome HAML to HTML by CTRL-E on HTML files
+    Plug 'tpope/vim-haml'  " Vim runtime files for Haml, Sass, and SCSS
+" }
+
+" Java {
 " }
 
 " Javascript {
-  " NeoBundle 'briancollins/vim-jst'
-  " NeoBundle 'elzr/vim-json'
-  " NeoBundle 'groenewege/vim-less'
-  " NeoBundle 'kchmck/vim-coffee-script'
-  " NeoBundle 'pangloss/vim-javascript'
+    Plug 'briancollins/vim-jst', {'for': ['html', 'php', 'js', 'less', 'sass', 'scss']}
+    Plug 'elzr/vim-json', {'for': ['html', 'php', 'js', 'less', 'sass', 'scss', 'json']}
+    Plug 'groenewege/vim-less', {'for': ['html', 'php', 'js', 'less', 'sass', 'scss']}
+    Plug 'kchmck/vim-coffee-script', {'for': ['html', 'php', 'js', 'less', 'sass', 'scss']}
+    Plug 'pangloss/vim-javascript', {'for': ['html', 'php', 'js', 'less', 'sass', 'scss']}
 " }
 
 " PHP {
-  " NeoBundle 'arnaud-lb/vim-php-namespace'
-  " NeoBundle 'beyondwords/vim-twig'
-  " NeoBundle 'spf13/PIV'
+    Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
+    Plug 'beyondwords/vim-twig', {'for': 'php'}
+    Plug 'spf13/PIV', {'for': 'php'}
 " }
 
 " Python {
-  NeoBundle 'jmcomets/vim-pony'  " Django Snippet
-  NeoBundle 'klen/python-mode'  " Pick either python-mode or pyflakes & pydoc
-  NeoBundle 'python_match.vim'
-  NeoBundle 'pythoncomplete'
-  NeoBundle 'yssource/python.vim'
+    Plug 'jmcomets/vim-pony'  " Django Snippet
+    Plug 'klen/python-mode'  " Pick either python-mode or pyflakes & pydoc
+    Plug 'python_match.vim'
+    Plug 'pythoncomplete'
+    Plug 'yssource/python.vim'
 " }
 
 " Ruby {
-  " NeoBundle 'tpope/vim-rails'
-  " let g:rubycomplete_buffer_loading = 1
-  " let g:rubycomplete_classes_in_global = 1
-  " let g:rubycomplete_rails = 1
+    Plug 'tpope/vim-rails'
+    let g:rubycomplete_buffer_loading = 1
+    let g:rubycomplete_classes_in_global = 1
+    let g:rubycomplete_rails = 1
 " }
 
 " Misc {
-  " NeoBundle 'cespare/vim-toml'
-  NeoBundle 'plasticboy/vim-markdown'
-  NeoBundle 'shime/livedown'
+    Plug 'cespare/vim-toml'
+    Plug 'plasticboy/vim-markdown'
+    Plug 'shime/livedown'
 " }
 
 " Unite, async, and unite tags support {
-  NeoBundle 'Shougo/neomru.vim'
-  NeoBundle 'Shougo/unite.vim'
-  NeoBundle 'Shougo/vimproc.vim', { 'build' : { 'unix' : 'make -f make_unix.mak', }, }
-  NeoBundle 'Shougo/vimshell.vim'
-  NeoBundle 'tsukkee/unite-tag'
+    Plug 'Shougo/neomru.vim'
+    Plug 'Shougo/unite.vim'
+    Plug 'Shougo/vimproc.vim', {'do' : 'make -f make_unix.mak' }
+    Plug 'Shougo/vimshell.vim'
+    Plug 'tsukkee/unite-tag'
 " }
 
 " Deps {
-  if executable('ag')
-      NeoBundle 'rking/ag.vim'  " The Silver Searcher
+    if executable('ag')
+      Plug 'rking/ag.vim'  " The Silver Searcher
       let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
-  endif
+    endif
 " }
 
-call neobundle#end()
+call plug#end()
 syntax on                     " syntax highlighing
 filetype plugin indent on     " Required!
-NeoBundleCheck
 
 """ Abbreviations {
   """ Laravel abbreviation {
@@ -575,10 +577,6 @@ NeoBundleCheck
     inoremap <F3> <esc>:TagbarToggle<cr>i
   """ }
 
-  """ Trim Whitespace Setting {
-    autocmd VimEnter * ToggleStripWhitespaceOnSave
-  """ }
-
   """ Unite Setting & Mapping {
     let g:UltiSnipsExpandTrigger="<leader><Tab>"
     autocmd FileType unite call s:unite_settings()
@@ -715,3 +713,4 @@ NeoBundleCheck
     endfunction
   """ }
 """ }
+

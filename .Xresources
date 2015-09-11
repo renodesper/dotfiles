@@ -6,12 +6,31 @@ xft*rgba: rgb
 xft*hintstyle: hintfull
 xft*lcdfilter: lcddefault
 
+! XTerm Setting
+xterm*loginshell: true
+xterm*utf8: true
+xterm*termName: xterm-256color
+xterm*locale: true
+xterm*VT100.geometry: 80x24
+xterm*saveLines: 10000
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+xterm*selectToClipboard: true
+xterm*faceName: Fira Mono:size=9:antialias=false
+xterm*pointerColor: red
+xterm*pointerColorBackground: black
+xterm*cursorBlink: true
+xterm*bellIsUrgent: true
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+xterm*on3Clicks: regex ([[:alpha:]]+://)?([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
+
+! URxvt Setting
 urxvt*perl-ext-common: default,tabbedex,clipboard,url-select,keyboard-select
 urxvt*iconFile: /usr/share/icons/oxygen/32x32/apps/yakuake.png
 
 urxvt*keysym.F11: perl:fullscreen:switch
-urxvt*font: xft:Fira Mono:pixelsize=13,xft:PowerlineSymbols:pixelsize=13
-urxvt*boldFont: xft:Fira Mono:pixelsize=13,xft:PowerlineSymbols:bold:pixelsize=13
+urxvt*font: xft:Fira Mono:pixelsize=9,xft:PowerlineSymbols:pixelsize=9
+urxvt*boldFont: xft:Fira Mono:pixelsize=9,xft:PowerlineSymbols:bold:pixelsize=9
 urxvt*cursorBlink: 1
 urxvt*cursorUnderline: 1
 urxvt*urlLauncher: /usr/bin/firefox
@@ -25,13 +44,13 @@ urxvt*scrollWithBuffer: 1
 urxvt*scrollTtyKeypress: 1
 urxvt*secondaryScroll: 1
 urxvt*depth: 32
-urxvt*background: [90]#282828
+urxvt*background: #282828
 urxvt*geometry: 96x24
 urxvt*copyCommand: xclip -i -selection clipboard
 urxvt*pasteCommand: xclip -o -selection clipboard
 urxvt*loginShell: 1
 
-URxvt.termName: xterm-256color
+URxvt.termName: rxvt-unicode
 URxvt.tabbed.tabbar-fg: 4
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 7
@@ -42,6 +61,8 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keysym.C-Delete: perl:matcher:last
 URxvt.keysym.M-Delete: perl:matcher:list
+URxvt*keysym.Home: \033[7~
+URxvt*keysym.End: \033[8~
 URxvt.url-select.launcher: /usr/bin/firefox
 URxvt.url-select.underline: 1
 

@@ -1,0 +1,1581 @@
+Delivered-To: reno.esper@gmail.com
+Received: by 10.76.166.167 with SMTP id zh7csp215279oab;
+        Tue, 5 Nov 2013 17:10:07 -0800 (PST)
+X-Received: by 10.49.62.167 with SMTP id z7mr690579qer.67.1383700207060;
+        Tue, 05 Nov 2013 17:10:07 -0800 (PST)
+Return-Path: <sentto-21691673-7496-1383700204-reno.esper=gmail.com@returns.groups.yahoo.com>
+Received: from ng21.bullet.mail.bf1.yahoo.com (ng21.bullet.mail.bf1.yahoo.com. [66.196.81.230])
+        by mx.google.com with SMTP id n2si13523760qac.167.2013.11.05.17.10.06
+        for <reno.esper@gmail.com>;
+        Tue, 05 Nov 2013 17:10:07 -0800 (PST)
+Received-SPF: pass (google.com: manual fallback record for domain of sentto-21691673-7496-1383700204-reno.esper=gmail.com@returns.groups.yahoo.com designates 66.196.81.230 as permitted sender) client-ip=66.196.81.230;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: manual fallback record for domain of sentto-21691673-7496-1383700204-reno.esper=gmail.com@returns.groups.yahoo.com designates 66.196.81.230 as permitted sender) smtp.mail=sentto-21691673-7496-1383700204-reno.esper=gmail.com@returns.groups.yahoo.com;
+       dkim=pass header.i=@yahoogroups.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroups.com; s=echoe; t=1383700205; bh=MTN8VoXgYR7XvvylZa/DMjreHLH67kVmnkIzu3iw52E=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-Received:X-Received:X-Received:X-Received:X-YMail-OSG:X-Yahoo-SMTP:X-Rocket-Received:Message-ID:User-Agent:To:References:In-Reply-To:X-Forwarded-Message-Id:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:Reply-To:X-Yahoo-Newman-Property:Content-Type; b=D+VvSYm6iJO2eJdbwZK3eKVWIGHT+bZFgDP2CifkkWC9QH2Jm1CbitnUIYUWyMNSLcNXCrly8u9z4O/Cy2zc0BQnjm1A6/+tRv0sDzsSZd/lsuuIYeYd8TZI9pFHRhUxncFXGiXIlOEmZjLUFlHVx3ImjA/zigWhwWSHzBW14+U=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=echoe; d=yahoogroups.com;
+	b=B6DvREeoFEH3cTChfzrtUuxzSMMHz521jP/cYY9EWf5ZmVY+5VAFi//QD6VR/c/Noaeoo+X+XBEbuEC0uqP0YQwBPL+fctPQzsFA5uFzTfJSD/JrUBlIAhqY8hj/Iz4P+kZmNTHMYbGZIaxjOJjdibnD3dHm4Cd72yhEdxuLTag=;
+Received: from [98.139.213.69] by ng21.bullet.mail.bf1.yahoo.com with NNFMP; 06 Nov 2013 01:10:05 -0000
+Received: from [10.193.39.27] by tg105.bullet.mail.bf1.yahoo.com with NNFMP; 06 Nov 2013 01:10:05 -0000
+X-Yahoo-Newman-Id: 21691673-m7496
+X-Sender: if.unikom@yahoo.co.id
+X-Apparently-To: ta-skripsi@yahoogroups.com
+X-Received: (qmail 39752 invoked by uid 102); 6 Nov 2013 01:10:04 -0000
+X-Received: from unknown (HELO mtaq3.grp.bf1.yahoo.com) (10.193.84.142)
+  by m10.grp.bf1.yahoo.com with SMTP; 6 Nov 2013 01:10:04 -0000
+X-Received: (qmail 25607 invoked from network); 6 Nov 2013 01:10:02 -0000
+X-Received: from unknown (HELO nm18-vm8.bullet.mail.sg3.yahoo.com) (106.10.149.103)
+  by mtaq3.grp.bf1.yahoo.com with SMTP; 6 Nov 2013 01:10:02 -0000
+X-Received: from [106.10.166.123] by nm18.bullet.mail.sg3.yahoo.com with NNFMP; 06 Nov 2013 01:09:59 -0000
+X-Received: from [106.10.167.159] by tm12.bullet.mail.sg3.yahoo.com with NNFMP; 06 Nov 2013 01:09:59 -0000
+X-Received: from [127.0.0.1] by smtp132.mail.sg3.yahoo.com with NNFMP; 06 Nov 2013 01:09:59 -0000
+X-YMail-OSG: 1GGDnKIVM1lLvywan2kwzQd22mEIEGx8n50CtHlLnM.NFxi
+ lMi_bT_7NWdcZNpt6H94iNNPORoCbhMJx74Ks.Jw3OmpKaQ9VEwCQ0s_J.Ra
+ G6gwCNe6RS.tXeVV1hx6NnVC11T0rWirckKNCN6SEof4yYYTj1mYG.tMKCld
+ 5xmnzCvpAsoudeZtNnXDojH5doYfLWzSA9U.QaYnn26XvNtA26oD0xgekaX8
+ AarZ.TlkaNfm0Bj8YYgltRTGYbMgMXpD44c7dDTDiR7eUNSMwhCYdS3Rf_sL
+ ofS0BWF2pRaVkwp4IaFRB.grlDKfN1kFr0NyXVwUo4SpIKlGNNHkeKHmPUWX
+ AeKmEV3hyGjYf__umfQjk7yBIIQasNjVYF4zD6gUAtPk0Yo93h4pqbIVL5.R
+ azmvAafbYVd1vvcEpzGzjxnQsZjh3Ky7qNZhyanKxuqxdbQMmOjwN_GXy2iX
+ 6FhnVYZyabreKJ5yLr6MAFw2wIHFOVMS3kQ_fHHjh4BurwVS5gpvGysTacAP
+ 5AqMkOlnWIBpNmS6gWKWGIFcM6wI6ZobPwAyfSJPH
+X-Yahoo-SMTP: YaRH9TaswBDUq_8aiqwgon1WZQGX5Q--
+X-Rocket-Received: from [127.0.0.1] (if.unikom@222.124.203.54 with )
+        by smtp132.mail.sg3.yahoo.com with SMTP; 05 Nov 2013 17:09:59 -0800 PST
+Message-ID: <527994BD.7020801@yahoo.co.id>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:24.0) Gecko/20100101 Thunderbird/24.1.0
+To: KM-IF-UNIKOM@yahoogroups.com, ta-skripsi@yahoogroups.com
+References: <5279940C.3060203@yahoo.co.id>
+In-Reply-To: <5279940C.3060203@yahoo.co.id>
+X-Forwarded-Message-Id: <5279940C.3060203@yahoo.co.id>
+X-Originating-IP: 10.193.84.142
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Teknik Informatika UNIKOM <if.unikom@yahoo.co.id>
+X-Yahoo-Profile: if.unikom
+Sender: ta-skripsi@yahoogroups.com
+MIME-Version: 1.0
+Mailing-List: list ta-skripsi@yahoogroups.com; contact ta-skripsi-owner@yahoogroups.com
+Delivered-To: mailing list ta-skripsi@yahoogroups.com
+List-Id: <ta-skripsi.yahoogroups.com>
+Precedence: bulk
+List-Unsubscribe: <mailto:ta-skripsi-unsubscribe@yahoogroups.com>
+Date: Wed, 06 Nov 2013 08:00:45 +0700
+Subject: [TA-Skripsi di IF UNIKOM] Jadwal Pelatihan EPT
+Reply-To: ta-skripsi@yahoogroups.com
+X-Yahoo-Newman-Property: groups-email-ff-m
+Content-Type: multipart/alternative;
+ boundary="------------030708030507080208060104"
+
+--------------030708030507080208060104
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+_*Di bawah ini kami sampaikan Jadwal Pelatihan EPT*_
+
+
+A. JADWAL Registrasi PELATIHAN EPT
+
+4-6 November tempat R.Dosen Sastra Inggris
+pukul 09.00-15.00 (istirahat 11.45-12.30; khusus  jumat istirahat  
+11.00-13.00)
+
+
+B. JADWAL PRETEST dan POST TEST Dapat dilihat pada saat registrasi ULANG
+
+
+C. JADWAL PELATIHAN YANG DAPAT DIPILIH
+
+(Pelaksanaan Pelatihan 19 November - 7 Desember 2013)
+*No*
+	
+*Nama Kelas*
+	
+*Jumlah *
+	
+*Hari Pelatihan*
+	
+*Waktu*
+	
+*Tempat*
+1
+	
+A
+	
+27Orang
+	
+Selasa
+	
+10.00 - 11.30
+	
+R. 2510
+Kamis
+	
+11.30 - 13.00
+Sabtu
+	
+08.30 - 10.00
+	
+	
+	
+	
+	
+2
+	
+B
+	
+27Orang
+	
+Selasa
+	
+13.45 - 15.15
+	
+R. 2505
+Kamis
+	
+13.00 – 14.30
+	
+R. 2510
+Sabtu
+	
+10.00 – 11.30
+	
+R. 2510
+	
+	
+	
+	
+	
+3
+	
+C
+	
+27Orang
+	
+Selasa
+	
+15.15 – 16.45
+	
+R. 2505
+Jumat
+	
+10.00 – 11.30
+	
+R. 2510
+Sabtu
+	
+11.30 – 13.00
+	
+R. 2510
+	
+	
+	
+	
+	
+4
+	
+D
+	
+27Orang
+	
+Rabu
+	
+11.30 – 13.00
+	
+R. 2505
+Jumat
+	
+13.00 – 14.30
+	
+R. 2510
+Sabtu
+	
+11.30 – 13.00
+	
+R. 2505
+	
+	
+	
+	
+	
+5
+	
+E
+	
+27Orang
+	
+Kamis
+	
+08.30 – 10.00
+	
+R. 2505
+Jumat
+	
+14.30 – 16.00
+	
+R. 2510
+Sabtu
+	
+13.00 – 14.30
+	
+R. 2505
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+On Monday, September 2, 2013 5:09 PM, Juanda Juanda 
+<djuanda1969@yahoo.com> wrote:
+
+------------------------------------------------------------------------
+*From:* Teknik Informatika UNIKOM <if.unikom@yahoo.co.id>
+*To:* Juanda Juanda <djuanda1969@yahoo.com>
+*Sent:* Monday, August 26, 2013 2:08 PM
+*Subject:* Nilai IF-13 SMT II
+
+Assalamu'alaikum
+
+Bapak .. punten nilai akhir yang IF-13 SMT II, file IF-13 nya ada ...
+tapi isinya kosong
+Diantos nilaina.
+Nuhun
+
+Wassalam
+
+
+
+
+
+
+
+
+
+--------------030708030507080208060104
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+
+
+
+<body style="background-color: #fff;">
+<span style="display:none">&nbsp;</span>
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id="ygrp-mlmsg" style="position:relative;">
+  <div id="ygrp-msg" style="z-index: 1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id="ygrp-text" >
+      
+      
+      <p>
+  
+  
+    <u><big><big><big><b>Di bawah ini kami sampaikan Jadwal Pelatihan
+              EPT</b></big></big></big></u><br>
+    <div class="moz-forward-container">
+      <div class="moz-forward-container"><br>
+        <br>
+        A. JADWAL Registrasi PELATIHAN EPT <br>
+        <div style="color:#000;background-color:#fff;font-family:HelveticaNeue, Helvetica Neue, Helvetica, Arial,
+          Lucida Grande, sans-serif;font-size:12pt;"><br>
+          4-6 November tempat R.Dosen Sastra Inggris<br>
+          pukul 09.00-15.00 (istirahat 11.45-12.30; khusus  jumat
+          istirahat  11.00-13.00)<br>
+          <br>
+          <br>
+          B. JADWAL PRETEST dan POST TEST Dapat dilihat pada saat
+          registrasi ULANG<br>
+          <br>
+          <br>
+          C. JADWAL PELATIHAN YANG DAPAT DIPILIH<br>
+          <br>
+          (Pelaksanaan Pelatihan 19 November - 7 Desember 2013)<br>
+          <!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+          <div class="MsoNormal"><span lang="SV"> </span></div>
+          <div class="MsoNormal"><span style="font-size:8.0pt;" lang="SV"> </span></div>
+          <table class="MsoNormalTable" style="border-collapse:collapse;" cellpadding="0" cellspacing="0" border="1">
+            <tbody>
+              <tr>
+                <td valign="top" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="SV">No</span></b></div>
+                </td>
+                <td style="border-left:none;" valign="top" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="SV">Nama
+                        Kelas</span></b></div>
+                </td>
+                <td style="border-left:none;" valign="top" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="SV">Jumlah </span></b></div>
+                </td>
+                <td style="border-left:none;" valign="top" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="SV">Hari
+                        Pelatihan</span></b></div>
+                </td>
+                <td style="border-left:none;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="IN">Waktu</span></b></div>
+                </td>
+                <td style="border-left:none;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><b><span lang="IN">Tempat</span></b></div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" style="border-top:none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">1</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">A</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">27</span><span lang="SV"> Orang</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Selasa</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">10.00 - 11.30</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Kamis</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">11.30 - 13.00</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Sabtu</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">08.30 - 10.00</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top: none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" style="border-top:none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">2</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">B</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">27</span><span lang="SV"> Orang</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Selasa</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">13.45 - 15.15</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Kamis</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal"><span lang="IN">13.00 –
+                      14.30</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span><span lang="SV"></span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Sabtu</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">10.00 – 11.30</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span><span lang="SV"></span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top: none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="113">
+                  <div class="MsoNormal"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" style="border-top:none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">3</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">C</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">27</span><span lang="SV"> Orang</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Selasa</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">15.15 – 16.45</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Jumat</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">10.00 – 11.30</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Sabtu</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">11.30 – 13.00</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top: none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="113">
+                  <div class="MsoNormal"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" style="border-top:none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">4</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV">D</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">27</span><span lang="SV"> Orang</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Rabu</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">11.30 – 13.00</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Jumat</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">13.00 – 14.30</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Sabtu</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">11.30 – 13.00</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top: none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="113">
+                  <div class="MsoNormal"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" style="border-top:none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">5</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">E</span></div>
+                </td>
+                <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">27</span><span lang="SV"> Orang</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Kamis</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">08.30 – 10.00</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Jumat</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">14.30 – 16.00</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2510</span><span lang="SV"></span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="113">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">Sabtu</span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">13.00 – 14.30</span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN">R. 2505</span><span lang="SV"></span></div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-top: none;" width="36">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="93">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="IN"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:
+                  solid windowtext 1.0pt;border-right:solid windowtext
+                  1.0pt;" width="95">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="113">
+                  <div class="MsoNormal"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="104">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+                <td style="border-top:none;border-left:
+                  none;border-bottom:solid windowtext
+                  1.0pt;border-right:solid windowtext 1.0pt;" valign="top" width="110">
+                  <div class="MsoNormal" style="text-align:center;" align="center"><span lang="SV"> </span></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="MsoNormal"><span style="font-size: 8.0pt;" lang="IN"> </span></div>
+          <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:IN;}
+</style>
+<![endif]--><br>
+          <br>
+          <br>
+          <br>
+          <div><span><br>
+            </span></div>
+          <div class="yahoo_quoted"> <br>
+            <br>
+            <div style="font-family: HelveticaNeue, Helvetica Neue,
+              Helvetica, Arial, Lucida Grande, sans-serif;font-size:
+              12pt;">
+              <div style="font-family: HelveticaNeue, Helvetica Neue,
+                Helvetica, Arial, Lucida Grande, sans-serif;font-size:
+                12pt;">
+                <div dir="ltr"> <font face="Arial" size="2"> On Monday,
+                    September 2, 2013 5:09 PM, Juanda Juanda <a moz="true" class="moz-txt-link-rfc2396E" href="mailto:djuanda1969@yahoo.com">&lt;djuanda1969@yahoo.com&gt;</a>
+                    wrote:<br>
+                  </font> </div>
+                <div class="y_msg_container">
+                  <div id="yiv6805310298">
+                    <div>
+                      <div style="color:#000;background-color:#fff;font-family:times
+                        new roman, new york, times,
+                        serif;font-size:12pt;">
+                        <div><span></span></div>
+                        <div><br clear="none">
+                        </div>
+                        <div class="yiv6805310298yqt7051044917" id="yiv6805310298yqt15521">
+                          <div style="font-family:times new roman, new
+                            york, times, serif;font-size:12pt;">
+                            <div style="font-family:times new roman, new
+                              york, times, serif;font-size:12pt;">
+                              <div dir="ltr">
+                                <hr size="1"> <font face="Arial" size="2"> <b><span style="font-weight:bold;">From:</span></b>
+                                  Teknik Informatika UNIKOM <a moz="true" class="moz-txt-link-rfc2396E" href="mailto:if.unikom@yahoo.co.id">&lt;if.unikom@yahoo.co.id&gt;</a><br clear="none">
+                                  <b><span style="font-weight:bold;">To:</span></b>
+                                  Juanda Juanda <a moz="true" class="moz-txt-link-rfc2396E" href="mailto:djuanda1969@yahoo.com">&lt;djuanda1969@yahoo.com&gt;</a>
+                                  <br clear="none">
+                                  <b><span style="font-weight:bold;">Sent:</span></b>
+                                  Monday, August 26, 2013 2:08 PM<br clear="none">
+                                  <b><span style="font-weight:bold;">Subject:</span></b>
+                                  Nilai IF-13 SMT II<br clear="none">
+                                </font> </div>
+                              <div class="yiv6805310298y_msg_container"><br clear="none">
+                                Assalamu'alaikum<br clear="none">
+                                <br clear="none">
+                                Bapak .. punten nilai akhir yang IF-13
+                                SMT II, file IF-13 nya ada ... <br clear="none">
+                                tapi isinya kosong<br clear="none">
+                                Diantos nilaina.<br clear="none">
+                                Nuhun<br clear="none">
+                                <br clear="none">
+                                Wassalam<br clear="none">
+                                <br clear="none">
+                                <br clear="none">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <br>
+    </div>
+    <br>
+  
+
+</p>
+
+    </div>
+     
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div style="color: #fff; height: 0;">__._,_.___</div>
+
+          
+  
+    
+    <table cellspacing=4px style="margin-top: 20px; margin-bottom: 10px;">
+      <tbody>
+        <tr>
+          <td style="font-size: 12px; font-family: arial; font-weight: bold; padding: 7px 5px 5px; color: #FFF; background-color: #F2F2F2; border: 1px solid #EAEAEA "  >
+                          <a style="text-decoration: none; color: #2D50FD" href="http://groups.yahoo.com/group/ta-skripsi/post;_ylc=X3oDMTJxM3VrdWtlBF9TAzk3MzU5NzE0BGdycElkAzIxNjkxNjczBGdycHNwSWQDMTcwNTA3OTYwNQRtc2dJZAM3NDk2BHNlYwNmdHIEc2xrA3JwbHkEc3RpbWUDMTM4MzcwMDIwNQ--?act=reply&messageNum=7496">Reply via web post</a>
+                      </td>
+          <td style="font-size: 12px; font-family: arial; padding: 7px 5px 5px; color: #FFF; background-color: #F2F2F2; border: 1px solid #EAEAEA; " >
+            <a href="mailto:if.unikom@yahoo.co.id?subject=Re%3A%20Jadwal%20Pelatihan%20EPT" style="text-decoration: none; color: #2D50FD;">
+              Reply to sender            </a> 
+          </td>
+          <td style="font-size: 12px; font-family: arial; padding: 7px 5px 5px; color: #FFF; background-color: #F2F2F2; border: 1px solid #EAEAEA; ">
+            <a href="mailto:ta-skripsi@yahoogroups.com?subject=Re%3A%20Jadwal%20Pelatihan%20EPT" style="text-decoration: none; color: #2D50FD">
+              Reply to group            </a> 
+          </td>
+          <td style="font-size: 12px; font-family: arial; padding: 7px 5px 5px; color: #FFF; background-color: #F2F2F2; border: 1px solid #EAEAEA; " >
+            <a href="http://groups.yahoo.com/group/ta-skripsi/post;_ylc=X3oDMTJmbGRwamo2BF9TAzk3MzU5NzE0BGdycElkAzIxNjkxNjczBGdycHNwSWQDMTcwNTA3OTYwNQRzZWMDZnRyBHNsawNudHBjBHN0aW1lAzEzODM3MDAyMDU-" style="text-decoration: none; color: #2D50FD">Start a New Topic</a>
+          </td>
+          <td style="font-size: 12px; font-family: arial; padding: 7px 5px 5px; color: #2D50FD; background-color: #F2F2F2; border: 1px solid #EAEAEA; " >
+                            <a href="http://groups.yahoo.com/group/ta-skripsi/message/7495;_ylc=X3oDMTM1OWp1MGhtBF9TAzk3MzU5NzE0BGdycElkAzIxNjkxNjczBGdycHNwSWQDMTcwNTA3OTYwNQRtc2dJZAM3NDk2BHNlYwNmdHIEc2xrA3Z0cGMEc3RpbWUDMTM4MzcwMDIwNQR0cGNJZAM3NDk1" style="text-decoration: none; color: #2D50FD;">Messages in this topic</a>
+                (2)
+                      </td>
+        </tr>
+      </tbody>
+    </table>
+
+        
+<!------- Start Nav Bar ------>
+<!-- |**|begin egp html banner|**| -->
+<!-- |**|end egp html banner|**| -->
+
+<!-- |**|begin egp html banner|**| -->
+<div id="ygrp-vital" style="background-color: #f2f2f2; font-family: Verdana; font-size: 10px; margin-bottom: 10px; padding: 10px;">
+      <span id="vithd" style="font-weight: bold; color: #333; text-transform: uppercase; ">Recent Activity:</span>
+
+    <ul style="list-style-type: none; margin: 0; padding: 0; display: inline;">
+                                                    </ul>
+    
+  <div style="clear: both; padding-top: 2px; color: #1e66ae;">
+    <a href="http://groups.yahoo.com/group/ta-skripsi;_ylc=X3oDMTJmMWRwcnR2BF9TAzk3MzU5NzE0BGdycElkAzIxNjkxNjczBGdycHNwSWQDMTcwNTA3OTYwNQRzZWMDdnRsBHNsawN2Z2hwBHN0aW1lAzEzODM3MDAyMDU-" style="text-decoration: none;">Visit Your Group</a>
+  </div>
+</div>
+
+
+      <div id="ygrp-grfd" style="font-family: Verdana; font-size: 12px; padding: 15px 0;">
+      
+<!-- |**|begin egp html banner|**| -->
+
+      Gunakan milis ini digunakan sebagai media bagi mahasiswa Teknik Informatika Unikom untuk berkomunikasi, bertukar pikiran, berbagi referensi atau buku yang dapat membantu dalam mengerjakan TA/Skripsi.      
+<!-- |**|end egp html banner|**| -->
+
+    </div>
+  
+<div id="ft" style="font-family: Arial; font-size: 11px; margin-top: 5px; padding: 0 2px 0 0; clear: both;">
+  <a href="http://groups.yahoo.com/;_ylc=X3oDMTJlcnZqbGE3BF9TAzk3NDc2NTkwBGdycElkAzIxNjkxNjczBGdycHNwSWQDMTcwNTA3OTYwNQRzZWMDZnRyBHNsawNnZnAEc3RpbWUDMTM4MzcwMDIwNQ--" style="float: left;"><img src="http://l.yimg.com/ru/static/images/yg/img/email/new_logo/logo-groups-137x15.png" height="15" width="137" alt="Yahoo! Groups" style="border: 0;"/></a>
+  <div style="color: #747575; float: right;">Switch to: <a href="mailto:ta-skripsi-traditional@yahoogroups.com?subject=Change Delivery Format: Traditional" style="text-decoration: none;">Text-Only</a>, <a href="mailto:ta-skripsi-digest@yahoogroups.com?subject=Email Delivery: Digest" class="margin-rt" style="text-decoration: none;">Daily Digest</a> &bull; <a href="mailto:ta-skripsi-unsubscribe@yahoogroups.com?subject=Unsubscribe" style="text-decoration: none;">Unsubscribe</a> &bull; <a href="http://info.yahoo.com/legal/us/yahoo/utos/terms/" style="text-decoration: none;">Terms of Use</a> &bull; <a href="mailto:ygroupsnotifications@yahoogroups.com?subject=Feedback on the redesigned individual mail v1" style="text-decoration: none;">Send us Feedback </a></div>
+</div>
+
+<!-- |**|end egp html banner|**| -->
+
+  </div> <!-- ygrp-msg -->
+
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id="ygrp-sponsor" style="width:160px; float:right; clear:none; margin:0 0 25px 0; background: #fff;">
+
+<!-- Start Recommendations -->
+<div id="ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+
+
+  </div>   <!-- |**|end egp html banner|**| -->
+
+  <div style="clear:both; color: #FFF; font-size:1px;">.</div>
+</div>
+
+  <img src="http://geo.yahoo.com/serv?s=97359714/grpId=21691673/grpspId=1705079605/msgId=7496/stime=1383700205" width="1" height="1"> <br>
+
+<div style="color: #fff; height: 0;">__,_._,___</div>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+
+</body>
+
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+  <style type="text/css">
+  <!--
+  #ygrp-mkp {
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#ygrp-mkp hr {
+  border: 1px solid #d8d8d8;
+}
+
+#ygrp-mkp #hd {
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 122%;
+  margin: 10px 0;
+}
+
+#ygrp-mkp #ads {
+  margin-bottom: 10px;
+}
+
+#ygrp-mkp .ad {
+  padding: 0 0;
+}
+
+#ygrp-mkp .ad p {
+  margin: 0;
+}
+
+#ygrp-mkp .ad a {
+  color: #0000ff;
+  text-decoration: none;
+}
+  #ygrp-sponsor #ygrp-lc {
+  font-family: Arial;
+}
+
+#ygrp-sponsor #ygrp-lc #hd {
+  margin: 10px 0px;
+  font-weight: 700;
+  font-size: 78%;
+  line-height: 122%;
+}
+
+#ygrp-sponsor #ygrp-lc .ad {
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+
+  #actions {
+    font-family: Verdana;
+    font-size: 11px;
+    padding: 10px 0;
+  }
+
+  #activity {
+    background-color: #e0ecee;
+    float: left;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  #activity span {
+    font-weight: 700;
+  }
+
+  #activity span:first-child {
+    text-transform: uppercase;
+  }
+
+  #activity span a {
+    color: #5085b6;
+    text-decoration: none;
+  }
+
+  #activity span span {
+    color: #ff7900;
+  }
+
+  #activity span .underline {
+    text-decoration: underline;
+  }
+
+  .attach {
+    clear: both;
+    display: table;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 400px;
+  }
+
+  .attach div a {
+    text-decoration: none;
+  }
+
+  .attach img {
+    border: none;
+    padding-right: 5px;
+  }
+
+  .attach label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .attach label a {
+    text-decoration: none;
+  }
+  
+  blockquote {
+    margin: 0 0 0 4px;
+  }
+
+  .bold {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .bold a {
+    text-decoration: none;
+  }
+
+  dd.last p a {
+    font-family: Verdana;
+    font-weight: 700;
+  }
+
+  dd.last p span {
+    margin-right: 10px;
+    font-family: Verdana;
+    font-weight: 700;
+  }
+
+  dd.last p span.yshortcuts {
+    margin-right: 0;
+  }
+
+  div.attach-table div div a {
+    text-decoration: none;
+  }
+
+  div.attach-table {
+    width: 400px;
+  }
+
+  div.file-title a, div.file-title a:active, div.file-title a:hover, div.file-title a:visited {
+    text-decoration: none;
+  }
+
+  div.photo-title a, div.photo-title a:active, div.photo-title a:hover, div.photo-title a:visited {
+    text-decoration: none;
+  }
+
+  div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .green {
+    color: #628c2a;
+  }
+
+  .MsoNormal {
+    margin: 0 0 0 0;
+  }
+
+  o {
+    font-size: 0;
+  }
+
+  #photos div {
+    float: left;
+    width: 72px;
+  }
+
+  #photos div div {
+    border: 1px solid #666666;
+    height: 62px;
+    overflow: hidden;
+    width: 62px;
+  }
+
+  #photos div label {
+    color: #666666;
+    font-size: 10px;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    width: 64px;
+  }
+
+  #reco-category {
+    font-size: 77%;
+  }
+
+  #reco-desc {
+    font-size: 77%;
+  }
+
+  .replbq {
+    margin: 4px;
+  }
+
+  #ygrp-actbar div a:first-child {
+   /* border-right: 0px solid #000;*/
+    margin-right: 2px;
+    padding-right: 5px;
+  }
+
+  #ygrp-mlmsg {
+    font-size: 13px;
+    font-family: Arial, helvetica,clean, sans-serif;
+    *font-size: small;
+    *font: x-small;
+  }
+
+  #ygrp-mlmsg table {
+    font-size: inherit;
+    font: 100%;
+  }
+
+  #ygrp-mlmsg select, input, textarea {
+    font: 99% Arial, Helvetica, clean, sans-serif;
+  }
+
+  #ygrp-mlmsg pre, code {
+    font:115% monospace;
+    *font-size:100%;
+  }
+
+  #ygrp-mlmsg * {
+    line-height: 1.22em;
+  }
+
+  #ygrp-mlmsg #logo {
+    padding-bottom: 10px;
+  }
+
+
+  #ygrp-msg p a {
+    font-family: Verdana;
+  }
+
+  #ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: 700;
+  }
+
+  #ygrp-reco #reco-head {
+    color: #ff7900;
+    font-weight: 700;
+  }
+
+  #ygrp-reco {
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+  #ygrp-sponsor #ov li a {
+    font-size: 130%;
+    text-decoration: none;
+  }
+
+  #ygrp-sponsor #ov li {
+    font-size: 77%;
+    list-style-type: square;
+    padding: 6px 0;
+  } 
+
+  #ygrp-sponsor #ov ul {
+    margin: 0;
+    padding: 0 0 0 8px;
+  }
+
+  #ygrp-text {
+    font-family: Georgia;
+  }
+
+  #ygrp-text p {
+    margin: 0 0 1em 0;
+  }
+
+  #ygrp-text tt {
+    font-size: 120%;
+  }
+
+  #ygrp-vital ul li:last-child {
+    border-right: none !important; 
+  } 
+  -->
+  </style>
+</head>
+
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html>
+<!-- end group email -->
+
+
+--------------030708030507080208060104--

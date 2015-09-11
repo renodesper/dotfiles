@@ -40,7 +40,7 @@ myKeys ::  XConfig l -> M.Map (KeyMask, KeySym) (X ())
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [
     -- Tutup fokus window dan Keluar dari Xmonad
-          ((modm,xK_q)                                , spawn "xmonad --recompile; killall conky dzen2 compton mpd mpd-notification thunar synapse hhp; xmonad --restart")
+          ((modm,xK_q)                                , spawn "xmonad --recompile; killall conky dzen2 compton mpd thunar synapse hhp; xmonad --restart")
         -- , ((modm .|. shiftMask,xK_q)                  , spawn "killall conky dzen2 compton mpd mpd-notification thunar synapse; io (exit With Exit Success)")
         , ((modm .|. shiftMask,xK_q)                  , spawn "poweroff")
         , ((modm,xK_x)                                , kill)
@@ -81,13 +81,14 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- Aplikasi
         , ((modm,xK_Return)                           , spawn "terminator")
         , ((modm .|. shiftMask,xK_Return)             , spawn $ XMonad.terminal conf)
+        , ((modm .|. shiftMask,xK_p)                  , spawn "pavucontrol")
         , ((modm .|. shiftMask,xK_s)                  , spawn "physlock")
-        , ((modm,xK_c)                                , spawn "sh /home/$USER/.xmonad/Scripts/calendar")
-        , ((modm .|. shiftMask,xK_c)                  , spawn "sh /home/$USER/.xmonad/Scripts/clock")
-        , ((modm,xK_bracketleft)                      , spawn "synclient TouchpadOff=1")
-        , ((modm .|. shiftMask,xK_bracketleft)        , spawn "synclient TouchpadOff=0")
-        , ((modm,xK_bracketright)                     , spawn "setxkbmap dvorak;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
-        , ((modm .|. shiftMask,xK_bracketright)       , spawn "setxkbmap us;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
+        , ((modm,xK_c)                                , spawn "sh /home/$USER/.scripts/calendar.sh")
+        , ((modm .|. shiftMask,xK_c)                  , spawn "sh /home/$USER/.scripts/clock.sh")
+        , ((modm,xK_bracketleft)                      , spawn "setxkbmap us -variant colemak;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
+        , ((modm .|. shiftMask,xK_bracketleft)        , spawn "setxkbmap us;xmodmap -e 'keycode 108 = Super_L';xmodmap -e 'remove mod1 = Super_L'")
+        , ((modm,xK_bracketright)                     , spawn "synclient TouchpadOff=1")
+        , ((modm .|. shiftMask,xK_bracketright)       , spawn "synclient TouchpadOff=0")
         , ((modm,xK_semicolon)                        , spawn "subl3")
         , ((modm,xK_apostrophe)                       , safeSpawn "luakit" [])
     -- Pengaturan mpc dan volume
@@ -234,15 +235,16 @@ white = "#FFFFFF"
 -- color2 & color4 for toprightbar
 
 -- Red Blue om Eko
--- color1 = "#82AFF9"
--- color2 = "#9881F5"
--- color3 = "#F97D81"
--- color4 = "#F9D08B"
+color1 = "#82AFF9"
+color2 = "#9881F5"
+color3 = "#F97D81"
+color4 = "#F9D08B"
 
-color1 = "#00B454"
-color2 = "#78E700"
-color3 = "#086CA2"
-color4 = "#FF3900"
+-- Green Blue
+-- color1 = "#00B454"
+-- color2 = "#78E700"
+-- color3 = "#086CA2"
+-- color4 = "#FF3900"
 
 ------------------------------------------------------------------------
 -- Status bars and logging --
@@ -332,10 +334,10 @@ myLayout = mkToggle (NOBORDERS ?? FULL ?? EOT) $
 ------------------------------------------------------------------------
 main :: IO ()
 main = do
-    logHookPanel  <- spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/loghook"
-    spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/toprightbar"
-    -- spawnPipe "DISPLAY=:0 sh /home/$USER/.xmonad/Scripts/bottomrightbar"
-    spawn "DISPLAY=:0 sh /home/$USER/.autostart.sh"
+    logHookPanel  <- spawnPipe "DISPLAY=:0 sh /home/$USER/.scripts/xmonad_loghook.sh"
+    spawnPipe "DISPLAY=:0 sh /home/$USER/.scripts/toprightbar.sh"
+    -- spawnPipe "DISPLAY=:0 sh /home/$USER/.scripts/bottomrightbar.sh"
+    -- spawn "DISPLAY=:0 sh /home/$USER/.autostart.sh"
     xmonad  $ withUrgencyHook NoUrgencyHook
     -- xmonad  $ withUrgencyHook dzenUrgencyHook
     --         { args = [ "-x", "0", "-y", "335", "-h", "98"
@@ -345,7 +347,7 @@ main = do
     --                     ]
     --         }
             $ defaultConfig
-            { terminal              = "urxvt"
+            { terminal              = "uxterm"
             , focusFollowsMouse     = False
             , clickJustFocuses      = False
             , borderWidth           = 4

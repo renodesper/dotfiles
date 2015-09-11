@@ -1,0 +1,150 @@
+set folder           = ~/.Mail               # mailbox location
+#set folder           = "imaps://imap.gmail.com:993" # imap url
+set alias_file       = ~/.mutt/alias         # where to store aliases
+set header_cache     = ~/.mutt/cache/headers # where to store headers
+set message_cachedir = ~/.mutt/cache/bodies  # where to store bodies
+set mailcap_path     = ~/.mailcap            # entries for filetypes
+set signature        = ~/.mutt/sig           # my signature file
+
+set realname = "Boy Sandy Gladies Arriezona"
+set from = "reno.esper@gmail.com"
+#set imap_user = "reno.esper@gmail.com"
+#set imap_pass = ""
+set sendmail = "/usr/bin/msmtp"
+set sendmail_wait = 0
+unset record
+
+set send_charset = "utf-8"  # use utf-8
+set wait_key = no        # shut up, mutt
+set mbox_type = Maildir  # mailbox type
+set timeout = 3          # idle time before scanning
+set mail_check = 0       # minimum time between scans
+unset move               # gmail does that
+set delete               # don't ask, just do
+unset confirmappend      # don't ask, just do!
+set quit                 # don't ask, just do!!
+unset mark_old           # read/new is good enough for me
+set beep_new             # bell on new mails
+set check_new
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
+
+set status_chars  = " *%A"
+set status_format = " [Folder: %f] [%m messages%?n? (%n new)?%?d? (%d to delete) ?%?t? (%t tagged)?]%> %?p?(%p postponed)? "
+
+ignore *                                # ignore all headers
+unignore from: to: cc: date: subject:   # show only these
+unhdr_order *                           # some distros order things by default
+hdr_order from: to: cc: date: subject:  # and in this order
+
+# Default inbox.
+set spoolfile = "+reno.esper@gmail.com/INBOX"
+#set spoolfile = "imaps://imap.gmail.com:993/INBOX"
+
+# Mailboxes to show in the sidebar and checked regularly.
+mailboxes +reno.esper@gmail.com/INBOX \
+          +reno.esper@gmail.com/archive \
+          +reno.esper@gmail.com/sent \
+          +reno.esper@gmail.com/drafts \
+          +reno.esper@gmail.com/flagged \
+          +reno.esper@gmail.com/trash
+
+# Other special folders.
+set mbox      = "+reno.esper@gmail.com/archive"
+set postponed = "+reno.esper@gmail.com/drafts"
+
+set date_format = "%m/%d"
+set index_format = "[%Z]  %D  %-20.20F  %s"
+set sort = threads                         # like gmail
+set sort_aux = reverse-last-date-received  # like gmail
+set uncollapse_jump                        # don't collapse on an unread message
+set sort_re                                # thread based on regex
+set reply_regexp = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+
+set pager_index_lines = 10 # number of index lines to show
+set pager_context = 3      # number of context lines to show
+set pager_stop             # don't go to next message automatically
+set menu_scroll            # scroll in menus
+set tilde                  # show tildes like in vim
+unset markers              # no ugly plus signs
+
+set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+auto_view text/html
+alternative_order text/enriched text/plain text/html text
+
+set envelope_from                    # which from?
+set sig_dashes                       # dashes before sig
+set edit_headers                     # show headers when composing
+set fast_reply                       # skip to compose when replying
+set askcc                            # ask for CC:
+set fcc_attach                       # save attachments with the body
+unset mime_forward                   # forward attachments as part of body
+set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_decode                   # decode when forwarding
+set attribution = "On %d, %n wrote:" # format of quoting header
+set reply_to                         # reply to Reply to: field
+set reverse_name                     # reply as whomever it was to
+set include                          # include message in replies
+set forward_quote                    # include message in forwards
+set print_command="/usr/bin/muttprint %s -p {T13-T22E}"
+set editor = "vim"                   # Use vim to compose email
+
+set sidebar_width=22
+set sidebar_visible = no
+set sidebar_delim='|'
+set sidebar_sort = yes
+set sidebar_shortpath = yes
+
+# Ctrl-R to mark all as read
+macro index \Cr "T~U<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "mark all messages as read"
+
+# Sync email
+macro index O "<shell-escape>offlineimap -qo<enter>"            "run offlineimap to sync all mail"
+macro index o "<shell-escape>offlineimap -qof INBOX<enter>"     "run offlineimap to sync inbox"
+
+# Saner copy/move dialogs
+macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
+macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
+
+macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
+macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
+macro index a "<limit>all\n" "show all messages (undo limit)"
+
+bind editor <delete>   backspace
+bind index 	gg         first-entry
+bind index 	G          last-entry
+bind index 	R          group-reply
+bind index 	<tab>      sync-mailbox
+bind index  <space>    collapse-thread
+bind pager 	k  	   previous-line
+bind pager 	j  	   next-line
+bind pager 	gg 	   top
+bind pager 	G  	   bottom
+bind pager 	R  	   group-reply
+bind compose    p	   postpone-message
+bind index 	p 	   recall-message
+bind index 	N 	   search-opposite
+bind pager 	N 	   search-opposite
+
+# Ctrl-n, Ctrl-p to select next, previous folder.
+# Ctrl-o to open selected folder.
+bind index,pager \CP sidebar-prev
+bind index,pager \CN sidebar-next
+bind index,pager \CO sidebar-open
+
+# View attachments properly.
+bind attach <return> 		view-mailcap
+
+# Goobook query (google contacts)
+set query_command="goobook query '%s'"
+bind editor \t complete-query ## tab completion for contacts
+
+# Add contacts to google
+macro index,pager g "goobook add" "add the sender address to Google contacts"
+
+# Reload goobook db
+macro index,pager gr "!goobook reload\n" "Goobook reload"
+
+# Color
+source /home/renodesper/.mutt/colorschemes/mutt-colors-solarized-light-16.muttrc
+color sidebar_new cyan default

@@ -1,0 +1,25 @@
+2013-08-11 13:33:26	-->	renodesper (renodesper@GS-33366.c33512.usr.usr.genscripts.net) has joined #blackarch
+2013-08-11 13:33:26	--	Topic for #blackarch is "BlackArch Linux | A lightweight, pentest distribution"
+2013-08-11 13:33:26	--	Topic set by MedinaSoft on Tue, 09 Jul 2013 20:27:47
+2013-08-11 13:33:26	--	Nicks #blackarch: [@BlackArch @funkii @MedinaSoft @nunkii @Tux` +Arnoldz +DarkFox +iTux` +JayCie +Kyzza +Nick +schnoodles-a renodesper]
+2013-08-11 13:33:26	--	Channel #blackarch: 13 nicks (5 ops, 0 halfops, 7 voices, 1 normal)
+2013-08-11 13:33:26	--	Mode #blackarch [+v renodesper] by BlackArch
+2013-08-11 13:33:27	--	Mode #blackarch [+mtn]
+2013-08-11 13:33:27	--	Channel created on Tue, 09 Jul 2013 20:18:07
+2013-08-11 13:35:00	+renodesper	Hi guys, I got "Could not find rake-10.0.4 in any of the sources" even after doing all those thing on blackarch site
+2013-08-11 13:35:16	+renodesper	do you guys know why?
+2013-08-11 14:18:01	@nunkii	sup
+2013-08-11 14:18:16	@nunkii	rake isn't in the repository yet
+2013-08-11 14:18:25	@nunkii	the main post explains it
+2013-08-11 14:18:43	@nunkii	there are a few ruby dependencies we're still working to add, there are so many and only a few devs
+2013-08-11 14:19:14	@nunkii	you should be able to just install the gem
+2013-08-11 14:19:34	@nunkii	none of the tools require rake from repository, they can all be installed as a gem
+2013-08-11 14:19:54	@nunkii	can I ask which tool in particular you're having trouble with?
+2013-08-11 14:21:16	@nunkii	we've had several people install the full toolset without issues
+2013-08-11 14:21:32	@nunkii	and none of the tools we have actually need rake
+2013-08-11 14:21:56	@nunkii	that i can think of
+2013-08-11 14:22:30	@nunkii	well, i need to get some sleep, if you read this before you log off, email me I'll help you out: codemunchies@gmail or blackarchlinux@gmail.com
+2013-08-11 14:22:43	<--	nunkii (nunkii@GS-12494.washdc.fios.verizon.net) has quit (Quit: )
+2013-08-11 14:22:54	+renodesper	so that's the problem
+2013-08-11 14:23:22	+renodesper	I try to run msfconsole
+2013-08-11 14:23:44	+renodesper	Okay then, I will install rake separately

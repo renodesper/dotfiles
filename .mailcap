@@ -1,0 +1,58 @@
+# Office files
+application/msword;         wps %s; test=sh -c 'test $DISPLAY';
+application/msword;         antiword %s | vim -;
+application/x-doc;          wps %s; test=sh -c 'test $DISPLAY';
+
+application/msexcel;        et %s; test=sh -c 'test $DISPLAY';
+application/x-excel;        et %s; test=sh -c 'test $DISPLAY';
+
+application/mspowerpoint;   wpp %s; test=sh -c 'test $DISPLAY';
+
+
+# PGP Signature
+application/pgp-signature;  vim -;
+
+# Images
+image/jpg;                  ~/.mutt/view_attachment %s jpg; test=sh -c 'test $DISPLAY';
+image/jpeg;                 ~/.mutt/view_attachment %s jpg; test=sh -c 'test $DISPLAY';
+image/pjpeg;                ~/.mutt/view_attachment %s jpg; test=sh -c 'test $DISPLAY';
+image/png;                  ~/.mutt/view_attachment %s png; test=sh -c 'test $DISPLAY';
+image/gif;                  ~/.mutt/view_attachment %s gif; test=sh -c 'test $DISPLAY';
+image/jpg;                  tiv -jac -h 38 %s;
+image/jpeg;                 tiv -jac -h 38 %s;
+image/pjpeg;                tiv -jac -h 38 %s;
+image/png;                  tiv -jac -h 38 %s;
+image/gif;                  tiv -jac -h 38 %s;
+
+# PDFs
+application/pdf;            qpdfview %s; test=sh -c 'test $DISPLAY';
+application/pdf;            pdf2htmlEX --fallback 1 %s | lynx -dump | vim -;
+
+# HTML
+text/html;                  firefox %s; test=sh -c 'test $DISPLAY';
+text/html;                  text/html; lynx -dump %s; copiousoutput;
+
+# Plain
+text/*;                     vim -;
+
+# Unidentified files
+application/octet-stream;  subl3 %s; test=sh -c 'test $DISPLAY';
+application/octet-stream;   vim -;
+
+# Compressed files
+application/x-7z-compressed;        file-roller %s;
+application/x-7z-compressed-tar;    file-roller %s;
+application/x-bzip;                 file-roller %s;
+application/x-bzip-compressed-tar;  file-roller %s;
+application/x-compressed-tar;       file-roller %s;
+application/x-deb;                  file-roller %s;
+application/x-gtar;                 file-roller %s;
+application/gzip;                   file-roller %s;
+application/rar;                    file-roller %s;
+application/x-rar-compressed;       file-roller %s;
+application/x-rpm;                  file-roller %s;
+application/x-tar;                  file-roller %s;
+application/x-tarz;                 file-roller %s;
+application/x-xz;                   file-roller %s;
+application/zip;                    file-roller %s;
+application/x-zip-compressed;       file-roller %s;

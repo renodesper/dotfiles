@@ -1,0 +1,44 @@
+[general]
+ui = quiet
+accounts = MyAccount
+fsync = False
+maxsyncaccounts = 1
+
+[Account MyAccount]
+localrepository = Local
+remoterepository = Remote
+status_backend = sqlite
+postsynchook = notmuch new
+maxsize = 15000000
+autorefresh = 5
+quick = 10
+
+[Repository Local]
+type = Maildir
+localfolders = ~/.Mail/email@gmail.com
+nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
+                            'sent':    '[Gmail]/Sent Mail',
+                            'flagged': '[Gmail]/Starred',
+                            'trash':   '[Gmail]/Trash',
+                            'archive': '[Gmail]/All Mail',
+                            }.get(folder, folder)
+
+[Repository Remote]
+maxconnections = 3
+type = Gmail
+remoteuser = email@gmail.com
+remotepass = password
+realdelete = no
+keepalive = 60
+holdconnectionopen = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
+                            '[Gmail]/Sent Mail': 'sent',
+                            '[Gmail]/Starred':   'flagged',
+                            '[Gmail]/Trash':     'trash',
+                            '[Gmail]/All Mail':  'archive',
+                            }.get(folder, folder)
+folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
+                                             '[Gmail]/Important',
+                                             '[Gmail]/Spam',
+                                             ]

@@ -1,0 +1,219 @@
+2013-08-14 13:55:16	AnggiRiyandi	boy extensi ramdisk na nu dibatasi teh naun ?
+2013-08-14 13:56:57	AnggiRiyandi	sync na make naun poho dui ngarana ?
+2013-08-14 14:00:06	renodesper	urang mah make anything to sync daemon jeung sinkronisasi mah
+2013-08-14 14:00:23	renodesper	lamun ekstensi ramdisk maksudna nu manana? poho yeuh urang :v
+2013-08-14 14:00:59	AnggiRiyandi	sudo mount -t tmpfs -o size=512M tmpfs /tmp/ram/
+2013-08-14 14:01:04	AnggiRiyandi	kitu kan nyiuna ??
+2013-08-14 14:01:25	renodesper	yoi, teu kudu make / deui di akhirna
+2013-08-14 14:01:50	AnggiRiyandi	oke2 sip .. urang keur nyobaan sync na uy hahha
+2013-08-14 14:02:00	renodesper	eta mah tina console nya? urang mah make fstab meh autorun pas OS hurung, tapi sarua keneh sih
+2013-08-14 14:03:24	AnggiRiyandi	nya din console ... keur ngetes2 hula ..
+2013-08-14 14:03:24	AnggiRiyandi	ke gus mantab karek di fstab meh autorun heheh
+2013-08-14 14:03:39	renodesper	oke oke, sok we cobaan heula
+2013-08-14 14:03:52	AnggiRiyandi	siippp ..siip
+2013-08-14 14:05:19	renodesper	lamun tutorial keur os urang mah ieu yeuh: https://wiki.archlinux.org/index.php/Anything-sync-daemon
+2013-08-14 14:05:25	renodesper	bisi kitu hayang maca2 heula
+2013-08-14 14:07:21	AnggiRiyandi	make cron ge sarua da nya ngajalankeun sync na ??
+2013-08-14 14:07:38	renodesper	iya sarua, tinggal make fungsi resync we mun make cron
+2013-08-14 14:07:53	AnggiRiyandi	woke2 ...
+2013-08-14 14:14:05	AnggiRiyandi	boy aya dui uy goanysync
+2013-08-14 14:14:05	AnggiRiyandi	.... tingali tah https://github.com/wor/goanysync
+2013-08-14 14:38:34	renodesper	kela, ditingali heula
+2013-08-14 14:44:43	renodesper	geus lila eta mah gi
+2013-08-14 14:45:05	renodesper	pangdeukeutna ge 10 bulan kamari, tapi mun ceuk kamu alus mah cobaan we
+2013-08-14 14:45:22	AnggiRiyandi	tapi bisa teu eta .. urang keur nyobaan uy ...
+2013-08-14 14:45:31	renodesper	bisa bisa
+2013-08-14 14:45:39	AnggiRiyandi	asa babari soalna hahah
+2013-08-14 14:45:52	renodesper	ngan beda bahasa hungkul jigana, eta make bahasa go
+2013-08-14 14:46:50	AnggiRiyandi	keur nyobaan ieu ge  ... xixixi
+2013-08-14 14:47:32	renodesper	ngan pedah kurang update hungkul :D
+2013-08-14 14:47:50	AnggiRiyandi	oh kitu heheh ...
+2013-08-14 14:48:07	AnggiRiyandi	kudu ka teun km uy urang na .. sabari diajar2 hahah
+2013-08-14 14:48:26	renodesper	sok we cobaan heula, sarua keneh jigana mah
+2013-08-14 14:48:54	AnggiRiyandi	woke 2 sipp
+2013-08-14 14:56:40	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 14:57:46	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 15:02:16	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 15:02:41	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 15:07:41	AnggiRiyandi	boy ??
+2013-08-14 15:08:05	AnggiRiyandi	bisa uy ieu teh tp folderna hungkul nu di simpen dina /tmp na hunggkul uy 
+2013-08-14 15:08:14	AnggiRiyandi	isi na teu kosong 
+2013-08-14 15:08:24	AnggiRiyandi	jd di sync teh folder na we hungkul
+2013-08-14 15:08:27	AnggiRiyandi	kunaun nya uy ?
+2013-08-14 15:15:43	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 15:17:08	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 15:31:59	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 15:33:33	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 15:45:14	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 16:02:11	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 16:12:06	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 16:34:09	renodesper	yo, urang karek balik
+2013-08-14 16:34:09	--	[AnggiRiyandi] is away: Offline
+2013-08-14 16:34:35	renodesper	tah teu apal eta mah, urang kan teu nyobaan anu go tea
+2013-08-14 16:36:26	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 16:36:59	AnggiRiyandi	haha pgh heuuh ...
+2013-08-14 16:36:59	AnggiRiyandi	ari nu cceuk mnhh kumaha install na uy ??
+2013-08-14 16:36:59	AnggiRiyandi	mun di ubuntu ??
+2013-08-14 16:40:05	renodesper	cari heula we di ubuntu aya paketna teu, mun euweuh paling nya compile sorangan :D
+2013-08-14 16:42:23	AnggiRiyandi	euwuh ... paket na boy ku urang geus diteangn ...
+2013-08-14 16:42:23	AnggiRiyandi	bingun cara compile urang teh wkwkw
+2013-08-14 16:42:52	renodesper	cara compile kan aya dina github-na, can pernah compile program linux tina source nya? :v
+2013-08-14 16:43:46	AnggiRiyandi	acan wkwkwk ....
+2013-08-14 16:44:14	AnggiRiyandi	titah pake make ,, tp koq euwwuh ./configure na xixi
+2013-08-14 16:44:29	renodesper	euweuh naonna?
+2013-08-14 16:44:47	AnggiRiyandi	./confgure na ..
+2013-08-14 16:45:32	AnggiRiyandi	dina cara na kur 
+2013-08-14 16:45:34	AnggiRiyandi	DEPENDENCIES
+2013-08-14 16:45:34	AnggiRiyandi	 bash
+2013-08-14 16:45:34	AnggiRiyandi	 rsync
+2013-08-14 16:45:34	AnggiRiyandi	 
+2013-08-14 16:45:34	AnggiRiyandi	BUILDING
+2013-08-14 16:45:34	AnggiRiyandi	 Setup the via a make.
+2013-08-14 16:45:34	AnggiRiyandi	 
+2013-08-14 16:45:34	AnggiRiyandi	  $ make
+2013-08-14 16:45:34	AnggiRiyandi	 
+2013-08-14 16:45:34	AnggiRiyandi	 Running a `make install-xxx` as root will distribute the files to
+2013-08-14 16:45:34	AnggiRiyandi	 the file system. Most users will want to select from three options
+2013-08-14 16:45:34	AnggiRiyandi	 depending on target init system (do not run both)!
+2013-08-14 16:45:34	AnggiRiyandi	 
+2013-08-14 16:45:34	AnggiRiyandi	  # make install-systemd-all
+2013-08-14 16:45:34	AnggiRiyandi	  # make install-upstart-all
+2013-08-14 16:45:43	AnggiRiyandi	kitu hungkul bingung urang wkwkw
+2013-08-14 16:50:28	renodesper	yey ari kamu, download heula eta safolder, biasana aya versi release dan, teang we
+2013-08-14 16:50:58	renodesper	tah lamun geus didownload kamu ekstrak, dina terminal asup kana folder nu bieu diekstrak, karek make ./configure
+2013-08-14 16:51:24	renodesper	lamun kamu nga-clone git eta, carana lain nu make ./configure tapi nu hiji deui
+2013-08-14 16:58:24	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 17:00:29	renodesper	kaciri pisan tara ngoprek linux teh :v
+2013-08-14 17:30:34	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 17:30:50	AnggiRiyandi	hahah
+2013-08-14 17:31:34	AnggiRiyandi	urang ngclone tina git na boy
+2013-08-14 17:31:47	AnggiRiyandi	jadi make nu mana install na hehe
+2013-08-14 17:33:16	renodesper	aya dina github-na nu luhureun eta mun teu salah mah
+2013-08-14 17:33:40	renodesper	nu kata2na teh jiga kieu "if using git" atawa sajenisna, poho uran
+2013-08-14 17:34:06	AnggiRiyandi	cik urang baca hula
+2013-08-14 17:37:31	AnggiRiyandi	wkwkw eweuh boy uy ...
+2013-08-14 17:37:31	AnggiRiyandi	urang git na nu ieu https://github.com/graysky2/anything-sync-daemon
+2013-08-14 17:46:02	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 17:47:27	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 18:01:37	renodesper	kela kela
+2013-08-14 18:03:00	AnggiRiyandi	sippp ...
+2013-08-14 18:07:21	<--	AnggiRiyandi has quit (Leaving...)
+2013-08-14 18:08:39	-->	AnggiRiyandi (-1811758439@chat.facebook.com) is back on server
+2013-08-14 18:09:28	renodesper	internet urang lemot gi, urang teu bisa muka github -_-
+2013-08-14 18:12:22	renodesper	biasana sok aya file INSTALL, tah didinya biasana aya cara instalna
+2013-08-14 18:13:06	AnggiRiyandi	geus boy ku urang di install
+2013-08-14 18:13:14	renodesper	sip sip :D
+2013-08-14 18:13:51	AnggiRiyandi	tah cara make na kmh haha
+2013-08-14 18:14:10	AnggiRiyandi	ku urang geus d config dina file asd.conf na
+2013-08-14 18:14:14	renodesper	:v
+2013-08-14 18:14:44	AnggiRiyandi	geus di seting 
+2013-08-14 18:14:45	AnggiRiyandi	WHATTOSYNC=('/home/anggi/Documents/tes/')
+2013-08-14 18:14:50	renodesper	urang mah kan aya systemd jadi tinggal ngahurungkeung service-na make "systemctl start asd.service"
+2013-08-14 18:14:52	AnggiRiyandi	VOLATILE="/tmp"
+2013-08-14 18:15:04	renodesper	tah coba hurungkeun ku kamu service-na
+2013-08-14 18:16:02	AnggiRiyandi	tah pas ngahurungkeun service na error uy 
+2013-08-14 18:16:04	AnggiRiyandi	anggi@anggi:~$ sudo /etc/init.d/asd start
+2013-08-14 18:16:04	AnggiRiyandi	mv: cannot move `/home/anggi/Documents/tes/' to a subdirectory of itself, `/home/anggi/Documents/tes/.-backup_asd'
+2013-08-14 18:16:04	AnggiRiyandi	ln: failed to create symbolic link `/home/anggi/Documents/tes/tes': File exists
+2013-08-14 18:16:04	AnggiRiyandi	rsync: change_dir "/home/anggi/Documents/tes/.-backup_asd" failed: No such file or directory (2)
+2013-08-14 18:16:04	AnggiRiyandi	rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
+2013-08-14 18:16:33	AnggiRiyandi	teuing kunaon tah ekeke
+2013-08-14 18:16:43	renodesper	cik ningali isi asd.conf tea
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	# /etc/asd.conf
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	 
+2013-08-14 18:17:23	AnggiRiyandi	# Define the target(s) directories in the WHATTOSYNC array
+2013-08-14 18:17:23	AnggiRiyandi	# Do NOT define a file! These MUST be directories with an absolute path!
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	# Note that the target DIRECTORIES and all subdirs under them will be included
+2013-08-14 18:17:23	AnggiRiyandi	# In other words, this is recursive
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	# Below is an example to wet your appetite
+2013-08-14 18:17:23	AnggiRiyandi	#WHATTOSYNC=('/srv/http' '/var/lib/monitorix' '/foo/bar')
+2013-08-14 18:17:23	AnggiRiyandi	WHATTOSYNC=('/home/anggi/Documents/tes/')
+2013-08-14 18:17:23	AnggiRiyandi	 
+2013-08-14 18:17:23	AnggiRiyandi	# Define where data will reside in tmpfs
+2013-08-14 18:17:23	AnggiRiyandi	# Think hard about this if using utils like bleachbit as it has a nasty habit
+2013-08-14 18:17:23	AnggiRiyandi	# of nuking files it identifies as junk in /tmp
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	# A safer location for things is actually /dev/shm
+2013-08-14 18:17:23	AnggiRiyandi	#
+2013-08-14 18:17:23	AnggiRiyandi	# This location must be mounted to tmpfs and MUST be writable and executable
+2013-08-14 18:17:23	AnggiRiyandi	# for the user
+2013-08-14 18:17:23	AnggiRiyandi	# Use NO trailing backslash!
+2013-08-14 18:17:23	AnggiRiyandi	VOLATILE="/tmp"
+2013-08-14 18:17:23	AnggiRiyandi	 
+2013-08-14 18:17:23	AnggiRiyandi	# Define the permissions of the prefix subdirectory
+2013-08-14 18:17:23	AnggiRiyandi	# Must at least be writable, readable and executable for the user
+2013-08-14 18:17:23	AnggiRiyandi	#PREFIX_PERMISSIONS=700
+2013-08-14 18:17:46	AnggiRiyandi	kur WHATTOSYNC=('/home/anggi/Documents/tes/')
+2013-08-14 18:17:53	AnggiRiyandi	jeung VOLATILE="/tmp"
+2013-08-14 18:17:58	AnggiRiyandi	da config na mah
+2013-08-14 18:18:13	renodesper	saenggeus tulisan tes ulah make /
+2013-08-14 18:18:35	renodesper	cukup tes we hungkul
+2013-08-14 18:18:45	AnggiRiyandi	cik urang cobaan
+2013-08-14 18:19:26	AnggiRiyandi	ok sipppp ...
+2013-08-14 18:19:28	AnggiRiyandi	siiippp
+2013-08-14 18:19:29	AnggiRiyandi	hahah
+2013-08-14 18:20:03	AnggiRiyandi	paingan nu gosync ge tatadi teh kitu uy 
+2013-08-14 18:20:06	AnggiRiyandi	paingan folder na hungkul uy wkwkw
+2013-08-14 18:21:13	renodesper	biasana sok aya sih petunjukna, nu tutorial arch ti urang mah aya soalna, ulah make / cenah :D
+2013-08-14 18:23:02	AnggiRiyandi	ieu mah euweuh uy wkwkw ...
+2013-08-14 18:23:02	AnggiRiyandi	thanks boy ...
+2013-08-14 18:23:02	AnggiRiyandi	 
+2013-08-14 18:23:02	AnggiRiyandi	mun hayang service na autostart jung ramdisk na autostart kmh uy 
+2013-08-14 18:23:07	AnggiRiyandi	config dina file naun
+2013-08-14 18:26:54	renodesper	emang lamun kieu euweuh: sudo /etc/init.d/asd enable
+2013-08-14 18:27:04	renodesper	bisa teu?
+2013-08-14 18:27:27	renodesper	ramdisk mah cukup tulis dina fstab we
+2013-08-14 18:28:21	AnggiRiyandi	aya ...
+2013-08-14 18:28:40	AnggiRiyandi	kela keur nyobaan compile project dina ramdisk uy 
+2013-08-14 18:29:07	AnggiRiyandi	langsung lemot ...
+2013-08-14 18:29:07	AnggiRiyandi	100% cpu ram 2gb wkwkw
+2013-08-14 18:29:46	renodesper	wew, naha gening
+2013-08-14 18:30:31	renodesper	eh kela, tadi ramdisk ku kamu dipasang 512 nya, kade pinuh -_-
+2013-08-14 18:30:58	AnggiRiyandi	teuing pgh wkwkwk 
+2013-08-14 18:30:58	AnggiRiyandi	teuing pedah crontab na diset tiap 1 menit ku urang ...
+2013-08-14 18:30:58	AnggiRiyandi	di kasih 1gb boy
+2013-08-14 18:31:06	AnggiRiyandi	td mah nyobaan hungkul
+2013-08-14 18:31:37	renodesper	ari maneh, tong tereh teuing crontab-na watir cpu-na kapake terus -_-
+2013-08-14 18:31:51	renodesper	10 menit sakali arek ge, urang ge sajam sakali -_-
+2013-08-14 18:33:01	AnggiRiyandi	hahah ... ke urang di pareuman hula cron na ...
+2013-08-14 18:33:01	AnggiRiyandi	mun di pareuman cron nu urang ...
+2013-08-14 18:33:01	AnggiRiyandi	geus aya kan default na 1 jam ?
+2013-08-14 18:33:44	AnggiRiyandi	mun ngetes ramdisk na gus ka create atawa acan kmh tah ?
+2013-08-14 18:35:31	renodesper	ketik df
+2013-08-14 18:36:33	renodesper	lamun geus ka-create engke aya tipe filesystem tmpfs trus di kanan aya folder nu dibikin ku kamu
+2013-08-14 18:36:57	AnggiRiyandi	oh aya --- aya boy 
+2013-08-14 18:36:59	AnggiRiyandi	siip[[[[
+2013-08-14 18:37:11	AnggiRiyandi	Filesystem     1K-blocks     Used Available Use% Mounted on
+2013-08-14 18:37:11	AnggiRiyandi	/dev/sda1       51604092  4283876  44698880   9% /
+2013-08-14 18:37:11	AnggiRiyandi	udev             2000940        4   2000936   1% /dev
+2013-08-14 18:37:11	AnggiRiyandi	tmpfs             804540      880    803660   1% /run
+2013-08-14 18:37:11	AnggiRiyandi	none                5120        0      5120   0% /run/lock
+2013-08-14 18:37:11	AnggiRiyandi	none             2011344       80   2011264   1% /run/shm
+2013-08-14 18:37:11	AnggiRiyandi	/dev/sda3      131987940 21023228 104260024  17% /home
+2013-08-14 18:37:11	AnggiRiyandi	tmpfs            1048576   381876    666700  37% /tmp
+2013-08-14 18:38:48	renodesper	sip sip
+2013-08-14 18:39:02	renodesper	tinggal asupkeun kana fstab meh autorun ramdisk-na
+2013-08-14 18:39:26	AnggiRiyandi	di folder asal na koq jd kawas link nya uy
+2013-08-14 18:40:00	renodesper	emang, kan dicopy, dihapus, trus dibikin link ti tmp ka folder asal
+2013-08-14 18:40:23	renodesper	tapi eta teh sakaligus di-back up oge jadi kalem we :D
+2013-08-14 18:40:34	AnggiRiyandi	oh kitu ...
+2013-08-14 18:40:47	AnggiRiyandi	bisi jd leungit dina folder asal na ..
+2013-08-14 18:40:53	AnggiRiyandi	mampus urang wkwkw
+2013-08-14 18:41:11	AnggiRiyandi	<1 lampiran> https://www.facebook.com/messages/?action=read&tid=QsfiMPtnIPStpQQPzEJrvg
+2013-08-14 18:43:29	AnggiRiyandi	ieu urang keur compile boy
+2013-08-14 18:43:29	AnggiRiyandi	td 2 menit 10 ... dina ramdisk 
+2013-08-14 18:43:29	AnggiRiyandi	ieu keur di compile dina disk
+2013-08-14 18:45:33	AnggiRiyandi	ayeuna 3 minutes 4 seconds
+2013-08-14 18:45:44	AnggiRiyandi	lumayan beda 1 menit uy wkwkw
+2013-08-14 18:46:07	AnggiRiyandi	source na gede meureun hahah
+2013-08-14 18:47:02	renodesper	sabaraha emang size-na?
+2013-08-14 18:47:18	renodesper	eh teuing ketang, urang can pernah ngajaran compile source badag :v
+2013-08-14 18:49:58	AnggiRiyandi	teu pati badag sih ngan ukur 350 mb an lah ...
+2013-08-14 18:49:58	AnggiRiyandi	nu lila na mah ngaencryp file javascript na ...
+2013-08-14 18:49:58	AnggiRiyandi	soalna file javascript na di encript meh teu bisa di edit ku btr
+2013-08-14 18:50:53	AnggiRiyandi	cik ayeuna ek nyobaan compile nu leutik uy
+2013-08-14 18:51:17	renodesper	oh kitu, sugan teh emang badag pisan :D

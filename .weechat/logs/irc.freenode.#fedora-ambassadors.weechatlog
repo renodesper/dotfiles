@@ -1,0 +1,1123 @@
+2013-08-01 13:23:55	-->	renodesper (~renodespe@114.79.1.117) has joined #fedora-ambassadors
+2013-08-01 13:23:55	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-01 13:23:55	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-08-01 13:23:55	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian b10n1k biker Casper_v2 cassmodiah dan408 dan408\ dan408_ delhage dgilmore dmaphy dramsey echevemaster egydev eslammostafa fabian_a fedbot firemanxbr FranciscoD gbraad gentt HannahEeps harish_ heffer herlo ignatenkobrain jamielinux jds2001 jduncan jeraldv jreznik_afk julio_alpa KageSenshi kanarip ke4qqq_ killefiz kital KolonelPanic lbrower lcameron masta mcas MooDoo N3LRX nb NeatBasis newbie007_away NiveusLuna Orca-Krilozona panos puiterwijk quaid rbergeron renodesper rrix sentabi shaiton smittix Sonar_Gal Sonar_Guy Southern_Gentlem spevack StabbyMc t3rminalV tatica voU vpv_ vwbusguy vwbusguy- zodbot]
+2013-08-01 13:23:55	--	Channel #fedora-ambassadors: 73 nicks (1 op, 0 halfops, 0 voices, 72 normals)
+2013-08-01 13:23:55	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-01 13:23:57	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-01 13:23:57	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-01 13:25:51	-->	kushal (kdas@fedora/kushal) has joined #fedora-ambassadors
+2013-08-01 13:29:07	-->	tuanta (~tuanta@222.252.85.54) has joined #fedora-ambassadors
+2013-08-01 13:33:08	-->	julio_alpa_ (~julio_alp@a5-196-170.infovia.com.ar) has joined #fedora-ambassadors
+2013-08-01 13:33:30	<--	dramsey (~Administr@p1039-ipad56hodogaya.kanagawa.ocn.ne.jp) has quit (Quit: Leaving.)
+2013-08-01 13:33:30	<--	ignatenkobrain (~ignatenko@176.192.176.155) has quit (Ping timeout: 268 seconds)
+2013-08-01 13:36:22	<--	julio_alpa (~julio_alp@a5-196-170.infovia.com.ar) has quit (Ping timeout: 245 seconds)
+2013-08-01 13:43:17	<--	echevemaster (~echevemas@fedora/echevemaster) has quit (Quit: Leaving)
+2013-08-01 13:53:27	<--	tuanta (~tuanta@222.252.85.54) has quit (Ping timeout: 264 seconds)
+2013-08-01 13:57:47	-->	tuanta (~tuanta@222.252.85.54) has joined #fedora-ambassadors
+2013-08-01 14:00:18	-->	fsimonce (~simon@host88-6-dynamic.49-82-r.retail.telecomitalia.it) has joined #fedora-ambassadors
+2013-08-01 14:00:53	-->	cwickert (~chris@fedora/cwickert) has joined #fedora-ambassadors
+2013-08-03 10:16:43	-->	renodesper (~renodespe@114.79.3.8) has joined #fedora-ambassadors
+2013-08-03 10:16:46	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-03 10:16:46	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-08-03 10:16:46	--	Nicks #fedora-ambassadors: [@ChanServ aeperezt Affix apahim AppelonD ardian biker Casper_v2 cassmodiah dan408 dan408\ delhage dgilmore dmaphy echevemaster ekoikhyar ekoikhyar_ eslammostafa fedbot firemanxbr gnokii HannahEeps heffer herlo ignatenkobrain inode1 izdubar jamielinux jds2001 jeraldv julio_alpa kanarip ke4qqq killefiz kital lbrower lcameron LoKoMurdoK masta mcas MooDoo mribeirodantas N3LRX nb NeatBasis_ NiveusLuna panos puiterwijk quaid rbergeron renodesper rrix sentabi shaiton smittix Sonar_Gal Sonar_Guy Southern_Gentlem spevack t3rminalV tuanta vpv_ zodbot]
+2013-08-03 10:16:46	--	Channel #fedora-ambassadors: 63 nicks (1 op, 0 halfops, 0 voices, 62 normals)
+2013-08-03 10:16:46	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-03 10:16:46	izdubar	.nextapacmeeting
+2013-08-03 10:16:46	zodbot	izdubar: 1 hour, 12 minutes, and 53 seconds
+2013-08-03 10:16:47	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-03 10:16:47	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-03 10:16:48	izdubar	Yay
+2013-08-03 10:17:44	--	izdubar is now known as MarkDude
+2013-08-03 10:20:38	<--	firemanxbr (~firemanxb@200-236-32-86.cable.tche.br) has quit (Quit: Leaving)
+2013-08-03 10:23:05	-->	suresht (~suresht@111.223.133.66) has joined #fedora-ambassadors
+2013-08-03 10:23:05	<--	suresht (~suresht@111.223.133.66) has quit (Changing host)
+2013-08-03 10:23:05	-->	suresht (~suresht@fedora/suresht) has joined #fedora-ambassadors
+2013-08-03 10:27:07	<--	ekoikhyar_ (~ekoikhyar@110.136.247.105) has quit (Quit: Leaving)
+2013-08-03 10:27:26	-->	ekoikhyar_ (~ekoikhyar@110.136.247.105) has joined #fedora-ambassadors
+2013-08-03 10:27:49	<--	ekoikhyar_ (~ekoikhyar@110.136.247.105) has quit (Client Quit)
+2013-08-03 10:28:06	-->	ekoikhyar_ (~ekoikhyar@110.136.247.105) has joined #fedora-ambassadors
+2013-08-03 10:30:31	<--	ekoikhyar_ (~ekoikhyar@110.136.247.105) has quit (Client Quit)
+2013-08-03 10:30:49	-->	ekoikhyar_ (~ekoikhyar@110.136.247.105) has joined #fedora-ambassadors
+2013-08-03 10:32:48	-->	marass (~quassel@2a01:4f8:a0:8261::2) has joined #fedora-ambassadors
+2013-08-03 10:33:07	-->	KolonelPanic (~heywood@unaffiliated/kolonelpanic) has joined #fedora-ambassadors
+2013-08-03 10:35:07	-->	tuanta_ (~tuanta@222.252.85.54) has joined #fedora-ambassadors
+2013-08-03 10:36:43	<--	tuanta (~tuanta@222.252.85.54) has quit (Ping timeout: 240 seconds)
+2013-08-03 10:36:43	<--	mcas (~quassel@unaffiliated/mcas) has quit (Ping timeout: 240 seconds)
+2013-08-03 10:44:15	-->	FranciscoD (~Ankur^^@pdpc/supporter/active/franciscod) has joined #fedora-ambassadors
+2013-08-03 10:44:42	<--	LoKoMurdoK (~lbazan@fedora/LoKoMurdoK) has quit (Quit: leaving)
+2013-08-03 10:45:24	-->	dramsey (~adp_xp@p15198-ipngn4402marunouchi.tokyo.ocn.ne.jp) has joined #fedora-ambassadors
+2013-08-03 10:48:01	dramsey	Hello Everyone.  ;)
+2013-08-03 10:48:01	dramsey	Please join us at the #fedora-meeting IRC at 04:00 UTC for the Asia Pacific (APAC) Meeting.  ;)
+2013-08-03 10:48:01	dramsey	Thank you.  :D
+2013-08-03 10:55:32	<--	KolonelPanic (~heywood@unaffiliated/kolonelpanic) has quit (Ping timeout: 264 seconds)
+2013-08-03 10:58:21	<--	ekoikhyar_ (~ekoikhyar@110.136.247.105) has quit (Quit: Leaving)
+2013-08-03 10:58:41	-->	ekoikhyar_ (~ekoikhyar@110.136.247.105) has joined #fedora-ambassadors
+2013-08-03 11:06:25	<--	tuanta_ (~tuanta@222.252.85.54) has quit (Ping timeout: 264 seconds)
+2013-08-03 11:06:35	<--	gnokii (~gnokii@fedora/gnokii) has quit (Ping timeout: 264 seconds)
+2013-08-03 11:07:35	-->	gnokii (~gnokii@fedora/gnokii) has joined #fedora-ambassadors
+2013-08-03 11:09:50	-->	tuanta_ (~tuanta@222.252.85.54) has joined #fedora-ambassadors
+2013-08-03 11:13:58	--	tuanta_ is now known as tuanta
+2013-08-03 11:40:27	<--	mribeirodantas (~mribeirod@fedora/mribeirodantas) has quit (Quit: leaving)
+2013-08-03 11:43:44	<--	FranciscoD (~Ankur^^@pdpc/supporter/active/franciscod) has quit (Ping timeout: 240 seconds)
+2013-08-03 11:43:44	-->	FranciscoD (~Ankur^^@2610:28:3090:3001:5054:ff:fedb:7f5a) has joined #fedora-ambassadors
+2013-08-03 11:43:44	<--	FranciscoD (~Ankur^^@2610:28:3090:3001:5054:ff:fedb:7f5a) has quit (Client Quit)
+2013-08-03 11:43:44	-->	FranciscoD (~Ankur^^@2610:28:3090:3001:5054:ff:fedb:7f5a) has joined #fedora-ambassadors
+2013-08-03 11:43:52	<--	quaid (~quaid@fedora/quaid) has quit (Ping timeout: 240 seconds)
+2013-08-03 11:44:03	<--	FranciscoD (~Ankur^^@2610:28:3090:3001:5054:ff:fedb:7f5a) has quit (Changing host)
+2013-08-03 11:44:03	-->	FranciscoD (~Ankur^^@pdpc/supporter/active/franciscod) has joined #fedora-ambassadors
+2013-08-03 11:44:55	-->	quaid (~quaid@75-101-48-43.dsl.static.sonic.net) has joined #fedora-ambassadors
+2013-08-03 11:44:55	<--	quaid (~quaid@75-101-48-43.dsl.static.sonic.net) has quit (Changing host)
+2013-08-03 11:44:55	-->	quaid (~quaid@fedora/quaid) has joined #fedora-ambassadors
+2013-08-11 13:41:43	-->	renodesper (~renodespe@114.79.2.15) has joined #fedora-ambassadors
+2013-08-11 13:41:43	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-11 13:41:43	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-08-11 13:41:43	--	Nicks #fedora-ambassadors: [@ChanServ aeperezt Affix AppelonD ardian biker Casper_v2 cassmodiah dan408 dan408\ delhage dgilmore dmaphy echevemaster eslammostafa fabian_a fedbot FranciscoD gnokii grunt1 HannahEeps harish heffer herlo ignatenkobrain jamielinux jds2001 jeraldv KageSenshi kanarip ke4qqq killefiz kital KolonelPanic lcameron marass_ masta N3LRX nb NeatBasis_ NiveusLuna panos puiterwijk quaid_ rbergeron renodesper rrix sentabi shaiton smittix Sonar_Gal Sonar_Guy spevack StabbyMc t3rminalV threethirtyWork vpv_ zodbot]
+2013-08-11 13:41:43	--	Channel #fedora-ambassadors: 58 nicks (1 op, 0 halfops, 0 voices, 57 normals)
+2013-08-11 13:41:43	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-11 13:41:45	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-11 13:41:46	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-11 13:43:58	-->	cwickert (~chris@fedora/cwickert) has joined #fedora-ambassadors
+2013-08-11 14:08:20	<--	cwickert (~chris@fedora/cwickert) has quit (Quit: Leaving.)
+2013-08-11 16:18:40	-->	renodesper (~renodespe@114.79.1.15) has joined #fedora-ambassadors
+2013-08-11 16:18:40	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-11 16:18:40	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:21:50
+2013-08-11 16:18:40	--	Nicks #fedora-ambassadors: [@ChanServ aeperezt Affix AppelonD ardian biertie biker Casper_v2 cassmodiah dan408 dan408\ delhage dgilmore dmaphy echevemaster eslammostafa fabian_a fedbot FranciscoD gnokii grunt1 HannahEeps harish heffer herlo ignatenkobrain jamielinux jds2001 jeraldv KageSenshi kanarip ke4qqq killefiz kital KolonelPanic lcameron marass_ masta N3LRX nb NeatBasis_ NiveusLuna panos puiterwijk quaid_ rbergeron renodesper rrix sentabi shaiton smittix Sonar_Gal Sonar_Guy spevack StabbyMc t3rminalV threethirtyWork vpv_ zodbot]
+2013-08-11 16:18:40	--	Channel #fedora-ambassadors: 59 nicks (1 op, 0 halfops, 0 voices, 58 normals)
+2013-08-11 16:18:40	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-11 16:18:42	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-11 16:18:42	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-11 16:42:42	-->	skight has joined #fedora-ambassadors
+2013-08-11 17:23:06	-->	underscores has joined #fedora-ambassadors
+2013-08-11 17:25:14	<--	ignatenkobrain has quit (Quit: ignatenkobrain)
+2013-08-11 17:25:27	-->	ignatenkobrain has joined #fedora-ambassadors
+2013-08-11 17:26:06	<--	biertie has quit (Ping timeout: 264 seconds)
+2013-08-11 17:28:16	<--	skight has quit (Ping timeout: 264 seconds)
+2013-08-11 18:20:40	-->	niteshnarayanlal has joined #fedora-ambassadors
+2013-08-11 19:24:22	<--	gnokii has quit (Read error: Operation timed out)
+2013-08-11 19:33:38	-->	gentt has joined #fedora-ambassadors
+2013-08-12 19:08:57	-->	renodesper (~renodespe@114.79.3.247) has joined #fedora-ambassadors
+2013-08-12 19:08:57	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-12 19:08:57	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-08-12 19:08:57	--	Nicks #fedora-ambassadors: [@ChanServ Affix altin apahim AppelonD ardian biker Casper_v2 cassmodiah Caterpillar cwickert dan408 dan408\ delhage dgilmore dmaphy eslammostafa fabian_a fedbot fsimonce gentt giulivo HannahEeps harish heffer herlo ignatenkobrain jamielinux jds2001 jeraldv KageSenshi kanarip ke4qqq killefiz kital KolonelPanic kushal lbrower lcameron marass_ masta N3LRX nb NeatBasis_ niteshnarayanlal NiveusLuna panos puiterwijk quaid_ rbergeron renodesper rrix sentabi shaiton smittix Sonar_Gal Sonar_Guy Southern_Gentlem spevack StabbyMc t3rminalV threethirtyWork underscores vpv_ zodbot]
+2013-08-12 19:08:57	--	Channel #fedora-ambassadors: 65 nicks (1 op, 0 halfops, 0 voices, 64 normals)
+2013-08-12 19:08:57	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-12 19:08:59	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-12 19:08:59	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-12 19:11:51	<--	altin has quit (Ping timeout: 256 seconds)
+2013-08-12 19:16:29	<--	kushal has quit (Quit: Leaving)
+2013-08-12 19:17:25	-->	rino has joined #fedora-ambassadors
+2013-08-12 19:34:28	-->	firemanxbr has joined #fedora-ambassadors
+2013-08-12 19:35:43	-->	jduncan has joined #fedora-ambassadors
+2013-08-12 19:44:40	<--	cwickert has quit (Ping timeout: 264 seconds)
+2013-08-12 20:01:45	-->	suresht has joined #fedora-ambassadors
+2013-08-12 20:03:20	-->	mayorga has joined #fedora-ambassadors
+2013-08-12 20:10:26	-->	kilted1 has joined #fedora-ambassadors
+2013-08-12 20:13:21	-->	LoKoMurdoK has joined #fedora-ambassadors
+2013-08-12 20:15:19	<--	mayorga has quit (Ping timeout: 256 seconds)
+2013-08-12 20:20:11	-->	jreznik has joined #fedora-ambassadors
+2013-08-12 20:22:26	-->	suehle has joined #fedora-ambassadors
+2013-08-12 20:25:43	-->	slipp3d has joined #fedora-ambassadors
+2013-08-12 20:26:48	<--	niteshnarayanlal has quit (Ping timeout: 240 seconds)
+2013-08-12 20:32:21	--	rino is now known as el-viola16
+2013-08-12 20:34:33	-->	cwickert has joined #fedora-ambassadors
+2013-08-12 20:36:44	<--	kilted1 has quit (Ping timeout: 276 seconds)
+2013-08-12 20:42:21	<--	suresht has quit (Quit: Leaving)
+2013-08-12 20:47:34	-->	tatica has joined #fedora-ambassadors
+2013-08-12 20:49:13	-->	gnokii has joined #fedora-ambassadors
+2013-08-12 20:49:13	<--	gnokii has quit (Changing host)
+2013-08-12 20:49:13	-->	gnokii has joined #fedora-ambassadors
+2013-08-12 20:53:20	-->	kilted1 has joined #fedora-ambassadors
+2013-08-12 20:54:32	-->	niteshnarayanlal has joined #fedora-ambassadors
+2013-08-12 21:00:40	<--	ignatenkobrain has quit (Ping timeout: 240 seconds)
+2013-08-12 21:07:40	-->	slipp3d_ has joined #fedora-ambassadors
+2013-08-12 21:09:59	<--	slipp3d has quit (Ping timeout: 240 seconds)
+2013-08-12 21:14:38	-->	ignatenkobrain has joined #fedora-ambassadors
+2013-08-12 21:26:06	-->	robyduck has joined #fedora-ambassadors
+2013-08-12 21:33:49	-->	altin has joined #fedora-ambassadors
+2013-08-12 21:40:07	<--	tatica has quit (Ping timeout: 248 seconds)
+2013-08-12 21:42:57	-->	tatica has joined #fedora-ambassadors
+2013-08-12 21:43:29	-->	rgeri77 has joined #fedora-ambassadors
+2013-08-12 21:44:21	-->	inode0 has joined #fedora-ambassadors
+2013-08-12 21:45:21	<--	LoKoMurdoK has quit (Read error: Connection reset by peer)
+2013-08-12 21:45:35	-->	LoKoMurdoK has joined #fedora-ambassadors
+2013-08-12 21:46:05	-->	kaptk2 has joined #fedora-ambassadors
+2013-08-12 21:47:00	-->	aeperezt has joined #fedora-ambassadors
+2013-08-12 21:48:52	<--	el-viola16 has quit (Ping timeout: 264 seconds)
+2013-08-12 21:50:16	-->	el-viola16 has joined #fedora-ambassadors
+2013-08-12 21:51:10	<--	LoKoMurdoK has quit (Quit: leaving)
+2013-08-12 21:51:28	inode0	google doodle plugs F19 today
+2013-08-12 21:56:11	-->	kushal has joined #fedora-ambassadors
+2013-08-12 22:05:07	delhage	inode0: yeah, I saw ;)
+2013-08-12 22:11:03	<--	niteshnarayanlal has quit (Ping timeout: 248 seconds)
+2013-08-17 08:37:14	-->	renodesper (~renodespe@114.79.0.148) has joined #fedora-ambassadors
+2013-08-17 08:37:15	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-08-17 08:37:15	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-08-17 08:37:15	--	Nicks #fedora-ambassadors: [@ChanServ Affix apahim AppelonD ardian b10n1k biker Casper_v2 cassmodiah Caterpillar dan408 dan408\ delhage dgilmore dmaphy echevemaster eslammostafa fabian_a fedbot firemanxbr gbraad gnokii HannahEeps harish heffer herlo inode0 jamielinux jds2001 jduncan KageSenshi kanarip ke4qqq killefiz kital kk4ewt KolonelPanic kubblai laubersm lbrower lcameron marass masta mhroncok mribeirodantas N3LRX nb NeatBasis niteshnarayanlal NiveusLuna panos puiterwijk quaid_ rbergeron renodesper rrix sentabi smittix Sonar_Gal Sonar_Guy Southern_Gentlem spevack StabbyMc t3rminalV tatica threethirtyWork vpv zodbot]
+2013-08-17 08:37:15	--	Channel #fedora-ambassadors: 68 nicks (1 op, 0 halfops, 0 voices, 67 normals)
+2013-08-17 08:37:15	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-08-17 08:37:17	--	Mode #fedora-ambassadors [+Ccnt]
+2013-08-17 08:37:17	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-08-17 08:47:15	-->	slipp3d has joined #fedora-ambassadors
+2013-08-17 08:47:55	-->	dramsey has joined #fedora-ambassadors
+2013-08-17 08:51:29	dramsey	Hello Everyone.  ;)
+2013-08-17 08:51:29	dramsey	We hope that you may be able to join us at 04:00 UTC on the #fedora-meeting IRC for our Fedora Ambassadors Asia Pacific (APAC) Meeting.  :)
+2013-08-17 08:51:29	dramsey	Thank you.  8-)
+2013-08-17 08:57:53	<--	kk4ewt has quit (Remote host closed the connection)
+2013-08-17 09:07:30	-->	slipp3d_ has joined #fedora-ambassadors
+2013-08-17 09:10:28	<--	slipp3d has quit (Ping timeout: 245 seconds)
+2013-08-17 09:10:51	-->	_slipp3d has joined #fedora-ambassadors
+2013-08-17 09:12:48	<--	slipp3d_ has quit (Ping timeout: 256 seconds)
+2013-08-17 09:12:59	<--	dramsey has quit (Quit: Leaving.)
+2013-08-17 09:18:33	<--	_slipp3d has quit (Quit: Leaving)
+2013-08-17 09:27:50	-->	kushal has joined #fedora-ambassadors
+2013-08-17 09:27:51	<--	kushal has quit (Changing host)
+2013-08-17 09:27:52	-->	kushal has joined #fedora-ambassadors
+2013-08-17 09:30:20	<--	lbrower has quit (Remote host closed the connection)
+2013-08-17 09:34:00	-->	dramsey has joined #fedora-ambassadors
+2013-08-17 09:57:14	-->	jeraldv has joined #fedora-ambassadors
+2013-08-17 10:16:10	-->	izdubar has joined #fedora-ambassadors
+2013-08-17 10:19:31	--	izdubar is now known as MarkDude
+2013-08-17 10:23:23	<--	harish has quit (Ping timeout: 245 seconds)
+2013-08-17 10:31:04	-->	lcameron_ has joined #fedora-ambassadors
+2013-08-17 10:31:24	dramsey	Hello Everyone.  ;)
+2013-08-17 10:31:25	dramsey	We hope that you may be able to join us at 04:00 UTC on the #fedora-meeting IRC for our Fedora Ambassadors Asia Pacific (APAC) Meeting.  :)
+2013-08-17 10:31:25	dramsey	Thank you.  8-)
+2013-08-17 10:31:57	<--	kushal has quit (Ping timeout: 264 seconds)
+2013-08-17 10:32:32	-->	harish has joined #fedora-ambassadors
+2013-08-17 10:34:24	<--	lcameron has quit (Ping timeout: 256 seconds)
+2013-08-17 10:42:06	-->	kushal has joined #fedora-ambassadors
+2013-08-17 10:58:37	dramsey	Hello Everyone.  ;)
+2013-08-17 10:58:37	dramsey	We hope that you may be able to join us at 04:00 UTC on the #fedora-meeting IRC for our Fedora Ambassadors Asia Pacific (APAC) Meeting.  :)
+2013-08-17 10:58:37	dramsey	Thank you.  8-)
+2013-08-17 10:59:05	-->	Orca-Krilozona has joined #fedora-ambassadors
+2013-08-17 11:04:18	-->	KrylonArizona has joined #fedora-ambassadors
+2013-08-17 11:04:43	<--	Orca-Krilozona has quit (Disconnected by services)
+2013-08-17 11:04:52	--	KrylonArizona is now known as Orca-Krilozona
+2013-08-17 11:06:08	-->	gnokii_ has joined #fedora-ambassadors
+2013-08-17 11:06:09	<--	gnokii has quit (Ping timeout: 268 seconds)
+2013-08-17 11:22:09	<--	gbraad has quit (Ping timeout: 276 seconds)
+2013-08-17 11:25:33	<--	niteshnarayanlal has quit (Ping timeout: 248 seconds)
+2013-08-17 11:28:06	<--	Orca-Krilozona has quit (Quit: BRB reconnecting wlan0)
+2013-08-17 11:28:10	<--	inode0 has left #fedora-ambassadors ("fnord")
+2013-08-17 11:30:44	-->	gbraad has joined #fedora-ambassadors
+2013-08-17 11:30:44	<--	gbraad has quit (Changing host)
+2013-08-17 11:30:44	-->	gbraad has joined #fedora-ambassadors
+2013-08-17 11:35:33	<--	gbraad has quit (Ping timeout: 264 seconds)
+2013-08-17 11:42:31	<--	dramsey has quit (Quit: Leaving.)
+2013-08-17 11:42:59	-->	Orca-Krilozona has joined #fedora-ambassadors
+2013-08-17 11:52:03	<--	firemanxbr has quit (Quit: Leaving)
+2013-08-17 11:58:42	-->	kishan has joined #fedora-ambassadors
+2013-08-17 12:00:37	<--	Orca-Krilozona has quit (Disconnected by services)
+2013-08-17 12:01:22	-->	Orca-Krilozona has joined #fedora-ambassadors
+2013-08-17 12:13:02	<--	mribeirodantas has quit (Quit: leaving)
+2013-08-17 12:44:03	-->	KrylonArizona has joined #fedora-ambassadors
+2013-08-17 12:46:38	<--	Orca-Krilozona has quit (Ping timeout: 248 seconds)
+2013-08-17 13:06:43	<--	kishan has quit (Ping timeout: 245 seconds)
+2013-08-17 13:07:55	-->	cwickert has joined #fedora-ambassadors
+2013-08-17 13:10:09	--	KrylonArizona is now known as Orca-Krilozona
+2013-08-17 13:28:02	-->	cwickert1 has joined #fedora-ambassadors
+2013-08-17 13:30:12	<--	cwickert has quit (Ping timeout: 276 seconds)
+2013-08-17 13:38:19	<--	cwickert1 has quit (Ping timeout: 246 seconds)
+2013-08-17 13:43:42	<--	Orca-Krilozona has quit (Ping timeout: 264 seconds)
+2013-08-17 13:52:51	-->	cwickert has joined #fedora-ambassadors
+2013-08-17 14:12:09	-->	Orca-Krilozona has joined #fedora-ambassadors
+2013-08-17 14:17:22	<--	kubblai has quit (Quit: leaving)
+2013-08-17 14:17:47	-->	kubblai has joined #fedora-ambassadors
+2013-08-17 14:17:55	-->	niteshnarayanlal has joined #fedora-ambassadors
+2013-08-17 14:18:15	<--	niteshnarayanlal has quit (Read error: Connection reset by peer)
+2013-08-17 14:18:20	-->	ignatenkobrain has joined #fedora-ambassadors
+2013-08-17 14:24:13	<--	Orca-Krilozona has quit (Ping timeout: 245 seconds)
+2013-08-17 14:30:55	<--	kubblai has quit (Quit: leaving)
+2013-08-17 14:31:18	-->	kubblai has joined #fedora-ambassadors
+2013-08-17 14:31:23	<--	kubblai has quit (Client Quit)
+2013-08-17 14:31:59	-->	kubblai has joined #fedora-ambassadors
+2013-08-17 14:34:20	-->	Orca-Krilozona has joined #fedora-ambassadors
+2013-08-17 14:39:17	<--	Orca-Krilozona has quit (Quit: Re-locating)
+2013-08-17 14:50:32	<--	tatica has quit (Ping timeout: 256 seconds)
+2013-08-17 14:52:07	-->	kishan has joined #fedora-ambassadors
+2013-08-17 14:52:30	-->	tatica has joined #fedora-ambassadors
+2013-08-17 15:02:22	--	gnokii_ is now known as gnokii
+2013-08-17 15:02:27	<--	gnokii has quit (Changing host)
+2013-08-17 15:02:27	-->	gnokii has joined #fedora-ambassadors
+2013-08-17 15:14:07	-->	FranciscoD has joined #fedora-ambassadors
+2013-08-17 15:40:30	-->	underscores has joined #fedora-ambassadors
+2013-08-17 15:45:36	-->	gbraad has joined #fedora-ambassadors
+2013-08-17 15:45:36	<--	gbraad has quit (Changing host)
+2013-08-17 15:45:36	-->	gbraad has joined #fedora-ambassadors
+2013-08-17 15:46:54	<--	kushal has quit (Quit: Leaving)
+2013-08-17 15:52:31	-->	dell has joined #fedora-ambassadors
+2013-08-17 15:55:02	<--	dell has quit (Client Quit)
+2013-08-17 16:13:21	-->	giallu has joined #fedora-ambassadors
+2013-09-13 21:24:50	-->	renodesper (~renodespe@118.97.95.24) has joined #fedora-ambassadors
+2013-09-13 21:24:50	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-09-13 21:24:50	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-09-13 21:24:50	--	Nicks #fedora-ambassadors: [@ChanServ adimania_ aeperezt Affix altin apahim AppelonD ardian biker Casper_v2 cassmodiah Caterpillar Caterpillar2 cwickert danielbruno delhage dgilmore dmaphy` echevemaster eslammostafa fedbot firemanxbr fsimonce giulivo gnokii harish heffer herlo iWelcome jamielinux jds2001 KageSenshi kanarip kaptk2 ke4qqq killefiz kital KolonelPanic kubblai kushal lcameron LinuxCode mailga marass masta mayorga mhroncok mock moodoo N3LRX nb NeatBasis panos pierros puiterwijk quaid rbergeron Renault renodesper rino robyduck rrix sentabi shaiton slipp3d smittix Sonar_Gal Sonar_Guy Southern_Gentlem StabbyMc t3rminalV tatica threethirtyWork underscores vpv zodbot]
+2013-09-13 21:24:50	--	Channel #fedora-ambassadors: 76 nicks (1 op, 0 halfops, 0 voices, 75 normals)
+2013-09-13 21:24:50	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-09-13 21:24:51	--	Mode #fedora-ambassadors [+Ccnt]
+2013-09-13 21:24:52	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-09-13 21:28:38	<--	iWelcome has quit (Write error: Broken pipe)
+2013-11-05 15:47:33	-->	renodesper (~renodespe@118.97.95.25) has joined #fedora-ambassadors
+2013-11-05 15:47:34	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-11-05 15:47:34	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-11-05 15:47:34	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian besser82 biker blackbird bochecha Casper_v2 cassmodiah Caterpillar cwickert delhage dgilmore dmaphy eRadical eslammostafa fabian_a fedbot firemanxbr_brb FranciscoD giulivo gnokii heffer herlo jamielinux jdisnard__ KageSenshi kanarip ke4qqq_ killefiz kital KolonelPanic kubblai lbrower lobocode marass masta mock MooDoo N3LRX nb NeatBasis NiveusLuna panos puiterwijk quaid renodesper robyduck_ rrix sentabi sexycatsinhats shaiton Sonar_Gal Sonar_Guy Southern_Gentlem StabbyMc t3rminalV tatica tuanta vpv vwbusguy zodbot]
+2013-11-05 15:47:34	--	Channel #fedora-ambassadors: 63 nicks (1 op, 0 voices, 62 normals)
+2013-11-05 15:47:35	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-11-05 15:47:35	--	Mode #fedora-ambassadors [+Ccnt]
+2013-11-05 15:47:35	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-11-05 15:48:47	<--	fabian_a has quit (Read error: Connection reset by peer)
+2013-11-05 15:54:11	-->	renodesper (~renodespe@118.97.95.25) has joined #fedora-ambassadors
+2013-11-05 15:54:14	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-11-05 15:54:14	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-11-05 15:54:14	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian besser82 biker blackbird bochecha Casper_v2 cassmodiah Caterpillar cwickert delhage dgilmore dmaphy eRadical eslammostafa fedbot firemanxbr_brb FranciscoD giulivo gnokii heffer herlo jamielinux jdisnard__ KageSenshi kanarip ke4qqq_ killefiz kital KolonelPanic kubblai lbrower lobocode marass masta mock MooDoo N3LRX nb NeatBasis NiveusLuna panos puiterwijk quaid renodesper robyduck_ rrix sentabi sexycatsinhats shaiton Sonar_Gal Sonar_Guy Southern_Gentlem StabbyMc t3rminalV tatica tuanta vpv vwbusguy zodbot]
+2013-11-05 15:54:14	--	Channel #fedora-ambassadors: 62 nicks (1 op, 0 voices, 61 normals)
+2013-11-05 15:54:14	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-11-05 15:54:16	--	Mode #fedora-ambassadors [+Ccnt]
+2013-11-05 15:54:17	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-11-05 15:56:45	-->	renodesper (~renodespe@118.97.95.25) has joined #fedora-ambassadors
+2013-11-05 15:56:46	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-11-05 15:56:46	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-11-05 15:56:46	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian besser82 biker blackbird bochecha Casper_v2 cassmodiah Caterpillar cwickert delhage dgilmore dmaphy eRadical eslammostafa fedbot firemanxbr_brb FranciscoD giulivo gnokii harish heffer herlo jamielinux jdisnard__ KageSenshi kanarip ke4qqq_ killefiz kital KolonelPanic kubblai lbrower lobocode marass masta mock MooDoo N3LRX nb NeatBasis NiveusLuna panos puiterwijk quaid renodesper robyduck_ rrix sentabi sexycatsinhats shaiton Sonar_Gal Sonar_Guy Southern_Gentlem StabbyMc t3rminalV tatica tuanta vpv vwbusguy zodbot]
+2013-11-05 15:56:46	--	Channel #fedora-ambassadors: 63 nicks (1 op, 0 voices, 62 normals)
+2013-11-05 15:56:46	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-11-05 15:56:47	--	Mode #fedora-ambassadors [+Ccnt]
+2013-11-05 15:56:48	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-11-05 16:00:23	-->	renodesper (~renodespe@118.97.95.18) has joined #fedora-ambassadors
+2013-11-05 16:00:24	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2013-11-05 16:00:24	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2013-11-05 16:00:24	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian besser82 biker blackbird bochecha Casper_v2 cassmodiah Caterpillar cwickert delhage dgilmore dmaphy eRadical eslammostafa fedbot firemanxbr_brb FranciscoD giulivo gnokii harish heffer herlo jamielinux jdisnard__ KageSenshi kanarip ke4qqq_ killefiz kital KolonelPanic kubblai lbrower lobocode marass masta mock MooDoo N3LRX nb NeatBasis NiveusLuna panos puiterwijk quaid renodesper robyduck_ rrix sentabi sexycatsinhats shaiton Sonar_Gal Sonar_Guy Southern_Gentlem StabbyMc t3rminalV tatica tuanta vpv vwbusguy zodbot]
+2013-11-05 16:00:24	--	Channel #fedora-ambassadors: 63 nicks (1 op, 0 voices, 62 normals)
+2013-11-05 16:00:24	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2013-11-05 16:00:24	<--	harish has quit (Ping timeout: 245 seconds)
+2013-11-05 16:00:24	--	Mode #fedora-ambassadors [+Ccnt]
+2013-11-05 16:00:25	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2013-11-05 16:01:15	-->	jreznik has joined #fedora-ambassadors
+2013-11-05 16:09:51	-->	fabian_a has joined #fedora-ambassadors
+2013-11-05 16:24:23	<--	MooDoo has quit (Changing host)
+2013-11-05 16:24:29	-->	MooDoo has joined #fedora-ambassadors
+2014-01-01 20:26:00	-->	renodesper (~renodespe@118.97.95.17) has joined #fedora-ambassadors
+2014-01-01 20:26:01	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 19 - http://get.fedoraproject.org/"
+2014-01-01 20:26:01	--	Topic set by kk4ewt (~notfred@fedora/Southern-Gentleman) on Mon, 29 Jul 2013 06:22:03
+2014-01-01 20:26:01	--	Nicks #fedora-ambassadors: [@ChanServ Affix AppelonD ardian besser82 biker Casper_v2 cassmodiah Caterpillar cwickert delhage dgilmore dmaphy egydev fedbot gnokii grunt1 harish_ heffer herlo KageSenshi ke4qqq killefiz kital KolonelPanic kubblai mailga marass masta mayorga mhroncok N3LRX nb NeatBasis puiterwijk quaid renodesper rino{afk} robyduck rrix sexycatsinhats Sonar_Guy Southern_Gentlem StabbyMc t3rminalV thunderbirdtr TrpFnc vpv zodbot]
+2014-01-01 20:26:01	--	Channel #fedora-ambassadors: 49 nicks (1 op, 0 voices, 48 normals)
+2014-01-01 20:26:01	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-01-01 20:26:03	--	Mode #fedora-ambassadors [+Ccnt]
+2014-01-01 20:26:04	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-01-01 20:48:14	<--	TrpFnc has quit (Quit: TrpFnc)
+2014-01-01 20:52:21	-->	Renault has joined #fedora-ambassadors
+2014-02-15 09:22:44	-->	renodesper (~renodespe@subs02-180-214-232-73.three.co.id) has joined #fedora-ambassadors
+2014-02-15 09:22:45	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-02-15 09:22:45	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-02-15 09:22:45	--	Channel #fedora-ambassadors: 54 nicks (1 op, 0 voices, 53 normals)
+2014-02-15 09:22:45	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-02-15 09:22:45	--	Mode #fedora-ambassadors [+Ccnt]
+2014-02-15 09:22:45	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-02-15 09:34:46	-->	grunt1 has joined #fedora-ambassadors
+2014-03-05 10:05:00	-->	renodesper (~renodespe@103.10.66.4) has joined #fedora-ambassadors
+2014-03-05 10:05:00	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-03-05 10:05:00	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-03-05 10:05:00	--	Channel #fedora-ambassadors: 51 nicks (1 op, 0 voices, 50 normals)
+2014-03-05 10:05:00	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-03-05 10:05:02	--	Mode #fedora-ambassadors [+Ccnt]
+2014-03-05 10:05:02	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-03-05 10:09:01	<--	award3535 has left #fedora-ambassadors
+2014-03-05 10:20:20	-->	award3535 has joined #fedora-ambassadors
+2014-03-05 10:20:55	<--	award3535 has quit (Client Quit)
+2014-03-05 10:21:12	<--	harish_ has quit (Quit: Leaving)
+2014-03-05 10:21:35	-->	harish has joined #fedora-ambassadors
+2014-03-05 10:25:39	-->	kushal has joined #fedora-ambassadors
+2014-03-05 10:30:13	<--	rino has quit (Ping timeout: 264 seconds)
+2014-03-05 10:37:09	<--	kushal has quit (Read error: Connection reset by peer)
+2014-03-05 10:37:38	-->	mribeirodantas has joined #fedora-ambassadors
+2014-03-05 10:52:49	-->	bochecha has joined #fedora-ambassadors
+2014-03-05 10:52:50	<--	bochecha has quit (Changing host)
+2014-03-05 10:52:50	-->	bochecha has joined #fedora-ambassadors
+2014-03-05 10:56:51	<--	mribeirodantas has quit (Quit: leaving)
+2014-03-05 11:30:33	-->	niteshnarayanlal has joined #fedora-ambassadors
+2014-09-25 19:07:26	-->	renodesper (~renodespe@112.78.134.196) has joined #fedora-ambassadors
+2014-09-25 19:07:26	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-09-25 19:07:26	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-09-25 19:07:26	--	Channel #fedora-ambassadors: 62 nicks (1 op, 0 voices, 61 normals)
+2014-09-25 19:07:26	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-09-25 19:07:27	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-09-25 19:20:23	-->	cwickert has joined #fedora-ambassadors
+2014-09-25 19:26:52	<--	apahim has quit (Ping timeout: 240 seconds)
+2014-09-25 19:28:08	-->	danielbruno has joined #fedora-ambassadors
+2014-09-25 19:33:49	<--	altin has quit (Ping timeout: 260 seconds)
+2014-09-25 19:43:24	-->	apahim has joined #fedora-ambassadors
+2014-09-25 19:48:32	<--	fabian_a has quit (Ping timeout: 245 seconds)
+2014-09-25 19:53:21	-->	altin has joined #fedora-ambassadors
+2014-09-25 19:53:55	<--	amita has quit (Ping timeout: 258 seconds)
+2014-09-25 19:54:52	<--	pravins has quit (Ping timeout: 240 seconds)
+2014-09-25 19:57:35	--	villadalmine{afk is now known as villadalmine
+2014-09-25 20:01:39	-->	giallu_ has joined #fedora-ambassadors
+2014-09-25 20:03:35	-->	fabian_a has joined #fedora-ambassadors
+2014-09-25 20:04:27	<--	apahim has quit (Ping timeout: 245 seconds)
+2014-09-25 20:04:28	<--	comzeradd has quit (Quit: i/o error)
+2014-09-25 20:04:56	-->	apahim_ has joined #fedora-ambassadors
+2014-09-25 20:11:48	-->	harish_ has joined #fedora-ambassadors
+2014-09-25 20:12:48	<--	giallu_ has quit (Ping timeout: 246 seconds)
+2014-09-25 20:14:05	<--	yachironi has quit (Ping timeout: 272 seconds)
+2014-09-25 20:18:17	-->	giallu_ has joined #fedora-ambassadors
+2014-09-25 20:18:36	<--	apahim_ has quit (Ping timeout: 244 seconds)
+2014-09-25 20:18:37	-->	apahim has joined #fedora-ambassadors
+2014-09-25 20:31:03	-->	yachironi has joined #fedora-ambassadors
+2014-09-25 20:34:08	-->	lbazan has joined #fedora-ambassadors
+2014-09-25 20:37:45	-->	FranciscoD has joined #fedora-ambassadors
+2014-09-25 20:43:53	<--	yachironi has quit (Ping timeout: 260 seconds)
+2014-09-25 20:47:04	<--	fabian_a has quit (Ping timeout: 260 seconds)
+2014-09-25 20:49:24	<--	panos has quit (Ping timeout: 260 seconds)
+2014-09-25 20:50:14	-->	panos has joined #fedora-ambassadors
+2014-09-25 20:52:15	-->	yachironi has joined #fedora-ambassadors
+2014-09-25 21:00:07	-->	fabian_a has joined #fedora-ambassadors
+2014-09-25 21:03:05	--	villadalmine is now known as villadalmine{afk
+2014-09-25 21:06:01	<--	yachironi has quit (Remote host closed the connection)
+2014-09-25 21:08:49	-->	aeperezt has joined #fedora-ambassadors
+2014-09-25 21:09:07	<--	KolonelPanic has quit (Remote host closed the connection)
+2014-09-25 21:12:15	<--	mailga has quit (Quit: WeeChat 0.4.3)
+2014-09-25 21:29:07	-->	tuanta has joined #fedora-ambassadors
+2014-09-25 21:36:00	-->	pravins has joined #fedora-ambassadors
+2014-09-25 21:37:41	<--	cwickert has quit (Quit: Leaving.)
+2014-09-25 21:39:20	-->	cwickert has joined #fedora-ambassadors
+2014-09-25 21:41:13	-->	nangthang has joined #fedora-ambassadors
+2014-09-25 21:46:57	<--	giallu_ has quit (Ping timeout: 244 seconds)
+2014-09-25 21:51:32	-->	yachironi has joined #fedora-ambassadors
+2014-09-25 21:51:43	<--	yachironi has quit (Changing host)
+2014-09-25 21:51:43	-->	yachironi has joined #fedora-ambassadors
+2014-11-09 18:27:55	-->	renodesper (~renodespe@subs14-223-255-230-34.three.co.id) has joined #fedora-ambassadors
+2014-11-09 18:27:55	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-09 18:27:55	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-09 18:27:55	--	Channel #fedora-ambassadors: 57 nicks (1 op, 0 voices, 56 normals)
+2014-11-09 18:27:55	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-09 18:27:56	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-09 18:31:08	-->	underscores has joined #fedora-ambassadors
+2014-11-09 18:33:57	<--	BaRt0 has quit (Read error: Connection reset by peer)
+2014-11-09 18:48:38	<--	cassmodiah_ has quit (Ping timeout: 258 seconds)
+2014-11-09 18:51:08	-->	cassmodiah has joined #fedora-ambassadors
+2014-11-09 19:15:52	-->	BaRt0 has joined #fedora-ambassadors
+2014-11-09 19:23:20	--	gnokii_ is now known as gnokii
+2014-11-09 19:23:59	<--	gnokii has quit (Changing host)
+2014-11-09 19:23:59	-->	gnokii has joined #fedora-ambassadors
+2014-11-09 19:51:22	-->	cwickert has joined #fedora-ambassadors
+2014-11-09 20:03:24	-->	underscores_ has joined #fedora-ambassadors
+2014-11-09 20:03:26	<--	underscores_ has quit (Changing host)
+2014-11-09 20:03:26	-->	underscores_ has joined #fedora-ambassadors
+2014-11-09 20:06:21	<--	underscores has quit (Ping timeout: 255 seconds)
+2014-11-09 20:33:50	<--	cwickert has quit (Quit: Leaving.)
+2014-11-09 20:34:07	-->	cwickert has joined #fedora-ambassadors
+2014-11-09 20:38:18	-->	lbazan has joined #fedora-ambassadors
+2014-11-09 20:52:57	<--	harish has quit (Read error: No route to host)
+2014-11-09 20:58:38	-->	harish has joined #fedora-ambassadors
+2014-11-09 21:00:32	-->	yachironi has joined #fedora-ambassadors
+2014-11-09 21:00:32	<--	yachironi has quit (Changing host)
+2014-11-09 21:00:32	-->	yachironi has joined #fedora-ambassadors
+2014-11-12 18:45:14	-->	renodesper (~renodespe@118.99.108.252) has joined #fedora-ambassadors
+2014-11-12 18:45:14	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-12 18:45:14	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-12 18:45:14	--	Channel #fedora-ambassadors: 64 nicks (1 op, 0 voices, 63 normals)
+2014-11-12 18:45:14	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-12 18:45:16	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-27 12:08:22	-->	renodesper (~renodespe@182.253.123.141) has joined #fedora-ambassadors
+2014-11-27 12:08:23	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-27 12:08:23	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-27 12:08:23	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2014-11-27 12:08:23	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-27 12:08:24	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-27 12:26:26	-->	pjp has joined #fedora-ambassadors
+2014-11-27 12:31:34	<--	nangthang has quit (Quit: Leaving)
+2014-11-27 12:36:57	<--	harish_ has quit (Ping timeout: 245 seconds)
+2014-11-27 13:13:51	<--	echevemaster has quit (Remote host closed the connection)
+2014-11-27 13:15:04	-->	hanthana has joined #fedora-ambassadors
+2014-11-27 14:16:13	-->	amita has joined #fedora-ambassadors
+2014-11-27 14:25:36	-->	eRadical has joined #fedora-ambassadors
+2014-11-27 14:26:51	-->	fabian_a has joined #fedora-ambassadors
+2014-11-27 14:28:47	<--	fabian_a has quit (Remote host closed the connection)
+2014-11-27 14:29:55	-->	fabian_a has joined #fedora-ambassadors
+2014-11-27 17:33:35	-->	renodesper (~renodespe@182.253.123.141) has joined #fedora-ambassadors
+2014-11-27 17:33:35	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-27 17:33:35	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-27 17:33:35	--	Channel #fedora-ambassadors: 64 nicks (1 op, 0 voices, 63 normals)
+2014-11-27 17:33:35	--	Notice(wilhelm.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-11-27 17:33:35	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-27 17:33:41	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-27 17:35:27	-->	renodesper (~renodespe@182.253.123.141) has joined #fedora-ambassadors
+2014-11-27 17:35:27	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-27 17:35:27	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-27 17:35:27	--	Channel #fedora-ambassadors: 64 nicks (1 op, 0 voices, 63 normals)
+2014-11-27 17:35:27	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-27 17:35:33	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-27 19:33:00	-->	renodesper (~renodespe@182.253.123.126) has joined #fedora-ambassadors
+2014-11-27 19:33:00	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-27 19:33:00	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-27 19:33:00	--	Channel #fedora-ambassadors: 64 nicks (1 op, 0 voices, 63 normals)
+2014-11-27 19:33:01	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-27 19:33:07	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-27 19:37:53	<--	amita has quit (Ping timeout: 240 seconds)
+2014-11-27 19:47:51	--	killefiz_ is now known as killefiz
+2014-11-30 14:38:53	-->	renodesper (~renodespe@182.253.123.39) has joined #fedora-ambassadors
+2014-11-30 14:38:53	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-30 14:38:53	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-30 14:38:53	--	Channel #fedora-ambassadors: 51 nicks (1 op, 0 voices, 50 normals)
+2014-11-30 14:38:54	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-30 14:38:54	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-30 14:39:50	<--	apahim has quit (Ping timeout: 256 seconds)
+2014-11-30 14:44:38	<--	botreynisa has quit (Ping timeout: 244 seconds)
+2014-11-30 14:49:11	-->	RGeri77 has joined #fedora-ambassadors
+2014-11-30 14:53:14	-->	apahim has joined #fedora-ambassadors
+2014-11-30 15:04:16	<--	apahim has quit (Ping timeout: 265 seconds)
+2014-11-30 15:09:23	<--	KolonelPanic has quit (Ping timeout: 240 seconds)
+2014-11-30 15:16:33	-->	apahim has joined #fedora-ambassadors
+2014-11-30 15:32:11	-->	KolonelPanic has joined #fedora-ambassadors
+2014-11-30 15:34:57	-->	robyduck has joined #fedora-ambassadors
+2014-11-30 15:58:28	-->	fab has joined #fedora-ambassadors
+2014-11-30 16:22:02	-->	frafra has joined #fedora-ambassadors
+2014-11-30 16:28:17	<--	apahim has quit (Ping timeout: 258 seconds)
+2014-11-30 16:32:15	-->	cwickert has joined #fedora-ambassadors
+2014-11-30 16:35:48	-->	Caterpillar has joined #fedora-ambassadors
+2014-11-30 17:06:26	-->	apahim has joined #fedora-ambassadors
+2014-11-30 17:07:51	-->	jreznik has joined #fedora-ambassadors
+2014-11-30 17:36:06	-->	yachironi has joined #fedora-ambassadors
+2014-11-30 17:36:10	<--	yachironi has quit (Changing host)
+2014-11-30 17:36:10	-->	yachironi has joined #fedora-ambassadors
+2014-11-30 17:36:57	<--	yachironi has quit (Client Quit)
+2014-11-30 17:39:27	<--	jreznik has quit (Quit: Konversation terminated!)
+2014-11-30 17:40:07	-->	jreznik has joined #fedora-ambassadors
+2014-11-30 17:40:44	<--	hanthana has quit (Ping timeout: 272 seconds)
+2014-11-30 17:45:13	<--	jreznik has quit (Ping timeout: 265 seconds)
+2014-11-30 18:18:12	<--	fale has quit (Ping timeout: 245 seconds)
+2014-11-30 18:18:35	-->	fale has joined #fedora-ambassadors
+2014-11-30 19:29:59	<--	lbrower has quit (Ping timeout: 258 seconds)
+2014-11-30 20:11:55	<--	RGeri77 has quit (Quit: Még visszatérek........)
+2014-11-30 20:14:44	<--	harish has quit (Ping timeout: 256 seconds)
+2014-11-30 20:18:29	-->	harish has joined #fedora-ambassadors
+2014-11-30 20:26:43	<--	cwickert has quit (Quit: Leaving.)
+2014-11-30 23:45:57	-->	renodesper (~renodespe@182.253.123.64) has joined #fedora-ambassadors
+2014-11-30 23:45:57	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-11-30 23:45:57	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-11-30 23:45:57	--	Channel #fedora-ambassadors: 58 nicks (1 op, 0 voices, 57 normals)
+2014-11-30 23:45:58	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-11-30 23:46:09	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-11-30 23:50:29	<--	ib54003 has quit (Quit: Verlassend)
+2014-11-30 23:54:53	-->	mayorga has joined #fedora-ambassadors
+2014-11-30 23:58:15	-->	mayorga_ has joined #fedora-ambassadors
+2014-11-30 23:59:15	<--	mayorga has quit (Ping timeout: 252 seconds)
+2014-12-01 00:03:00	-->	jreznik has joined #fedora-ambassadors
+2014-12-01 00:04:42	<--	mayorga_ has quit (Remote host closed the connection)
+2014-12-01 00:10:25	<--	Corey84- has quit (Excess Flood)
+2014-12-01 00:11:12	<--	TonetJallo has quit (Read error: Connection reset by peer)
+2014-12-01 00:19:21	-->	Corey84- has joined #fedora-ambassadors
+2014-12-01 00:21:01	<--	KolonelPanik has quit (Quit: Leaving)
+2014-12-01 00:21:36	-->	KolonelPanic has joined #fedora-ambassadors
+2014-12-01 00:44:16	<--	jreznik has quit (Ping timeout: 265 seconds)
+2014-12-01 01:02:55	<--	hanthana has quit (Remote host closed the connection)
+2014-12-01 01:12:43	-->	jreznik has joined #fedora-ambassadors
+2014-12-01 01:23:22	-->	RGeri77 has joined #fedora-ambassadors
+2014-12-01 01:24:54	-->	mayorga has joined #fedora-ambassadors
+2014-12-12 10:45:05	-->	renodesper (~renodespe@182.253.123.47) has joined #fedora-ambassadors
+2014-12-12 10:45:05	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-12 10:45:05	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-12 10:45:05	--	Channel #fedora-ambassadors: 56 nicks (1 op, 0 voices, 55 normals)
+2014-12-12 10:45:05	--	Notice(card.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2014-12-12 10:45:05	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-12 10:45:05	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-12 10:45:55	<--	nangthang has quit (Read error: No route to host)
+2014-12-12 10:46:50	-->	nangthang has joined #fedora-ambassadors
+2014-12-12 11:17:01	-->	niteshnarayanlal has joined #fedora-ambassadors
+2014-12-12 11:27:56	<--	adimania has quit (Ping timeout: 264 seconds)
+2014-12-15 19:43:13	-->	renodesper (~renodespe@182.253.123.47) has joined #fedora-ambassadors
+2014-12-15 19:43:14	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-15 19:43:14	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-15 19:43:14	--	Channel #fedora-ambassadors: 64 nicks (1 op, 0 voices, 63 normals)
+2014-12-15 19:43:14	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-15 19:43:14	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-15 19:43:32	-->	Prometheas has joined #fedora-ambassadors
+2014-12-15 19:44:29	<--	pjp has quit (Quit: Leaving)
+2014-12-15 19:44:56	-->	apahim has joined #fedora-ambassadors
+2014-12-15 19:46:00	<--	gnokii has quit (Ping timeout: 250 seconds)
+2014-12-15 19:49:14	-->	harish_ has joined #fedora-ambassadors
+2014-12-15 19:50:09	-->	villadalmine has joined #fedora-ambassadors
+2014-12-15 19:54:58	-->	gnokii has joined #fedora-ambassadors
+2014-12-15 19:57:22	<--	villadalmine has quit (Ping timeout: 245 seconds)
+2014-12-15 19:58:20	-->	villadalmine has joined #fedora-ambassadors
+2014-12-15 20:01:04	<--	altin has quit (Ping timeout: 245 seconds)
+2014-12-15 20:01:48	-->	danielbruno has joined #fedora-ambassadors
+2014-12-15 20:19:59	-->	KageSenshi has joined #fedora-ambassadors
+2014-12-15 20:28:59	-->	Caterpillar has joined #fedora-ambassadors
+2014-12-15 20:28:59	<--	harish_ has quit (Quit: Leaving)
+2014-12-15 20:29:31	-->	harish_ has joined #fedora-ambassadors
+2014-12-15 20:31:20	<--	harish_ has quit (Remote host closed the connection)
+2014-12-15 20:37:35	-->	altin has joined #fedora-ambassadors
+2014-12-15 20:48:24	<--	Caterpillar has left #fedora-ambassadors ("Once you know what it is you want to be true, instinct is a very useful device for enabling you to know that it is")
+2014-12-15 20:49:09	-->	harish_ has joined #fedora-ambassadors
+2014-12-15 20:49:16	-->	tuanta_ has joined #fedora-ambassadors
+2014-12-15 20:51:05	<--	underscores has quit (Quit: Konversation terminated!)
+2014-12-15 20:52:55	-->	underscores has joined #fedora-ambassadors
+2014-12-15 20:52:55	<--	underscores has quit (Changing host)
+2014-12-15 20:52:55	-->	underscores has joined #fedora-ambassadors
+2014-12-15 20:53:10	<--	michel_slm has quit (Quit: Connection closed for inactivity)
+2014-12-15 21:08:52	-->	crsesilva has joined #fedora-ambassadors
+2014-12-15 21:12:00	-->	Mohamed_Fawzy has joined #fedora-ambassadors
+2014-12-15 21:14:37	<--	hongphuc has quit
+2014-12-15 21:18:19	Mohamed_Fawzy	hi
+2014-12-15 21:20:49	<--	jreznik has quit (Quit: Konversation terminated!)
+2014-12-15 21:21:34	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 21:22:39	-->	hongphuc has joined #fedora-ambassadors
+2014-12-15 21:23:30	Mohamed_Fawzy	hi jreznik
+2014-12-15 21:26:52	jreznik	hi Mohamed_Fawzy!
+2014-12-15 21:27:30	Mohamed_Fawzy	how r u
+2014-12-15 21:28:31	Mohamed_Fawzy	i have a problem
+2014-12-15 21:28:54	<--	tuanta_ has quit (Remote host closed the connection)
+2014-12-15 21:32:31	jreznik	what's the problem?
+2014-12-15 21:33:58	-->	FedoraUser has joined #fedora-ambassadors
+2014-12-15 21:35:46	Mohamed_Fawzy	iam new amb
+2014-12-15 21:36:51	-->	Mohamed_Fawzy_ has joined #fedora-ambassadors
+2014-12-15 21:36:52	<--	Mohamed_Fawzy has quit (Read error: Connection reset by peer)
+2014-12-15 21:36:58	--	Mohamed_Fawzy_ is now known as Mohamed_Fawzy
+2014-12-15 21:37:39	Mohamed_Fawzy	iam new amb
+2014-12-15 21:37:40	Mohamed_Fawzy	but i cannt use the mail alias and my name not in the list yet
+2014-12-15 21:37:44	Mohamed_Fawzy	jreznik:
+2014-12-15 21:38:57	jreznik	for the list, I'm not sure who maintains it
+2014-12-15 21:39:36	robyduck	Mohamed_Fawzy: do you mean the Ambassadors-ML?
+2014-12-15 21:40:05	Mohamed_Fawzy	No i mean this list http://fedoraproject.org/wiki/Ambassadors/MembershipService/Verification#Egypt_.288.29
+2014-12-15 21:40:22	Mohamed_Fawzy	and mail alias too i cannt use it
+2014-12-15 21:40:29	robyduck	this is updated by a cronjob
+2014-12-15 21:40:35	robyduck	what's you FAS name?
+2014-12-15 21:40:42	robyduck	s/you/your
+2014-12-15 21:40:44	Mohamed_Fawzy	mohamedfawzy
+2014-12-15 21:40:55	robyduck	.fasinfo mohamedfawzy
+2014-12-15 21:40:57	zodbot	robyduck: User: mohamedfawzy, Name: Mohamed Fawzy, email: medoelmasry142@gmail.com, Creation: 2014-11-14, IRC Nick: Mohamed_Fawzy, Timezone: Africa/Cairo, Locale: en, GPG key ID: 91DDC1EF, Status: active
+2014-12-15 21:41:00	zodbot	robyduck: Approved Groups: ambassadors cla_done cla_fpca
+2014-12-15 21:42:31	<--	villadalmine has quit (Remote host closed the connection)
+2014-12-15 21:43:17	Mohamed_Fawzy	this statement is written "Last Updated : 2014-11-05 05:56:25.191574 UTC."
+2014-12-15 21:43:46	robyduck	so were sponsored last thursday, right?
+2014-12-15 21:43:53	Mohamed_Fawzy	yes
+2014-12-15 21:44:09	Mohamed_Fawzy	u r right
+2014-12-15 21:44:59	robyduck	and your email alias also doesn't work? Did you test it?
+2014-12-15 21:45:14	Mohamed_Fawzy	yes
+2014-12-15 21:45:40	Mohamed_Fawzy	i try to config with gmail but there is error message
+2014-12-15 21:46:09	-->	villadalmine has joined #fedora-ambassadors
+2014-12-15 21:46:31	robyduck	gmail sometimes is very ugly with aliases
+2014-12-15 21:46:49	robyduck	Mohamed_Fawzy: I've sent you a test-email
+2014-12-15 21:47:15	robyduck	I have no errors for now
+2014-12-15 21:47:42	Mohamed_Fawzy	i recieved it and replied
+2014-12-15 21:47:43	robyduck	cool, working ;)
+2014-12-15 21:48:02	Mohamed_Fawzy	cool
+2014-12-15 21:48:18	<--	harish_ has quit (Read error: Connection reset by peer)
+2014-12-15 21:48:55	robyduck	then we have just the list...needs a re-run I guess
+2014-12-15 21:49:18	Mohamed_Fawzy	i think that coz long time for it no update
+2014-12-15 21:51:14	-->	harish_ has joined #fedora-ambassadors
+2014-12-15 21:51:23	robyduck	yes, I will see if I find someone around
+2014-12-15 21:51:56	Mohamed_Fawzy	OK thank U so much
+2014-12-15 21:52:39	robyduck	you're welcome
+2014-12-15 21:53:37	<--	harish_ has quit (Read error: Connection reset by peer)
+2014-12-15 21:54:03	-->	harish has joined #fedora-ambassadors
+2014-12-15 21:54:16	Mohamed_Fawzy	^_^
+2014-12-15 21:56:25	-->	aeperezt has joined #fedora-ambassadors
+2014-12-15 21:58:52	jreznik	good to have robyduck around, he has answers for everything ;)
+2014-12-15 21:59:12	robyduck	:D
+2014-12-15 22:01:10	Mohamed_Fawzy	i saw that he is super hero
+2014-12-15 22:04:41	Mohamed_Fawzy	robyduck: when i use alias with gmail to send messages using it
+2014-12-15 22:05:14	Mohamed_Fawzy	what port and type of secure i use
+2014-12-15 22:06:00	Mohamed_Fawzy	i alwaz get this error message
+2014-12-15 22:06:03	Mohamed_Fawzy	Authentication failed. Please check your username/password.
+2014-12-15 22:06:04	Mohamed_Fawzy	[Server response: DNS Error: Address resolution of smtp.fedoraproject.org. failed: Domain name not found code(0) ]
+2014-12-15 22:06:24	<--	altin has quit (Ping timeout: 250 seconds)
+2014-12-15 22:09:24	<--	fabian_a has quit (Ping timeout: 245 seconds)
+2014-12-15 22:09:34	Levex	Mohamed_Fawzy, you need to add the alias on the web interface
+2014-12-15 22:10:06	Levex	then you login with your gmail creds to gmail's SMTP and just set the From header as your fp.org mail
+2014-12-15 22:10:22	Mohamed_Fawzy	i get this error msg when i try to add it
+2014-12-15 22:10:33	robyduck	Mohamed_Fawzy: yup, as Levex says
+2014-12-15 22:10:41	robyduck	TLS
+2014-12-15 22:10:58	Mohamed_Fawzy	port 587
+2014-12-15 22:11:18	robyduck	yes, just leave it all as default
+2014-12-15 22:11:43	Mohamed_Fawzy	i get error msg
+2014-12-15 22:11:45	robyduck	I don't remember I changed anything there, but it's some time ago
+2014-12-15 22:11:56	Mohamed_Fawzy	[Server response: DNS Error: Address resolution of smtp.fedoraproject.org. failed: Domain name not found code(0) ]
+2014-12-15 22:13:35	<--	braoru has quit (Quit: Leaving)
+2014-12-15 22:14:51	Levex	Mohamed_Fawzy, FPP has no SMTP server
+2014-12-15 22:14:53	Levex	use Google's
+2014-12-15 22:14:55	Levex	smtp.gmail.com
+2014-12-15 22:15:59	Mohamed_Fawzy	i dnt understand u
+2014-12-15 22:16:40	Levex	the fedora project has no SMTP server associated with the aliases
+2014-12-15 22:16:51	Levex	You need to use GMAIL's SMTP server: smtp.gmail.com
+2014-12-15 22:17:09	Levex	are you trying to configure a MUA (like mutt or thunderbird)?
+2014-12-15 22:17:18	Mohamed_Fawzy	no
+2014-12-15 22:17:27	Levex	then what are you doing?
+2014-12-15 22:17:33	Mohamed_Fawzy	i use gmail web interface
+2014-12-15 22:18:32	Levex	so what did you do so far?
+2014-12-15 22:19:05	Mohamed_Fawzy	i press setting then add account
+2014-12-15 22:19:56	Mohamed_Fawzy	i wrote fedora mail and my name
+2014-12-15 22:20:27	Levex	ah I see
+2014-12-15 22:20:30	Mohamed_Fawzy	in next step i wrote password then i got the error msg
+2014-12-15 22:20:32	Levex	it has changed
+2014-12-15 22:20:46	Levex	SMTP server should be smtp.gmail.com
+2014-12-15 22:20:52	Levex	username should be your gmail username
+2014-12-15 22:20:57	Levex	password is your gmail pwd
+2014-12-15 22:21:55	Mohamed_Fawzy	[Server response: 535-5.7.8 Username and Password not accepted. Learn more at 535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 v4sm2752391lav.25 - gsmtp code(535) ]
+2014-12-15 22:22:25	-->	fabian_a has joined #fedora-ambassadors
+2014-12-15 22:23:07	Levex	so?
+2014-12-15 22:23:12	Levex	then try user@gmail.com
+2014-12-15 22:23:18	Mohamed_Fawzy	error msg
+2014-12-15 22:23:26	Mohamed_Fawzy	i use that
+2014-12-15 22:24:01	Levex	then your pwd is wrong
+2014-12-15 22:24:08	Levex	it clearly says that
+2014-12-15 22:24:15	Mohamed_Fawzy	it is right iam sure
+2014-12-15 22:29:02	Levex	hm I'm afraid google has changed
+2014-12-15 22:29:09	Levex	they no longer offer their SMTP server for aliases
+2014-12-15 22:30:50	Levex	According to: https://support.google.com/mail/answer/22370?hl=en
+2014-12-15 22:31:02	Levex	"Your other email provider has to provide authenticated SMTP support for you to use this option"
+2014-12-15 22:31:54	Mohamed_Fawzy	so wht i will do now
+2014-12-15 22:32:19	Levex	Look for an other mail provider :)
+2014-12-15 22:32:40	-->	altin has joined #fedora-ambassadors
+2014-12-15 22:32:43	Mohamed_Fawzy	that is bad
+2014-12-15 22:32:56	Mohamed_Fawzy	coz i like gmail
+2014-12-15 22:33:04	Levex	damn: http://googlesystem.blogspot.hu/2014/08/external-addresses-no-longer-use-gmail.html
+2014-12-15 22:33:18	Levex	yea gmail is great, but its getting worse and worse nowadays
+2014-12-15 22:34:26	Mohamed_Fawzy	yes
+2014-12-15 22:35:34	 *	Levex still uses gmail, but is looking for an alternative to migrate too. He welcomes suggestions
+2014-12-15 22:35:36	robyduck	Levex: that's why: "Any accounts which previously were using Send Mail As via Gmail servers will not be affected"
+2014-12-15 22:35:46	Levex	Yea that's why it works for us robyduck :)
+2014-12-15 22:35:46	 *	robyduck didn't know that :(
+2014-12-15 22:36:13	-->	amita has joined #fedora-ambassadors
+2014-12-15 22:36:20	Mohamed_Fawzy	:(
+2014-12-15 22:37:30	Mohamed_Fawzy	can u recommend me another app to use
+2014-12-15 22:37:45	Levex	Mohamed_Fawzy, http://ellisbenus.com/web-design-columbia-mo/workaround-using-gmail-alias-forwarded-email-addresses/
+2014-12-15 22:37:53	Levex	can you please try that and report back if it works?
+2014-12-15 22:38:28	Mohamed_Fawzy	i will try
+2014-12-15 22:38:39	Levex	thanks
+2014-12-15 22:39:07	<--	jreznik has quit (Remote host closed the connection)
+2014-12-15 22:39:57	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 22:40:37	<--	jreznik has quit (Remote host closed the connection)
+2014-12-15 22:41:43	 *	Levex needs to go AFK for about an hour, will be back ASAP
+2014-12-15 22:49:46	<--	Mohamed_Fawzy has quit (Remote host closed the connection)
+2014-12-15 22:50:00	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 22:51:51	<--	jreznik has quit (Remote host closed the connection)
+2014-12-15 22:53:14	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 22:53:18	<--	Prometheas has quit (Quit: Leaving.)
+2014-12-15 22:54:35	<--	jreznik has quit (Remote host closed the connection)
+2014-12-15 22:57:51	<--	fabian_a has quit (Ping timeout: 272 seconds)
+2014-12-15 22:58:15	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 23:01:27	<--	comzeradd has quit (Quit: Ex-Chat)
+2014-12-15 23:02:12	<--	jreznik has quit (Remote host closed the connection)
+2014-12-15 23:05:23	-->	jreznik has joined #fedora-ambassadors
+2014-12-15 23:06:04	-->	Caterpillar has joined #fedora-ambassadors
+2014-12-15 23:10:07	-->	lbazan has joined #fedora-ambassadors
+2014-12-15 23:10:13	<--	lbazan has quit (Changing host)
+2014-12-15 23:10:13	-->	lbazan has joined #fedora-ambassadors
+2014-12-15 23:14:52	-->	Mohamed_Fawzy has joined #fedora-ambassadors
+2014-12-15 23:15:13	Mohamed_Fawzy	Levex:  it is worked
+2014-12-15 23:36:56	-->	fabian_a has joined #fedora-ambassadors
+2014-12-15 23:38:47	<--	amita has quit (Ping timeout: 264 seconds)
+2014-12-15 23:40:17	<--	underscores has quit (Ping timeout: 240 seconds)
+2014-12-15 23:40:22	Levex	Mohamed_Fawzy, awesome! :)
+2014-12-15 23:40:32	Mohamed_Fawzy	yes
+2014-12-15 23:40:45	Mohamed_Fawzy	iam very happy for that
+2014-12-15 23:44:44	Levex	glad I could help :)
+2014-12-15 23:45:33	-->	Sadin has joined #fedora-ambassadors
+2014-12-15 23:48:46	<--	pcaruana has quit (Quit: Leaving)
+2014-12-16 23:38:25	-->	renodesper (~renodespe@182.253.123.67) has joined #fedora-ambassadors
+2014-12-16 23:38:25	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-16 23:38:25	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-16 23:38:25	--	Channel #fedora-ambassadors: 66 nicks (1 op, 0 voices, 65 normals)
+2014-12-16 23:38:26	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-16 23:38:26	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-18 23:48:49	-->	renodesper (~renodespe@182.253.123.53) has joined #fedora-ambassadors
+2014-12-18 23:48:49	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-18 23:48:49	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-18 23:48:49	--	Channel #fedora-ambassadors: 67 nicks (1 op, 0 voices, 66 normals)
+2014-12-18 23:48:50	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-18 23:48:50	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-18 23:50:22	<--	hongphuc has quit (Remote host closed the connection)
+2014-12-18 23:51:05	<--	aeperezt has quit (Ping timeout: 250 seconds)
+2014-12-18 23:53:26	-->	mayorga has joined #fedora-ambassadors
+2014-12-20 21:59:58	-->	renodesper (~renodespe@36.72.77.186) has joined #fedora-ambassadors
+2014-12-20 21:59:58	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-20 21:59:58	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-20 21:59:58	--	Channel #fedora-ambassadors: 57 nicks (1 op, 0 voices, 56 normals)
+2014-12-20 21:59:59	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-20 22:00:16	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-20 22:02:06	-->	Mohamed_Fawzy has joined #fedora-ambassadors
+2014-12-20 22:06:16	-->	pcaruana has joined #fedora-ambassadors
+2014-12-20 22:20:30	-->	KageSenshi has joined #fedora-ambassadors
+2014-12-20 22:21:25	-->	dgilmore has joined #fedora-ambassadors
+2014-12-21 22:53:51	-->	renodesper (~renodespe@180.253.252.71) has joined #fedora-ambassadors
+2014-12-21 22:53:51	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-21 22:53:51	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-21 22:53:51	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2014-12-21 22:53:51	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-21 22:53:51	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-24 10:51:22	-->	renodesper (~renodespe@182.253.123.49) has joined #fedora-ambassadors
+2014-12-24 10:51:22	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-24 10:51:22	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-24 10:51:22	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2014-12-24 10:51:22	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-24 10:51:22	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-24 11:01:19	<--	Corey84 has quit (Ping timeout: 255 seconds)
+2014-12-24 11:17:24	-->	pravins has joined #fedora-ambassadors
+2014-12-24 11:35:32	<--	apahim has quit (Ping timeout: 256 seconds)
+2014-12-24 11:43:50	-->	niteshnarayanlal has joined #fedora-ambassadors
+2014-12-24 11:47:44	-->	apahim has joined #fedora-ambassadors
+2014-12-24 11:48:57	<--	tuanta has quit (Read error: No route to host)
+2014-12-24 11:59:04	<--	Sadin has quit (Remote host closed the connection)
+2014-12-24 12:07:25	-->	gnokii_ has joined #fedora-ambassadors
+2014-12-24 12:07:44	<--	gnokii has quit (Ping timeout: 264 seconds)
+2014-12-24 12:09:02	<--	aeperezt has quit (Remote host closed the connection)
+2014-12-24 12:22:47	-->	pjp has joined #fedora-ambassadors
+2014-12-24 12:29:08	-->	b10n1k has joined #fedora-ambassadors
+2014-12-24 12:33:39	-->	Corey84 has joined #fedora-ambassadors
+2014-12-24 12:39:31	<--	Corey84 has quit (Excess Flood)
+2014-12-24 12:40:19	-->	Corey84 has joined #fedora-ambassadors
+2014-12-24 12:43:42	-->	amita has joined #fedora-ambassadors
+2014-12-24 13:02:54	-->	[1]niteshnarayan has joined #fedora-ambassadors
+2014-12-24 13:05:17	<--	niteshnarayanlal has quit (Ping timeout: 252 seconds)
+2014-12-24 13:05:17	--	[1]niteshnarayan is now known as niteshnarayanlal
+2014-12-24 13:20:14	<--	nangthang has quit (Quit: Leaving)
+2014-12-24 13:47:41	-->	nangthang has joined #fedora-ambassadors
+2014-12-24 13:53:04	-->	Mohamed_Fawzy has joined #fedora-ambassadors
+2014-12-28 14:55:37	-->	renodesper (~renodespe@36.72.95.97) has joined #fedora-ambassadors
+2014-12-28 14:55:37	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-28 14:55:37	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-28 14:55:37	--	Channel #fedora-ambassadors: 47 nicks (1 op, 0 voices, 46 normals)
+2014-12-28 14:55:38	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-28 14:55:38	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2014-12-28 14:57:31	-->	pcaruana has joined #fedora-ambassadors
+2014-12-28 14:57:50	<--	pcaruana has quit (Client Quit)
+2014-12-28 14:58:10	-->	pcaruana has joined #fedora-ambassadors
+2014-12-28 15:04:01	<--	tuanta_ has quit (Ping timeout: 252 seconds)
+2014-12-28 16:06:59	-->	giallu has joined #fedora-ambassadors
+2014-12-28 16:42:31	-->	Caterpillar has joined #fedora-ambassadors
+2014-12-28 17:04:22	--	irc: disconnected from server
+2014-12-28 17:04:40	-->	renodesper1 (~renodespe@202.138.248.12) has joined #fedora-ambassadors
+2014-12-28 17:04:40	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2014-12-28 17:04:40	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2014-12-28 17:04:40	--	Channel #fedora-ambassadors: 50 nicks (1 op, 0 voices, 49 normals)
+2014-12-28 17:04:44	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2014-12-28 17:04:47	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-01 01:31:11	-->	renodesper (~renodespe@36.72.106.129) has joined #fedora-ambassadors
+2015-01-01 01:31:11	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-01 01:31:11	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-01 01:31:11	--	Channel #fedora-ambassadors: 50 nicks (1 op, 0 voices, 49 normals)
+2015-01-01 01:31:12	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-01 01:31:12	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-01 01:32:27	<--	mayorga has quit (Remote host closed the connection)
+2015-01-01 02:08:21	-->	jreznik has joined #fedora-ambassadors
+2015-01-01 02:14:24	<--	jreznik has quit (Ping timeout: 245 seconds)
+2015-01-01 02:15:46	-->	jreznik has joined #fedora-ambassadors
+2015-01-01 02:21:59	-->	Orca-Krilozona has joined #fedora-ambassadors
+2015-01-01 02:40:22	-->	mayorga has joined #fedora-ambassadors
+2015-01-01 02:50:17	<--	jreznik has quit (Ping timeout: 244 seconds)
+2015-01-01 03:43:17	<--	harish has quit (Ping timeout: 265 seconds)
+2015-01-01 03:55:50	<--	Sadin has quit
+2015-01-01 04:00:07	-->	harish has joined #fedora-ambassadors
+2015-01-01 04:03:11	--	irc: disconnected from server
+2015-01-01 04:03:35	-->	renodesper1 (~renodespe@125.163.105.57) has joined #fedora-ambassadors
+2015-01-01 04:03:35	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-01 04:03:35	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-01 04:03:35	--	Channel #fedora-ambassadors: 51 nicks (1 op, 0 voices, 50 normals)
+2015-01-01 04:03:35	--	Notice(wilhelm.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2015-01-01 04:03:35	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-01 04:03:35	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-01 04:04:13	<--	renodesper has quit (Ping timeout: 240 seconds)
+2015-01-01 04:09:19	<--	Orca-Krilozona has quit (Ping timeout: 240 seconds)
+2015-01-01 04:28:55	-->	Sadin has joined #fedora-ambassadors
+2015-01-01 04:42:08	<--	mayorga has quit (Remote host closed the connection)
+2015-01-01 04:49:58	-->	FedoraUser has joined #fedora-ambassadors
+2015-01-01 05:16:11	-->	TonetJallo has joined #fedora-ambassadors
+2015-01-01 05:27:16	-->	award3535 has joined #fedora-ambassadors
+2015-01-01 05:29:34	-->	AppelonD1 has joined #fedora-ambassadors
+2015-01-01 05:30:00	-->	quaid_ has joined #fedora-ambassadors
+2015-01-01 05:31:13	-->	echevemaster has joined #fedora-ambassadors
+2015-01-01 05:31:32	<--	echevemaster has quit (Remote host closed the connection)
+2015-01-01 05:34:18	<--	Casper_v2 has quit (*.net *.split)
+2015-01-01 05:34:18	<--	quaid has quit (*.net *.split)
+2015-01-01 05:34:18	<--	AppelonD2 has quit (*.net *.split)
+2015-01-01 05:34:19	<--	Affix has quit (*.net *.split)
+2015-01-01 05:35:12	-->	davdunc` has joined #fedora-ambassadors
+2015-01-01 05:38:38	<--	davdunc has quit (Ping timeout: 250 seconds)
+2015-01-01 05:48:40	-->	Casper_v2 has joined #fedora-ambassadors
+2015-01-01 05:49:06	-->	Affix has joined #fedora-ambassadors
+2015-01-01 05:53:09	<--	award3535 has quit (Quit: award3535)
+2015-01-01 05:53:31	-->	award3535 has joined #fedora-ambassadors
+2015-01-01 05:58:58	<--	award3535 has quit (Quit: award3535)
+2015-01-01 05:59:18	-->	award3535 has joined #fedora-ambassadors
+2015-01-01 06:12:41	<--	award3535 has quit (Quit: award3535)
+2015-01-01 07:38:55	<--	Sadin has quit (Ping timeout: 245 seconds)
+2015-01-01 07:39:31	-->	Sadin has joined #fedora-ambassadors
+2015-01-01 07:45:29	<--	TonetJallo has quit (Quit: Bye bye.)
+2015-01-01 07:50:33	-->	AleiraM has joined #fedora-ambassadors
+2015-01-01 07:58:23	<--	AleiraM has quit (Quit: Konversation terminated!)
+2015-01-01 07:59:10	-->	AleiraM has joined #fedora-ambassadors
+2015-01-01 08:12:02	<--	FedoraUser has quit (Ping timeout: 250 seconds)
+2015-01-01 08:24:31	-->	FedoraUser has joined #fedora-ambassadors
+2015-01-01 08:27:15	<--	AleiraM has quit (Quit: Konversation terminated!)
+2015-01-01 08:27:24	-->	AleiraM has joined #fedora-ambassadors
+2015-01-01 08:46:16	<--	apahim has quit (Ping timeout: 244 seconds)
+2015-01-01 08:48:39	-->	masta has joined #fedora-ambassadors
+2015-01-01 08:58:40	-->	apahim has joined #fedora-ambassadors
+2015-01-01 09:41:33	-->	Corey84 has joined #fedora-ambassadors
+2015-01-01 09:42:14	<--	FedoraUser has quit (Quit: Leaving)
+2015-01-01 09:44:02	-->	FedoraUser has joined #fedora-ambassadors
+2015-01-01 10:00:44	-->	tyll_ has joined #fedora-ambassadors
+2015-01-01 10:03:58	<--	tyll has quit (Ping timeout: 245 seconds)
+2015-01-01 10:21:26	-->	StabbyMc has joined #fedora-ambassadors
+2015-01-01 10:30:17	<--	FedoraUser has quit (Quit: Leaving)
+2015-01-03 11:36:07	-->	renodesper (~renodespe@182.253.123.67) has joined #fedora-ambassadors
+2015-01-03 11:36:07	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-03 11:36:07	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-03 11:36:07	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2015-01-03 11:36:08	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-03 11:36:08	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-03 11:45:13	<--	aeperezt has quit (Remote host closed the connection)
+2015-01-03 11:45:30	-->	KageSenshi has joined #fedora-ambassadors
+2015-01-03 11:57:08	<--	masta has quit (Read error: No route to host)
+2015-01-03 11:57:12	-->	siddhesh has joined #fedora-ambassadors
+2015-01-03 12:18:06	<--	jstapleton has quit (Quit: jstapleton)
+2015-01-03 12:19:53	<--	pravins has quit (Ping timeout: 240 seconds)
+2015-01-03 12:23:47	-->	pravins has joined #fedora-ambassadors
+2015-01-03 12:24:56	-->	FedoraUser has joined #fedora-ambassadors
+2015-01-03 12:57:19	<--	tuanta_ has quit (Ping timeout: 245 seconds)
+2015-01-03 13:01:36	<--	pravins has quit (Quit: Leaving)
+2015-01-03 13:03:15	<--	siddhesh has quit (Quit: Ex-Chat)
+2015-01-03 13:05:58	-->	siddhesh has joined #fedora-ambassadors
+2015-01-03 13:06:57	<--	alick has quit (Quit: Coyote finally caught me)
+2015-01-03 13:07:07	-->	alick has joined #fedora-ambassadors
+2015-01-03 13:07:07	<--	alick has quit (Changing host)
+2015-01-03 13:07:07	-->	alick has joined #fedora-ambassadors
+2015-01-03 13:17:26	-->	kushal has joined #fedora-ambassadors
+2015-01-03 13:25:00	<--	siddhesh has quit (Quit: Ex-Chat)
+2015-01-09 10:49:15	-->	renodesper (~renodespe@180.253.232.32) has joined #fedora-ambassadors
+2015-01-09 10:49:15	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-09 10:49:15	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-09 10:49:15	--	Channel #fedora-ambassadors: 54 nicks (1 op, 0 voices, 53 normals)
+2015-01-09 10:49:17	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-09 10:49:36	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-11 23:11:57	-->	renodesper (~renodespe@36.72.112.27) has joined #fedora-ambassadors
+2015-01-11 23:11:58	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-11 23:11:58	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-11 23:11:58	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2015-01-11 23:11:59	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-11 23:11:59	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-11 23:28:11	<--	pcaruana has quit (Quit: Leaving)
+2015-01-11 23:42:39	-->	IKRAM has joined #fedora-ambassadors
+2015-01-11 23:48:15	IKRAM	Hello People . I want to join the ambassador program. Can you please guide me :)
+2015-01-11 23:54:30	frafra	hi IKRAM; look at https://fedoraproject.org/wiki/Ambassadors_Join_start
+2015-01-11 23:57:31	IKRAM	frafra , Thanks for this :) Actually , I have followed this steps and One mentor has opened a trac for me . Now , I need guideline about what should I do :)
+2015-01-11 23:59:41	frafra	https://fedoraproject.org/wiki/Ambassadors_Join_subscribe_to_the_ambassadors_mailing_list ?
+2015-01-11 23:59:59	frafra	and... https://fedoraproject.org/wiki/Ambassadors_Join_mentor_and_fama_approval
+2015-01-12 00:00:45	frafra	that's all :) and listen to your mentor
+2015-01-12 00:02:05	IKRAM	I think , I have done all of this :) After this , I don;t know what to do :( I mean , how he/she will decide If I will be ambassador or not ?
+2015-01-12 00:04:42	frafra	he/she is going to write to you and asks some questions about you, how much do you know Fedora, why do you want to became an ambassador...
+2015-01-12 00:05:27	IKRAM	oh, You mean after opening the Trac Ticket ?
+2015-01-12 00:07:04	-->	KolonelPanic has joined #fedora-ambassadors
+2015-01-12 00:07:22	frafra	yes
+2015-01-18 15:09:13	-->	renodesper (~renodespe@202.138.248.12) has joined #fedora-ambassadors
+2015-01-18 15:09:15	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-18 15:09:15	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-18 15:09:15	--	Channel #fedora-ambassadors: 52 nicks (1 op, 0 voices, 51 normals)
+2015-01-18 15:09:17	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-18 15:09:17	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-18 15:10:56	-->	IKRAM has joined #fedora-ambassadors
+2015-01-18 15:20:44	<--	kushal has quit (Ping timeout: 246 seconds)
+2015-01-18 15:27:08	<--	IKRAM has quit (Quit: ChatZilla 0.9.91.1 [Firefox 34.0.5/20141126041045])
+2015-01-18 15:36:43	-->	IKRAM has joined #fedora-ambassadors
+2015-01-18 16:02:22	<--	IKRAM has quit (Quit: ChatZilla 0.9.91.1 [Firefox 34.0.5/20141126041045])
+2015-01-18 16:12:50	-->	yachironi has joined #fedora-ambassadors
+2015-01-18 16:15:36	-->	IKRAM has joined #fedora-ambassadors
+2015-01-18 16:17:14	<--	yachironi has quit (Client Quit)
+2015-01-18 16:27:40	<--	Corey84 has quit (Ping timeout: 245 seconds)
+2015-01-18 16:44:16	-->	frafra has joined #fedora-ambassadors
+2015-01-18 16:50:03	-->	Corey84 has joined #fedora-ambassadors
+2015-01-18 16:54:01	<--	geek_cl has quit (Read error: Connection reset by peer)
+2015-01-18 17:11:16	-->	geek_cl has joined #fedora-ambassadors
+2015-01-18 17:13:03	-->	giannisk has joined #fedora-ambassadors
+2015-01-18 18:19:47	--	irc: disconnected from server
+2015-01-18 18:20:10	-->	renodesper (~renodespe@202.138.248.12) has joined #fedora-ambassadors
+2015-01-18 18:20:10	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-18 18:20:10	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-18 18:20:10	--	Channel #fedora-ambassadors: 54 nicks (1 op, 0 voices, 53 normals)
+2015-01-18 18:20:11	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-18 18:20:17	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-18 18:26:49	--	irc: disconnected from server
+2015-01-18 18:27:13	-->	renodesper (~renodespe@202.138.248.12) has joined #fedora-ambassadors
+2015-01-18 18:27:13	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-01-18 18:27:13	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-01-18 18:27:13	--	Channel #fedora-ambassadors: 54 nicks (1 op, 0 voices, 53 normals)
+2015-01-18 18:27:13	--	Notice(card.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2015-01-18 18:27:14	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-01-18 18:27:14	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-01-18 18:30:14	-->	RGeri77 has joined #fedora-ambassadors
+2015-02-03 23:22:14	-->	renodesper (~renodespe@36.72.116.131) has joined #fedora-ambassadors
+2015-02-03 23:22:14	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 20 - http://get.fedoraproject.org/"
+2015-02-03 23:22:14	--	Topic set by Southern_Gentlem (~BEn@fedora/Southern-Gentleman) on Wed, 22 Jan 2014 20:30:11
+2015-02-03 23:22:14	--	Channel #fedora-ambassadors: 68 nicks (1 op, 0 voices, 67 normals)
+2015-02-03 23:22:15	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-02-03 23:22:15	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-02-03 23:22:51	<--	tuanta_ has quit (Ping timeout: 264 seconds)
+2015-02-03 23:27:14	-->	giannisk has joined #fedora-ambassadors
+2015-02-03 23:30:30	<--	nangthang has quit (Remote host closed the connection)
+2015-02-03 23:37:52	<--	alyaj2a has quit (Remote host closed the connection)
+2015-02-03 23:38:49	-->	lcafiero has joined #fedora-ambassadors
+2015-02-03 23:39:13	<--	amita has quit (Ping timeout: 252 seconds)
+2015-02-03 23:39:16	-->	comzeradd has joined #fedora-ambassadors
+2015-02-03 23:54:42	-->	fsimonce has joined #fedora-ambassadors
+2015-02-03 23:54:49	<--	giallu has quit (Ping timeout: 245 seconds)
+2015-02-04 00:10:21	<--	jreznik has quit (Ping timeout: 252 seconds)
+2015-06-17 23:42:36	-->	renodesper (~renodespe@36.72.99.135) has joined #fedora-ambassadors
+2015-06-17 23:42:36	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-06-17 23:42:36	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-06-17 23:42:36	--	Channel #fedora-ambassadors: 85 nicks (1 op, 0 voices, 84 normals)
+2015-06-17 23:42:36	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-06-17 23:42:37	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-06-17 23:43:45	-->	mailga_ has joined #fedora-ambassadors
+2015-06-17 23:44:19	-->	gfidente^2nd has joined #fedora-ambassadors
+2015-06-17 23:44:35	<--	tuanta has quit (Ping timeout: 256 seconds)
+2015-06-17 23:44:43	-->	Eickmeyer has joined #fedora-ambassadors
+2015-06-17 23:45:09	<--	fsimonce has quit (*.net *.split)
+2015-06-17 23:45:09	<--	gfidente has quit (*.net *.split)
+2015-06-17 23:45:09	<--	mailga has quit (*.net *.split)
+2015-06-17 23:45:09	<--	ErichEickmeyer has quit (*.net *.split)
+2015-06-17 23:45:59	-->	fsimonce has joined #fedora-ambassadors
+2015-06-17 23:49:31	<--	arcolife has quit (Quit: Ex-Chat)
+2015-06-17 23:53:52	-->	feliper has joined #fedora-ambassadors
+2015-06-18 00:07:43	-->	cwickert has joined #fedora-ambassadors
+2015-06-18 00:11:25	-->	RGeri77 has joined #fedora-ambassadors
+2015-06-18 00:14:37	<--	sesivany has quit (Quit: sesivany)
+2015-06-18 00:19:13	-->	Corey84 has joined #fedora-ambassadors
+2015-06-18 00:21:48	<--	corey84__ has quit (Ping timeout: 244 seconds)
+2015-06-18 00:31:11	-->	pjp has joined #fedora-ambassadors
+2015-06-18 00:34:42	-->	FabioOlive has joined #fedora-ambassadors
+2015-06-18 00:46:50	<--	comzeradd has quit (Remote host closed the connection)
+2015-06-18 00:50:18	<--	KolonelPanic has quit (Quit: Leaving)
+2015-06-18 00:50:39	-->	KolonelPanic has joined #fedora-ambassadors
+2015-06-18 00:58:32	-->	thunderbirdtr has joined #fedora-ambassadors
+2015-06-18 00:59:49	-->	nask0 has joined #fedora-ambassadors
+2015-06-18 01:00:04	-->	comzeradd has joined #fedora-ambassadors
+2015-06-18 01:00:33	<--	cwickert has quit (Ping timeout: 276 seconds)
+2015-06-18 01:34:48	<--	pjp has quit (Quit: Leaving)
+2015-06-18 01:35:45	<--	kushal has quit (Ping timeout: 252 seconds)
+2015-06-18 01:44:13	<--	yachironi has quit (Ping timeout: 255 seconds)
+2015-06-18 01:48:53	<--	decause has quit (Quit: leaving)
+2015-06-18 01:50:15	-->	arcolife has joined #fedora-ambassadors
+2015-06-18 01:54:37	-->	decause has joined #fedora-ambassadors
+2015-06-18 01:56:29	<--	altin has quit (Ping timeout: 245 seconds)
+2015-06-18 01:59:45	<--	gshereme has quit (Read error: Connection reset by peer)
+2015-06-18 02:25:03	<--	arcolife has quit (Quit: Ex-Chat)
+2015-06-18 02:31:30	<--	danielbruno has quit (Read error: Connection reset by peer)
+2015-06-18 02:31:36	-->	gshereme has joined #fedora-ambassadors
+2015-06-18 02:41:19	--	gfidente^2nd is now known as gfidente
+2015-06-18 02:41:27	<--	gfidente has quit (Changing host)
+2015-06-18 02:41:27	-->	gfidente has joined #fedora-ambassadors
+2015-06-18 02:42:59	-->	cwickert has joined #fedora-ambassadors
+2015-06-18 03:10:06	--	irc: disconnected from server
+2015-06-18 22:48:55	-->	renodesper (~renodespe@36.72.99.135) has joined #fedora-ambassadors
+2015-06-18 22:48:55	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-06-18 22:48:55	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-06-18 22:48:55	--	Channel #fedora-ambassadors: 74 nicks (1 op, 0 voices, 73 normals)
+2015-06-18 22:48:55	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-06-18 22:48:55	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-06-18 22:56:53	--	irc: disconnected from server
+2015-06-18 22:57:12	-->	renodesper (~renodespe@36.72.99.135) has joined #fedora-ambassadors
+2015-06-18 22:57:12	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-06-18 22:57:12	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-06-18 22:57:12	--	Channel #fedora-ambassadors: 74 nicks (1 op, 0 voices, 73 normals)
+2015-06-18 22:57:12	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-06-18 22:57:15	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-06-18 22:58:07	<--	masta has quit (Ping timeout: 248 seconds)
+2015-06-18 23:02:14	-->	arcolife has joined #fedora-ambassadors
+2015-06-18 23:02:38	Corey84	made  re-mention and call for  seeders on G+ page  (+FedoraProject that is )
+2015-06-18 23:03:28	danofsatx	Corey84: can you point me to a quick how-to for setting up a tracker? I've got apache config'd for it, now I just need to set up the tracker/seeder part.
+2015-06-18 23:03:56	Corey84	danofsatx,  using what tracker  tool ?  opentracker ?
+2015-06-18 23:04:32	danofsatx	I don't know, is that the one you use?
+2015-06-18 23:04:57	Corey84	bodhi and I do yes
+2015-06-18 23:05:05	danofsatx	ok
+2015-06-18 23:06:43	Corey84	the compile method  bodhi  uses > http://egopoly.com/2008/05/how-to-set-up-a-private-bittorrent-tracker.html
+2015-06-18 23:07:01	Corey84	his are  truly private tracker  (DON'T work with DHT )
+2015-06-18 23:07:04	-->	pravins has joined #fedora-ambassadors
+2015-06-18 23:08:08	Corey84	of course use linux tags not mac  like in that  post  (unless on a mac ofc)
+2015-06-18 23:08:14	danofsatx	I didn't need to compile it, it's in the repo. I'm digging into it's config right now
+2015-06-18 23:09:01	Corey84	kk
+2015-06-18 23:12:28	striker	.fas strikerttd
+2015-06-18 23:12:29	zodbot	striker: strikerttd '' <strikerttd@gmail.com>
+2015-06-18 23:13:08	-->	altin has joined #fedora-ambassadors
+2015-06-18 23:43:28	-->	vwbusguy has joined #fedora-ambassadors
+2015-06-18 23:45:23	-->	masta has joined #fedora-ambassadors
+2015-06-18 23:49:40	danofsatx	dammit, my vps crashed on a reboot.
+2015-06-18 23:49:57	 *	danofsatx goes to set up the (icky) Ubuntu vps
+2015-06-18 23:53:07	Corey84	icky indeed
+2015-06-19 00:08:19	<--	FranciscoD has quit (Ping timeout: 244 seconds)
+2015-06-19 00:09:36	<--	kushal has quit (Ping timeout: 246 seconds)
+2015-06-19 00:10:33	-->	kushal has joined #fedora-ambassadors
+2015-06-19 00:11:00	-->	feliper has joined #fedora-ambassadors
+2015-06-19 00:18:46	<--	masta has quit (Read error: Connection reset by peer)
+2015-06-19 00:22:08	-->	FranciscoD has joined #fedora-ambassadors
+2015-06-19 00:23:46	Corey84	danofsatx,  let me know if you still have issues  and or when the tracker is up on your end I'll add to my  current suite and  next months list of tracker to embed
+2015-06-19 00:31:28	<--	arcolife has quit (Quit: Ex-Chat)
+2015-06-19 00:34:57	danofsatx	Corey84: roger, still working on that and $DAYJOB stuff
+2015-06-19 00:35:27	Corey84	same here you are whitelisted form +g  so ping me  or /msg  if not on
+2015-06-19 00:36:21	-->	crsesilva has joined #fedora-ambassadors
+2015-06-19 00:41:37	<--	FranciscoD has quit (Ping timeout: 276 seconds)
+2015-06-19 00:43:16	<--	pravins has quit (Ping timeout: 256 seconds)
+2015-06-19 00:48:40	-->	FranciscoD has joined #fedora-ambassadors
+2015-06-19 00:48:44	<--	FranciscoD has quit (Changing host)
+2015-06-19 00:48:45	-->	FranciscoD has joined #fedora-ambassadors
+2015-06-19 00:51:53	-->	arcolife has joined #fedora-ambassadors
+2015-06-19 00:52:30	<--	altin has quit (Ping timeout: 276 seconds)
+2015-06-19 01:07:19	-->	altin has joined #fedora-ambassadors
+2015-06-19 01:18:54	<--	FranciscoD has quit (Ping timeout: 246 seconds)
+2015-06-19 01:25:19	-->	masta has joined #fedora-ambassadors
+2015-06-19 01:34:32	-->	kdas_ has joined #fedora-ambassadors
+2015-06-19 01:35:38	<--	kushal has quit (Ping timeout: 272 seconds)
+2015-06-19 01:35:44	-->	pjp has joined #fedora-ambassadors
+2015-06-19 01:36:05	<--	pjp has quit (Remote host closed the connection)
+2015-06-19 01:38:21	-->	ParadoxGuitarist has joined #fedora-ambassadors
+2015-06-19 01:44:41	-->	FranciscoD has joined #fedora-ambassadors
+2015-06-19 01:46:02	-->	lbazan has joined #fedora-ambassadors
+2015-06-19 01:46:06	<--	altin has quit (Quit: Ex-Chat)
+2015-06-19 01:56:06	<--	gnokii has quit (Remote host closed the connection)
+2015-06-19 01:57:57	-->	gnokii has joined #fedora-ambassadors
+2015-06-19 01:57:57	<--	gnokii has quit (Changing host)
+2015-06-19 01:57:57	-->	gnokii has joined #fedora-ambassadors
+2015-06-19 02:00:35	<--	villadalmine has quit (Read error: Connection reset by peer)
+2015-06-19 02:04:14	<--	kdas_ has quit (Ping timeout: 252 seconds)
+2015-06-19 02:05:14	<--	arcolife has quit (Quit: Ex-Chat)
+2015-06-19 02:05:33	-->	villadalmine has joined #fedora-ambassadors
+2015-06-19 02:17:00	-->	corey84__ has joined #fedora-ambassadors
+2015-06-19 02:20:09	<--	Corey84 has quit (Ping timeout: 250 seconds)
+2015-06-19 02:20:18	--	corey84__ is now known as Corey84
+2015-06-19 02:21:23	<--	Corey84 has quit (Remote host closed the connection)
+2015-06-19 02:30:18	-->	Daredel has joined #fedora-ambassadors
+2015-06-19 02:30:51	<--	Daredel has quit (Client Quit)
+2015-06-19 03:21:37	<--	feliper has quit (Quit: Saindo)
+2015-06-19 03:31:40	<--	firemanxbr has quit (Quit: Leaving)
+2015-06-19 03:37:22	--	irc: disconnected from server
+2015-06-20 22:49:30	-->	renodesper (~renodespe@36.72.79.179) has joined #fedora-ambassadors
+2015-06-20 22:49:30	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-06-20 22:49:30	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-06-20 22:49:30	--	Channel #fedora-ambassadors: 71 nicks (1 op, 0 voices, 70 normals)
+2015-06-20 22:49:30	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-06-20 22:49:33	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-06-20 22:56:35	-->	hanthana has joined #fedora-ambassadors
+2015-06-20 23:17:06	<--	tuanta has quit (Ping timeout: 276 seconds)
+2015-06-20 23:22:28	<--	underscores has quit (Ping timeout: 276 seconds)
+2015-06-20 23:37:22	--	irc: disconnected from server
+2015-06-20 23:37:48	-->	renodesper (~renodespe@36.72.79.179) has joined #fedora-ambassadors
+2015-06-20 23:37:48	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-06-20 23:37:48	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-06-20 23:37:48	--	Channel #fedora-ambassadors: 70 nicks (1 op, 0 voices, 69 normals)
+2015-06-20 23:37:48	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-06-20 23:37:51	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-06-20 23:41:45	--	irc: disconnected from server
+2015-08-02 00:51:36	-->	renodesper (~renodespe@36.72.64.216) has joined #fedora-ambassadors
+2015-08-02 00:51:36	--	Topic for #fedora-ambassadors is "Fedora Ambassadors - https://fedoraproject.org/wiki/Ambassadors | Meeting info available at https://fedoraproject.org/wiki/Ambassadors/Meetings | This is not a support channel, for support on Fedora /join #fedora | Fedora 22 - http://get.fedoraproject.org/"
+2015-08-02 00:51:36	--	Topic set by Southern_Gentlem (~notfred@fedora/Southern-Gentleman) on Fri, 29 May 2015 02:50:50
+2015-08-02 00:51:36	--	Channel #fedora-ambassadors: 72 nicks (1 op, 0 voices, 71 normals)
+2015-08-02 00:51:36	--	URL for #fedora-ambassadors: https://fedoraproject.org/wiki/Ambassadors
+2015-08-02 00:51:38	--	Channel created on Sun, 01 Jun 2008 00:29:50
+2015-08-02 01:10:40	<--	Caterpillar has quit (Ping timeout: 272 seconds)
+2015-08-02 01:11:03	-->	Caterpillar has joined #fedora-ambassadors
+2015-08-02 01:39:55	-->	underscores_ has joined #fedora-ambassadors
+2015-08-02 01:39:55	<--	underscores_ has quit (Changing host)
+2015-08-02 01:39:55	-->	underscores_ has joined #fedora-ambassadors
+2015-08-02 01:43:09	<--	underscores has quit (Ping timeout: 256 seconds)
+2015-08-02 01:45:57	--	underscores_ is now known as underscores
