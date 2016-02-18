@@ -20,7 +20,7 @@ STATUS=`acpi -b | awk '{gsub(/,/,""); print $3}'`
 if [[ $BAT -lt 25  ]]; then
     echo "$BAT%"
     if [[ $STATUS = "Discharging" ]]; then
-        echo "Warning, battery level below 25 percent" | dzen2 -x $X_POS -y $Y_POS -h $HEIGHT -w $WIDTH -fn "Poiret One-32" -fg $DZEN_FG -bg $DZEN_BG -xs 1 -e "onstart=uncollapse;button1=exit;key_Escape=exit" -p 10
+        echo "Warning, battery level below 25 percent" | dzen2 -tw 'battery' -x $X_POS -y $Y_POS -h $HEIGHT -w $WIDTH -fn "Poiret One-32" -fg $DZEN_FG -bg $DZEN_BG -xs 1 -e "onstart=uncollapse;button1=exit;key_Escape=exit" -p 10
     fi
 else
     echo "$BAT%"

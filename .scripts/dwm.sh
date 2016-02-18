@@ -1,30 +1,48 @@
-while true; do
-    # Power/Battery Status
-    if [ "$( cat /sys/class/power_supply/AC0/online )" -eq "1" ]; then
-            DWM_BATTERY="AC";
-            DWM_RENEW_INT=3;
-    else
-        DWM_BATTERY=$(acpi -b | awk '{ print $4 " " $5 }' | tr -d ',');
-        DWM_RENEW_INT=30;
-    fi;
+#! /bin/bash
 
-    # Wi-Fi eSSID
-    if [ "$( cat /sys/class/net/wlp3s0/carrier )" -eq "1" ]; then
-            DWM_ESSID=$( /sbin/iwgetid -r ); 
-    else
-            DWM_ESSID="OFF";
-    fi;
+
+while true; do
+    # Date and Time
+    clock=$( date '+%Y-%m-%d %I:%M' );
+    dwm_clock=$(echo -e "\x06  $clock  ");
 
     # Volume Level
-    DWM_VOL=$( amixer -c1 sget Master | awk -vORS=' ' '/Mono:/ {print($6$4)}' );
+    # vol=$( amixer get Master | awk 'NR==5 {print $4}' | egrep -o '[0-9]+' );
+    # vol_state=$( amixer get Master | awk 'NR==5 {print $6}' );
 
-    # Date and Time
-    DWM_CLOCK=$( date '+%e %b %Y %a | %k:%M' );
+    # if [ "$vol_state" = "[on]" ]; then
+    #         dwm_vol=$(echo -e "  \x06$vol %  ");
+    #     else
+    #         dwm_vol=$(echo -e "  \x07$vol %  ");
+    # fi
+
+    # Net Status
+    # essid=$( iwconfig wlp4s0 | awk '/ESSID/ {print $4}' );
+
+    # if [ $essid = "ESSID:off/any" ]; then
+    #     net_state=$(echo -e "   \x07Offline   ");
+    # else
+    #     net_state=$(echo -e "   \x06Online   ");
+    # fi
+
+    # Battery Satus
+    battery=$( acpi -a | awk '{print $3}' );
+
+    if [ "$battery" = "off-line" ]; then
+        dwm_battery=$(echo -e "\x02   Discharging   \x01  <");
+    else
+        dwm_battery=""  
+    fi
+
+    # Separator
+    sepa=$(echo -e "\x01<");
 
     # Overall output command
-    DWM_STATUS="WiFi: [$DWM_ESSID] | Power: [$DWM_BATTERY] | Vol: $DWM_VOL | $DWM_CLOCK";
-    xsetroot -name "$DWM_STATUS";
-    sleep $DWM_REFRESH_INT;
+    dwm_status=" dwm_clock ";
+    xsetroot -name "$dwm_status";
+    sleep 1m;
 done &
 
-dwm 2> ~/.dwm.log
+while true; do
+    dwm 2> ~/.dwm.log
+done

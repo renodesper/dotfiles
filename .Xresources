@@ -13,24 +13,29 @@ xterm*termName: xterm-256color
 xterm*locale: true
 xterm*VT100.geometry: 80x24
 xterm*saveLines: 10000
-xterm*scrollBar: true
-xterm*rightScrollBar: true
+!xterm*scrollBar: true
+!xterm*rightScrollBar: true
+!xterm*scrollstyle: plain
 xterm*selectToClipboard: true
-xterm*faceName: Fira Mono:size=9:antialias=false
-xterm*pointerColor: red
+xterm*faceName: Fira Mono:size=9
+xterm*pointerColor: white
 xterm*pointerColorBackground: black
 xterm*cursorBlink: true
 xterm*bellIsUrgent: true
 xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
 xterm*on3Clicks: regex ([[:alpha:]]+://)?([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
 
-! URxvt Setting
-urxvt*perl-ext-common: default,tabbedex,clipboard,url-select,keyboard-select
-urxvt*iconFile: /usr/share/icons/oxygen/32x32/apps/yakuake.png
+! dzen
+! dzen2.font: Helvetica:size=9
+! dzen2.foreground: #ffffff
+! dzen2.background: #000000
 
+! URxvt Setting
+urxvt*perl-ext-common: default
+urxvt*iconFile: /usr/share/icons/oxygen/32x32/apps/yakuake.png
 urxvt*keysym.F11: perl:fullscreen:switch
-urxvt*font: xft:Fira Mono:pixelsize=9,xft:PowerlineSymbols:pixelsize=9
-urxvt*boldFont: xft:Fira Mono:pixelsize=9,xft:PowerlineSymbols:bold:pixelsize=9
+urxvt*font: xft:Fira Mono:pixelsize=12
+urxvt*boldFont: xft:Fira Mono:pixelsize=12
 urxvt*cursorBlink: 1
 urxvt*cursorUnderline: 1
 urxvt*urlLauncher: /usr/bin/firefox
@@ -44,13 +49,15 @@ urxvt*scrollWithBuffer: 1
 urxvt*scrollTtyKeypress: 1
 urxvt*secondaryScroll: 1
 urxvt*depth: 32
-urxvt*background: #282828
-urxvt*geometry: 96x24
+urxvt*geometry: 80x24
 urxvt*copyCommand: xclip -i -selection clipboard
 urxvt*pasteCommand: xclip -o -selection clipboard
 urxvt*loginShell: 1
 
-URxvt.termName: rxvt-unicode
+! URxvt*keysym.Home: \033[7~
+! URxvt*keysym.End: \033[8~
+URxvt.letterSpace: -1
+URxvt.termName: rxvt-unicode-256color
 URxvt.tabbed.tabbar-fg: 4
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 7
@@ -61,11 +68,8 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keysym.C-Delete: perl:matcher:last
 URxvt.keysym.M-Delete: perl:matcher:list
-URxvt*keysym.Home: \033[7~
-URxvt*keysym.End: \033[8~
 URxvt.url-select.launcher: /usr/bin/firefox
 URxvt.url-select.underline: 1
-
 URxvt.iso14755: 0
 URxvt.iso14755_52: 0
 URxvt.keysym.C-Up: perl:font-size:increase
@@ -73,40 +77,40 @@ URxvt.keysym.C-Down: perl:font-size:decrease
 URxvt.keysym.C-S-Up: perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
 
+
 ! special
-*.foreground:   #a2a2a2
-*.background:   #282828
-*.cursorColor:  #a2a2a2
+*.foreground:   #373b41
+*.background:   #ffffff
+*.cursorColor:  #373b41
 
 ! black
-*.color0:       #555555
-*.color8:       #888888
+*.color0:       #1d1f21
+*.color8:       #969896
 
 ! red
-*.color1:       #9c3528
-*.color9:       #d64937
+*.color1:       #cc6666
+*.color9:       #cc6666
 
 ! green
-*.color2:       #61bc3b
-*.color10:      #86df5d
+*.color2:       #b5bd68
+*.color10:      #b5bd68
 
 ! yellow
-*.color3:       #f3b43a
-*.color11:      #fdd75a
+*.color3:       #f0c674
+*.color11:      #f0c674
 
 ! blue
-*.color4:       #0d68a8
-*.color12:      #0f75bd
+*.color4:       #81a2be
+*.color12:      #81a2be
 
 ! magenta
-*.color5:       #744560
-*.color13:      #9e5e83
+*.color5:       #b294bb
+*.color13:      #b294bb
 
 ! cyan
-*.color6:       #288e9c
-*.color14:      #37c3d6
+*.color6:       #8abeb7
+*.color14:      #8abeb7
 
 ! white
-*.color7:       #a2a2a2
-*.color15:      #f9f9f9
-
+*.color7:       #c5c8c6
+*.color15:      #ffffff
